@@ -1,0 +1,374 @@
+{
+  "run_id": "final-150k",
+  "invocation": "inv-20261017T151614-60f224",
+  "phase": "initial",
+  "stages": {
+    "ingest": {
+      "seconds": 4.19,
+      "result": {
+        "input": "data/analysis_150k.csv",
+        "input_sha256": "8ae9c59c74eaba57064798e0612eac610de3e0571342990b1e3d4cbdf3b78bfe",
+        "rows": 150013,
+        "inserted": 150013,
+        "nonempty": 150000,
+        "empty_quarantined": 13,
+        "distinct_nonempty_texts": 115541
+      }
+    },
+    "enrich": {
+      "seconds": 4124.22,
+      "result": {
+        "batches": 749,
+        "calls_ok": 862,
+        "calls_failed": 2,
+        "completed": 37440,
+        "cache_hits": 34459,
+        "retried_ids": 108,
+        "fallback_ids": 59,
+        "quarantined": 4,
+        "stopped_reason": null,
+        "imported_from_global_cache": 78097,
+        "agents": {
+          "enricher_1": {
+            "batches": 204,
+            "records_ok": 9348,
+            "seconds": 3770.5700000000006,
+            "cost_usd": 0.7400052500000002
+          },
+          "enricher_0": {
+            "batches": 204,
+            "records_ok": 9498,
+            "seconds": 3782.928000000001,
+            "cost_usd": 0.7286519099999997
+          },
+          "enricher_3": {
+            "batches": 253,
+            "records_ok": 9248,
+            "seconds": 3760.847999999999,
+            "cost_usd": 0.8297676299999999
+          },
+          "enricher_2": {
+            "batches": 203,
+            "records_ok": 9346,
+            "seconds": 3756.02,
+            "cost_usd": 0.7184783499999999
+          }
+        },
+        "recovered_responses": 0,
+        "interrupted_requests": 0,
+        "wall_s": 4039.84,
+        "status_before": {
+          "pending": 150000,
+          "quarantined": 13
+        },
+        "status_after": {
+          "completed": 149996,
+          "quarantined": 17
+        }
+      }
+    },
+    "verify": {
+      "seconds": 794.27,
+      "result": {
+        "summary": {
+          "n": 1149,
+          "agreement": {
+            "topic": 0.8564,
+            "intent": 0.9399,
+            "severity_exact": 0.9017,
+            "sentiment_within_tol": 0.9904,
+            "complaint_flag": 0.9687,
+            "all_core_agree": 0.745
+          },
+          "severity_mae": 0.1027,
+          "disagreements": 293,
+          "topic_pairs": {
+            "other->other": 475,
+            "usability->usability": 178,
+            "billing->billing": 111,
+            "catalog->catalog": 98,
+            "playback->playback": 86,
+            "other->usability": 22,
+            "downloads->downloads": 19,
+            "usability->billing": 15,
+            "catalog->other": 15,
+            "access->access": 15,
+            "playback->usability": 12,
+            "billing->other": 11,
+            "usability->other": 10,
+            "other->playback": 9,
+            "billing->usability": 9,
+            "playback->billing": 8,
+            "other->catalog": 8,
+            "usability->catalog": 8,
+            "catalog->usability": 7,
+            "downloads->catalog": 4,
+            "other->billing": 4,
+            "catalog->billing": 3,
+            "support->support": 2,
+            "catalog->playback": 2,
+            "downloads->other": 2,
+            "downloads->playback": 2,
+            "usability->playback": 2,
+            "access->playback": 2,
+            "access->billing": 2,
+            "billing->playback": 2,
+            "playback->catalog": 1,
+            "other->downloads": 1,
+            "playback->other": 1,
+            "downloads->billing": 1,
+            "catalog->downloads": 1,
+            "support->usability": 1
+          },
+          "intent_pairs": {
+            "complaint->complaint": 486,
+            "praise->praise": 437,
+            "unclear->unclear": 68,
+            "cancellation->cancellation": 50,
+            "request->request": 39,
+            "complaint->unclear": 13,
+            "complaint->cancellation": 10,
+            "cancellation->complaint": 9,
+            "praise->unclear": 8,
+            "complaint->request": 7,
+            "request->complaint": 5,
+            "complaint->praise": 5,
+            "unclear->praise": 3,
+            "unclear->complaint": 3,
+            "praise->complaint": 2,
+            "unclear->cancellation": 1,
+            "request->praise": 1,
+            "request->unclear": 1,
+            "praise->request": 1
+          },
+          "sentiment_tolerance": 0.5
+        },
+        "planted_error_pass": true
+      }
+    },
+    "group": {
+      "seconds": 31.91,
+      "result": {
+        "issues": 50,
+        "memberships": 68288
+      }
+    },
+    "rank": {
+      "seconds": 1.86,
+      "result": {
+        "issues_ranked": 50,
+        "top5": [
+          "other.general_criticism",
+          "billing.premium_only_controls",
+          "usability.ads",
+          "playback.stops_or_skips",
+          "playback.crashes_or_wont_open"
+        ]
+      }
+    },
+    "insights": {
+      "seconds": 4.15,
+      "result": {
+        "anomalies": 24,
+        "recurring": 12
+      }
+    },
+    "memo": {
+      "seconds": 17.39,
+      "result": {
+        "recommended_area": "billing_support",
+        "claims": 8
+      }
+    },
+    "export": {
+      "seconds": 3.52,
+      "result": {
+        "files": [
+          "aggregates.csv",
+          "aggregates.json",
+          "calls.jsonl",
+          "checkpoints",
+          "claims.csv",
+          "enriched.jsonl",
+          "group_names.json",
+          "ingest.json",
+          "insights.json",
+          "issues.json",
+          "manifest.json",
+          "membership.csv",
+          "memo.json",
+          "memo.md",
+          "memo_inputs.json",
+          "pid",
+          "progress.json",
+          "quarantine.jsonl",
+          "ranking.csv",
+          "run_log.jsonl",
+          "verify"
+        ]
+      }
+    }
+  },
+  "spend_cap_usd": 8.0,
+  "workers": 4,
+  "started_at": "2026-10-17T15:16:14",
+  "wall_seconds": 4981.88,
+  "status_counts": {
+    "completed": 149996,
+    "quarantined": 17
+  },
+  "usage_this_invocation": [
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "failed",
+      "calls": 2,
+      "i": 8686,
+      "o": 16000,
+      "cw": 0,
+      "cr": 8012,
+      "usd": 0.008948719999999999,
+      "lat": 45684
+    },
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 803,
+      "i": 2854244,
+      "o": 4977036,
+      "cw": 16024,
+      "cr": 3200794,
+      "usd": 2.80795334,
+      "lat": 14970222
+    },
+    {
+      "role": "enrich",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 59,
+      "i": 9180,
+      "o": 9725,
+      "cw": 20030,
+      "cr": 216324,
+      "usd": 0.2089498,
+      "lat": 100144
+    },
+    {
+      "role": "group",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 5,
+      "i": 29715,
+      "o": 6857,
+      "cw": 776,
+      "cr": 3104,
+      "usd": 0.00652804,
+      "lat": 31301
+    },
+    {
+      "role": "memo",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 1,
+      "i": 13757,
+      "o": 2353,
+      "cw": 1812,
+      "cr": 0,
+      "usd": 0.055574,
+      "lat": 16359
+    },
+    {
+      "role": "verify",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 47,
+      "i": 87949,
+      "o": 143903,
+      "cw": 3146,
+      "cr": 144716,
+      "usd": 1.6517361999999998,
+      "lat": 793544
+    }
+  ],
+  "usage_all_invocations": [
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "failed",
+      "calls": 2,
+      "i": 8686,
+      "o": 16000,
+      "cw": 0,
+      "cr": 8012,
+      "usd": 0.008948719999999999,
+      "lat": 45684
+    },
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 3494,
+      "i": 8766839,
+      "o": 15289338,
+      "cw": 56084,
+      "cr": 13940880,
+      "usd": 8.6677722,
+      "lat": 47058741
+    },
+    {
+      "role": "enrich",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 172,
+      "i": 24333,
+      "o": 25711,
+      "cw": 48072,
+      "cr": 640960,
+      "usd": 0.554148,
+      "lat": 286996
+    },
+    {
+      "role": "group",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 5,
+      "i": 29715,
+      "o": 6857,
+      "cw": 776,
+      "cr": 3104,
+      "usd": 0.00652804,
+      "lat": 31301
+    },
+    {
+      "role": "memo",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 1,
+      "i": 13757,
+      "o": 2353,
+      "cw": 1812,
+      "cr": 0,
+      "usd": 0.055574,
+      "lat": 16359
+    },
+    {
+      "role": "verify",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 47,
+      "i": 87949,
+      "o": 143903,
+      "cw": 3146,
+      "cr": 144716,
+      "usd": 1.6517361999999998,
+      "lat": 793544
+    }
+  ],
+  "ledger": {
+    "cap_usd": 8.0,
+    "spent_usd": 4.73969,
+    "reserved_usd": -0.0
+  },
+  "stopped": false
+}

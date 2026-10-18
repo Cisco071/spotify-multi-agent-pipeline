@@ -1,0 +1,59 @@
+{
+  "windows": {
+    "H2-2022 (2022-06..2022-11)": {
+      "classified": 26483,
+      "complaints": 8075,
+      "complaint_share": "30.5%",
+      "areas": {
+        "access": {
+          "complaints": 302,
+          "share_of_classified": "1.14%",
+          "share_of_complaints": "3.7%"
+        },
+        "usability": {
+          "complaints": 3027,
+          "share_of_classified": "11.43%",
+          "share_of_complaints": "37.5%"
+        },
+        "playback": {
+          "complaints": 2491,
+          "share_of_classified": "9.41%",
+          "share_of_complaints": "30.8%"
+        },
+        "billing_support": {
+          "complaints": 812,
+          "share_of_classified": "3.07%",
+          "share_of_complaints": "10.1%"
+        }
+      }
+    },
+    "mid-2023 (2023-05..2023-10)": {
+      "classified": 45720,
+      "complaints": 26376,
+      "complaint_share": "57.7%",
+      "areas": {
+        "access": {
+          "complaints": 854,
+          "share_of_classified": "1.87%",
+          "share_of_complaints": "3.2%"
+        },
+        "usability": {
+          "complaints": 5399,
+          "share_of_classified": "11.81%",
+          "share_of_complaints": "20.5%"
+        },
+        "playback": {
+          "complaints": 2439,
+          "share_of_classified": "5.33%",
+          "share_of_complaints": "9.2%"
+        },
+        "billing_support": {
+          "complaints": 5513,
+          "share_of_classified": "12.06%",
+          "share_of_complaints": "20.9%"
+        }
+      }
+    }
+  },
+  "note": "Full calendar months only; shares use classified reviews in the window as the denominator. Review volume is self-selected (e.g. spikes in 2023-07 and 2023-10)."
+}

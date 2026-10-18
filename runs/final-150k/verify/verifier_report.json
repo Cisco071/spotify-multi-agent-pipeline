@@ -1,0 +1,107 @@
+{
+  "label_config_verifier": "claude-sonnet-5-5+thinking-between_tools+effort-low+verify_v1+schema_v1+taxonomy_v1",
+  "label_config_enricher": "claude-haiku-5-5+thinking-disabled+effort-low+enrich_v1+schema_v1+taxonomy_v1",
+  "sample_rule": "lowest sha256('verify-v1:'+review_id) among completed original records; fraction=0.01, min=50",
+  "sample_size": 1155,
+  "verified": 1149,
+  "verify_failures": [
+    {
+      "review_id": "8773aa48-f678-42d9-acf0-9e7e394c79b7",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "4e0f36aa-35ef-4721-8080-b08a5f1aab5b",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "3f0e9733-92bf-410c-949a-2bf4d423b852",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "ebbb3918-12d3-4e10-add4-e807dd4b86e9",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "977676fa-854b-4ecc-8cdf-bddb0423524b",
+      "error": "quote_not_substring"
+    },
+    {
+      "review_id": "c1e98f27-4671-462c-b951-a70736d12b4f",
+      "error": "not_verified"
+    }
+  ],
+  "summary": {
+    "n": 1149,
+    "agreement": {
+      "topic": 0.8564,
+      "intent": 0.9399,
+      "severity_exact": 0.9017,
+      "sentiment_within_tol": 0.9904,
+      "complaint_flag": 0.9687,
+      "all_core_agree": 0.745
+    },
+    "severity_mae": 0.1027,
+    "disagreements": 293,
+    "topic_pairs": {
+      "other->other": 475,
+      "usability->usability": 178,
+      "billing->billing": 111,
+      "catalog->catalog": 98,
+      "playback->playback": 86,
+      "other->usability": 22,
+      "downloads->downloads": 19,
+      "usability->billing": 15,
+      "catalog->other": 15,
+      "access->access": 15,
+      "playback->usability": 12,
+      "billing->other": 11,
+      "usability->other": 10,
+      "other->playback": 9,
+      "billing->usability": 9,
+      "playback->billing": 8,
+      "other->catalog": 8,
+      "usability->catalog": 8,
+      "catalog->usability": 7,
+      "downloads->catalog": 4,
+      "other->billing": 4,
+      "catalog->billing": 3,
+      "support->support": 2,
+      "catalog->playback": 2,
+      "downloads->other": 2,
+      "downloads->playback": 2,
+      "usability->playback": 2,
+      "access->playback": 2,
+      "access->billing": 2,
+      "billing->playback": 2,
+      "playback->catalog": 1,
+      "other->downloads": 1,
+      "playback->other": 1,
+      "downloads->billing": 1,
+      "catalog->downloads": 1,
+      "support->usability": 1
+    },
+    "intent_pairs": {
+      "complaint->complaint": 486,
+      "praise->praise": 437,
+      "unclear->unclear": 68,
+      "cancellation->cancellation": 50,
+      "request->request": 39,
+      "complaint->unclear": 13,
+      "complaint->cancellation": 10,
+      "cancellation->complaint": 9,
+      "praise->unclear": 8,
+      "complaint->request": 7,
+      "request->complaint": 5,
+      "complaint->praise": 5,
+      "unclear->praise": 3,
+      "unclear->complaint": 3,
+      "praise->complaint": 2,
+      "unclear->cancellation": 1,
+      "request->praise": 1,
+      "request->unclear": 1,
+      "praise->request": 1
+    },
+    "sentiment_tolerance": 0.5
+  },
+  "generated_at": "2026-10-17T16:38:17"
+}

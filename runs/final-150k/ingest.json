@@ -1,0 +1,9 @@
+{
+  "input": "data/analysis_150k.csv",
+  "input_sha256": "8ae9c59c74eaba57064798e0612eac610de3e0571342990b1e3d4cbdf3b78bfe",
+  "rows": 150013,
+  "inserted": 150013,
+  "nonempty": 150000,
+  "empty_quarantined": 13,
+  "distinct_nonempty_texts": 115541
+}

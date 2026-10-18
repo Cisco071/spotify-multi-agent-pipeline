@@ -1,0 +1,104 @@
+{
+  "run_id": "golden-eval",
+  "invocation": "inv-20261013T184617-a012fe",
+  "phase": "initial",
+  "stages": {
+    "ingest": {
+      "seconds": 0.02,
+      "result": {
+        "input": "dataset/golden_50_to_label.csv",
+        "input_sha256": "1a125c3e509f58b0246ba16d0ea332675a53ffadb1928be4338a0bd7053a11c7",
+        "rows": 50,
+        "inserted": 50,
+        "nonempty": 50,
+        "empty_quarantined": 0,
+        "distinct_nonempty_texts": 49
+      }
+    },
+    "enrich": {
+      "seconds": 21.3,
+      "result": {
+        "batches": 1,
+        "calls_ok": 1,
+        "calls_failed": 0,
+        "completed": 49,
+        "cache_hits": 1,
+        "retried_ids": 0,
+        "fallback_ids": 0,
+        "quarantined": 0,
+        "stopped_reason": null,
+        "imported_from_global_cache": 0,
+        "agents": {
+          "enricher_0": {
+            "batches": 1,
+            "records_ok": 49,
+            "seconds": 20.365,
+            "cost_usd": 0.00417425
+          }
+        },
+        "wall_s": 21.3,
+        "status_before": {
+          "pending": 50
+        },
+        "status_after": {
+          "completed": 50
+        }
+      }
+    },
+    "export": {
+      "seconds": 0.0,
+      "result": {
+        "files": [
+          "calls.jsonl",
+          "enriched.jsonl",
+          "ingest.json",
+          "manifest.json",
+          "progress.json",
+          "quarantine.jsonl",
+          "run_log.jsonl"
+        ]
+      }
+    }
+  },
+  "spend_cap_usd": 0.5,
+  "workers": 1,
+  "started_at": "2026-10-13T18:46:17",
+  "wall_seconds": 21.32,
+  "status_counts": {
+    "completed": 50
+  },
+  "usage_this_invocation": [
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 1,
+      "i": 3460,
+      "o": 6655,
+      "cw": 4006,
+      "cr": 0,
+      "usd": 0.00417425,
+      "lat": 20365
+    }
+  ],
+  "usage_all_invocations": [
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 1,
+      "i": 3460,
+      "o": 6655,
+      "cw": 4006,
+      "cr": 0,
+      "usd": 0.00417425,
+      "lat": 20365
+    }
+  ],
+  "ledger": {
+    "cap_usd": 0.5,
+    "spent_usd": 0.004174,
+    "reserved_usd": 0.0
+  },
+  "stopped": false
+}

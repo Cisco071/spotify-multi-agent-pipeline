@@ -1,0 +1,186 @@
+{
+  "run_id": "final-100k",
+  "invocation": "inv-20261017T145117-d75f9e",
+  "phase": "resume",
+  "stages": {
+    "insights": {
+      "seconds": 2.67,
+      "result": {
+        "anomalies": 23,
+        "recurring": 12
+      }
+    },
+    "memo": {
+      "seconds": 37.05,
+      "result": {
+        "recommended_area": "billing_support",
+        "claims": 10
+      }
+    },
+    "export": {
+      "seconds": 2.59,
+      "result": {
+        "files": [
+          "aggregates.csv",
+          "aggregates.json",
+          "calls.jsonl",
+          "calls.jsonl.gz",
+          "checkpoint_after.json",
+          "checkpoint_before.json",
+          "checkpoints",
+          "claims.csv",
+          "claims_v1.csv",
+          "enriched.jsonl",
+          "enriched.jsonl.gz",
+          "group_names.json",
+          "ingest.json",
+          "insights.json",
+          "issues.json",
+          "manifest.json",
+          "membership.csv",
+          "memo.json",
+          "memo.md",
+          "memo_inputs.json",
+          "memo_v1.md",
+          "memo_v1_backup.json",
+          "pid",
+          "progress.json",
+          "quarantine.jsonl",
+          "quarantine.jsonl.gz",
+          "ranking.csv",
+          "run_log.jsonl",
+          "run_summaries.jsonl",
+          "run_summary.json",
+          "trend.json",
+          "verify"
+        ]
+      }
+    }
+  },
+  "spend_cap_usd": 15.0,
+  "workers": 1,
+  "started_at": "2026-10-17T14:51:17",
+  "wall_seconds": 42.53,
+  "status_counts": {
+    "completed": 99998,
+    "quarantined": 15
+  },
+  "usage_this_invocation": [
+    {
+      "role": "memo",
+      "model": "claude-sonnet-5-5",
+      "outcome": "failed",
+      "calls": 1,
+      "i": 13709,
+      "o": 2484,
+      "cw": 1812,
+      "cr": 0,
+      "usd": 0.056788,
+      "lat": 17184
+    },
+    {
+      "role": "memo",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 1,
+      "i": 13757,
+      "o": 2686,
+      "cw": 0,
+      "cr": 1812,
+      "usd": 0.054736400000000004,
+      "lat": 17301
+    }
+  ],
+  "usage_all_invocations": [
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "failed",
+      "calls": 1057,
+      "i": 21344,
+      "o": 40000,
+      "cw": 0,
+      "cr": 20030,
+      "usd": 0.0223347,
+      "lat": 481448
+    },
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 2704,
+      "i": 5916311,
+      "o": 10315519,
+      "cw": 40060,
+      "cr": 10792164,
+      "usd": 5.86231974,
+      "lat": 32109010
+    },
+    {
+      "role": "enrich",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 115,
+      "i": 16076,
+      "o": 16733,
+      "cw": 32048,
+      "cr": 428642,
+      "usd": 0.3653304,
+      "lat": 192259
+    },
+    {
+      "role": "group",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 5,
+      "i": 29564,
+      "o": 6773,
+      "cw": 776,
+      "cr": 3104,
+      "usd": 0.00647094,
+      "lat": 33061
+    },
+    {
+      "role": "memo",
+      "model": "claude-sonnet-5-5",
+      "outcome": "failed",
+      "calls": 2,
+      "i": 21159,
+      "o": 6723,
+      "cw": 3325,
+      "cr": 0,
+      "usd": 0.1178605,
+      "lat": 48003
+    },
+    {
+      "role": "memo",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 2,
+      "i": 21293,
+      "o": 5996,
+      "cw": 0,
+      "cr": 3325,
+      "usd": 0.103211,
+      "lat": 37571
+    },
+    {
+      "role": "verify",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 32,
+      "i": 59330,
+      "o": 95479,
+      "cw": 3146,
+      "cr": 97526,
+      "usd": 1.1008202,
+      "lat": 530229
+    }
+  ],
+  "ledger": {
+    "cap_usd": 15.0,
+    "spent_usd": 7.578347,
+    "reserved_usd": 0.0
+  },
+  "stopped": false
+}

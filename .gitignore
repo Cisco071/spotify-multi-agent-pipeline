@@ -1,0 +1,31 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# raw course dataset (link + checksum in README)
+Final Assignment - Spotify Reviews Dataset/
+Final Assignment - Spotify Reviews Dataset.zip
+dataset
+data/*.csv
+state/
+local-reference.json
+self-check.json
+dashboard/node_modules/
+dashboard/.next/
+dashboard/.vercel/
+runs/*/pid
+.claude/settings.local.json
+dashboard/.env*
+runs/final-100k/enriched.jsonl
+runs/final-100k/calls.jsonl
+runs/final-100k/quarantine.jsonl
+runs/final-150k/enriched.jsonl
+runs/final-150k/calls.jsonl
+runs/final-150k/quarantine.jsonl
+runs/*/progress.json
+runs/*.console.log
+runs/pilot_console.log
+*.tmp

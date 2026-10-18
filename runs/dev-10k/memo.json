@@ -1,0 +1,125 @@
+{
+  "memo": {
+    "recommended_area": "billing_support",
+    "headline": "Prioritize billing/support: the premium paywall on basic playback controls is the largest in-scope issue and the one most tied to cancellation language",
+    "memo_markdown": "## Recommendation\n\nPut next quarter's effort into **billing_support**, focused on the issue `billing.premium_only_controls` (basic playback controls moved behind the premium paywall). This is a judgment call against usability, which has the larger area total (see below).\n\n## Evidence\n\n**Scope:** 10000 records were completed, with 0 quarantined and 0 pending. 4582 were complaint or cancellation records, and 1068 were flagged as needing review.\n\n**The top issue.** The top-ranked issue, general dissatisfaction, is unspecific and not actionable, so I set it aside. The highest-ranked specific issue is `billing.premium_only_controls`, with 663 complaints [C1], a severity sum of 1899 [C2], a mean severity of 2.864253 [C3] and a priority score of 1899 [C4]. Reviewers describe losing seek, repeat, unshuffle and ordered play for free users: \"Cannot even switch to favourite part of song for free.\" (review f3a4c132-c779-4107-9514-49bec6a77687); \"you need to buy premium so that you can have access to basic human rights\" (review ca0371a2-3af7-4815-aa17-52d00ebc9bd5); and \"they REMOVED UNSHUFFLE\" (review 3ea2c617-5867-4f2e-bfee-1430601630a4).\n\n**Area view.** Billing_support has 845 complaints (18.4% of all complaints), a severity sum of 2371 and a mean severity of 2.805917. It also has the most cancellation-intent records of any area, at 161. This is expressed intent only, not observed churn. Price complaints are a smaller secondary issue: 85 complaints [C5] and a severity sum of 173 [C6].\n\n**Trend.** In 2023-10 billing_support complaints were 399, out of 1043 total complaints in a month with 1381 completed records. In 2023-09 they were 83, and in 2023-11 they were 105. Complaint share was 75.5% in 2023-10, against 29.2% in 2022-09. The late-window jump is much larger than in any earlier month. The sample composition shifted, though, so I treat it as a signal and not as a measured rate change.\n\n## Why not the alternatives\n\n- **Usability** has the largest area totals: 1249 complaints, a severity sum of 2936 and 27.3% of complaints. Its leading issue, ads, has 588 complaints [C7] and a priority score of 1238 [C8]. However, its mean severity is lower (2.350681) and only 6 records are severity 4 or higher. It also shares a theme with the paywall issue: `usability.controls` is about removed or broken controls. A fix to the paywall decision could address part of that cluster. Usability is a close second, and the choice depends on whether leadership can revisit the monetization decision.\n- **Playback** (including downloads) has 750 complaints, a severity sum of 2367, a mean severity of 3.156000 and 195 records at severity 4 or higher. Crashes have a mean severity of 3.608108 [C9]. This is a strong reliability case but a smaller volume, and playback complaints were not rising in the latest months.\n- **Access** is the most severe per complaint but small: 151 complaints and 3.3% of the total. Login failure has a mean severity of 3.897196 [C10]. It is best handled as a targeted bug fix, not a quarter-long priority.\n\n## Suggested actions\n\n1. Review which basic controls (seek, repeat, unshuffle, ordered play) are gated, and test returning the most-cited ones to free users.\n2. Clarify in-app messaging when a control is premium-only.\n3. Track complaint share monthly against its denominator.\n\n## Limitations\n\nThese are self-selected public reviews from a historical window, with no revenue, plan-tier, confirmed-churn or population data. Cancellation language is intent only. No revenue-at-risk or causal retention claims are made. The first and last calendar months are partial. The largest ranked issue and much of the corpus fall under \"other\", outside the four candidate areas. The classification is model-assigned, and 1068 records were flagged for review. 1552 records reused cached results. The top 15 of 49 issues were shown.",
+    "recommendations": [
+      {
+        "title": "Revisit the premium-only gating of basic controls",
+        "detail": "Test restoring the most-cited basic controls (seek, repeat, unshuffle, ordered play) for free users, or at minimum make the gating clear in-app.",
+        "issue_ids": [
+          "billing.premium_only_controls"
+        ],
+        "claim_ids": [
+          "C1",
+          "C2",
+          "C3",
+          "C4"
+        ]
+      },
+      {
+        "title": "Monitor price complaints as a secondary issue",
+        "detail": "Price is a smaller issue; track it alongside the paywall changes.",
+        "issue_ids": [
+          "billing.price"
+        ],
+        "claim_ids": [
+          "C5",
+          "C6"
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "area": "usability",
+        "assessment": "Largest area totals (1249 complaints, severity sum 2936) but lower mean severity and little severity 4+. Close second; ads and controls overlap with the paywall theme."
+      },
+      {
+        "area": "playback",
+        "assessment": "Higher mean severity (3.156000) and 195 severity 4+ records, but fewer complaints (750) and no late-window rise."
+      },
+      {
+        "area": "access",
+        "assessment": "Highest severity per complaint but only 151 complaints (3.3%); suited to a targeted fix."
+      }
+    ],
+    "limitations": [
+      "Self-selected public reviews from a historical window; no revenue, plan tier, confirmed churn or population totals.",
+      "Cancellation language is expressed intent, not observed churn; no revenue-at-risk or causal retention claims.",
+      "Scope: 10000 records completed, 0 quarantined, 0 pending; 1068 flagged as needing review; 1552 reused from cache.",
+      "The first (2022-05) and last (2023-11) months are partial; the 2023-10 spike reflects a shift in sample composition and may not be a rate change.",
+      "Only the top 15 of 49 ranked issues were provided; the top-ranked issue and much of the corpus fall outside the four candidate areas."
+    ],
+    "claims": [
+      {
+        "claim_id": "C1",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "complaint_count",
+        "value": "663"
+      },
+      {
+        "claim_id": "C2",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "severity_sum",
+        "value": "1899"
+      },
+      {
+        "claim_id": "C3",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "mean_severity",
+        "value": "2.864253"
+      },
+      {
+        "claim_id": "C4",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "priority_score",
+        "value": "1899"
+      },
+      {
+        "claim_id": "C5",
+        "issue_id": "billing.price",
+        "metric": "complaint_count",
+        "value": "85"
+      },
+      {
+        "claim_id": "C6",
+        "issue_id": "billing.price",
+        "metric": "severity_sum",
+        "value": "173"
+      },
+      {
+        "claim_id": "C7",
+        "issue_id": "usability.ads",
+        "metric": "complaint_count",
+        "value": "588"
+      },
+      {
+        "claim_id": "C8",
+        "issue_id": "usability.ads",
+        "metric": "priority_score",
+        "value": "1238"
+      },
+      {
+        "claim_id": "C9",
+        "issue_id": "playback.crashes_or_wont_open",
+        "metric": "mean_severity",
+        "value": "3.608108"
+      },
+      {
+        "claim_id": "C10",
+        "issue_id": "access.login_failure",
+        "metric": "mean_severity",
+        "value": "3.897196"
+      }
+    ],
+    "cited_review_ids": [
+      "f3a4c132-c779-4107-9514-49bec6a77687",
+      "ca0371a2-3af7-4815-aa17-52d00ebc9bd5",
+      "3ea2c617-5867-4f2e-bfee-1430601630a4"
+    ]
+  },
+  "validation_errors": [],
+  "label_config": "claude-sonnet-5-5+thinking-adaptive+effort-medium+memo_v1+schema_v1+taxonomy_v1",
+  "input_key": "4e940f16c560e7961a577cb4697eeee942720cf807c035f839ef237a9fa35da7",
+  "request_id": "local-71dbf2858755493c"
+}

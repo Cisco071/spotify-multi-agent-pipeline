@@ -1,0 +1,25 @@
+{
+  "_note": "Curated EXTERNAL context from news reports, used only to annotate the timeline. Dates and descriptions come from the cited sources; a matching spike in reviews is a correlation, not proof of cause.",
+  "events": [
+    {"id": "EV1", "date": "2023-03-08", "month": "2023-03", "title": "Home feed redesign announced (Stream On)",
+     "description": "Spotify unveiled a vertical, TikTok-style home feed; users criticized reduced everyday usability.",
+     "related_series": ["issue:usability.redesign_update", "area:usability"],
+     "sources": ["https://www.nme.com/news/music/spotify-new-vertical-feed-interface-tiktok-3410470",
+                 "https://www.techradar.com/news/your-new-spotify-homepage-is-a-radical-mix-of-tiktok-and-netflix"]},
+    {"id": "EV2", "date": "2023-06-28", "month": "2023-07", "title": "Quran burnings in Sweden → calls to boycott Swedish brands",
+     "description": "Quran-burning protests in Stockholm (June–July 2023) prompted calls to boycott Swedish goods; Spotify is Swedish.",
+     "related_series": ["issue:other.boycott_political", "keyword:sweden_quran", "volume"],
+     "sources": ["https://blogs.ed.ac.uk/digitalislameurope/research-findings/archiving/archiving-contemporary-events/quran-burning-incidents-in-sweden/",
+                 "https://next.sr.se/artikel/calls-for-a-boycott-of-swedish-goods-following-quran-burning-protest"]},
+    {"id": "EV3", "date": "2023-09-01", "month": "2023-09", "title": "Lyrics paywall test for free users",
+     "description": "Spotify began testing a paywall on lyrics ('Enjoy lyrics on Spotify Premium').",
+     "related_series": ["issue:billing.premium_only_controls", "issue:catalog.lyrics", "keyword:lyrics"],
+     "sources": ["https://www.musicbusinessworldwide.com/spotify-quietly-locks-lyrics-behind-paywall-in-bid-to-convert-free-users-to-paying-subs-report",
+                 "https://www.phonearena.com/news/spotify-is-testing-a-lyrics-paywall-pay-to-sing-along_id150469"]},
+    {"id": "EV4", "date": "2023-10-09", "month": "2023-10", "title": "Free-tier restrictions in India (no manual order, rewind, repeat)",
+     "description": "Free users in India lost manual song ordering, rewind/scrub and repeat; reports of negative Play Store reviews.",
+     "related_series": ["issue:billing.premium_only_controls", "area:billing_support", "volume"],
+     "sources": ["https://techcrunch.com/2023/10/09/spotify-puts-restrictions-on-its-free-tier-in-india-to-attract-more-paid-users",
+                 "https://www.afaqs.com/news/ott-streaming/spotify-faces-backlash-over-updates-for-free-users-in-india"]}
+  ]
+}

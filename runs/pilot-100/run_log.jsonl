@@ -1,0 +1,24 @@
+{"ts": "2026-10-13T17:02:44", "invocation": "inv-20261013T170244-241a9a", "msg": "run start", "run_id": "pilot-100", "stages": ["ingest", "enrich", "verify", "group", "rank", "memo", "export"], "phase": "initial", "input": "Final Assignment - Spotify Reviews Dataset/cost_100.csv", "spent_before": 0.0}
+{"ts": "2026-10-13T17:02:44", "invocation": "inv-20261013T170244-241a9a", "msg": "stage ingest done", "seconds": 0.03}
+{"ts": "2026-10-13T17:03:09", "invocation": "inv-20261013T170244-241a9a", "msg": "[enrich] batches=1 completed=50 pending=50 quarantined=0 spent=$0.0040 elapsed=24s"}
+{"ts": "2026-10-13T17:03:31", "invocation": "inv-20261013T170244-241a9a", "msg": "[enrich] batches=2 completed=100 pending=0 quarantined=0 spent=$0.0076 elapsed=47s"}
+{"ts": "2026-10-13T17:03:31", "invocation": "inv-20261013T170244-241a9a", "msg": "stage enrich done", "seconds": 46.98}
+{"ts": "2026-10-13T17:04:37", "invocation": "inv-20261013T170244-241a9a", "msg": "[verify] 10/10 spent=$0.0282"}
+{"ts": "2026-10-13T17:04:37", "invocation": "inv-20261013T170244-241a9a", "msg": "stage verify done", "seconds": 65.5}
+{"ts": "2026-10-13T17:04:42", "invocation": "inv-20261013T170244-241a9a", "msg": "[group] named 10/17 issues"}
+{"ts": "2026-10-13T17:04:46", "invocation": "inv-20261013T170244-241a9a", "msg": "[group] named 17/17 issues"}
+{"ts": "2026-10-13T17:04:46", "invocation": "inv-20261013T170244-241a9a", "msg": "stage group done", "seconds": 9.58}
+{"ts": "2026-10-13T17:04:46", "invocation": "inv-20261013T170244-241a9a", "msg": "stage rank done", "seconds": 0.0}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170244-241a9a", "msg": "stage memo done", "seconds": 40.52}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170244-241a9a", "msg": "stage export done", "seconds": 0.0}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170244-241a9a", "msg": "run end", "wall_seconds": 162.61, "status": {"completed": 100}, "spent": 0.08008}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "run start", "run_id": "pilot-100", "stages": ["ingest", "enrich", "verify", "group", "rank", "memo", "export"], "phase": "resume", "input": "Final Assignment - Spotify Reviews Dataset/cost_100.csv", "spent_before": 0.08007977}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "stage ingest done", "seconds": 0.02}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "stage enrich done", "seconds": 0.0}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "stage verify done", "seconds": 0.0}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "stage group done", "seconds": 0.0}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "stage rank done", "seconds": 0.0}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "[memo] inputs unchanged: reusing saved memo (0 calls)"}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "stage memo done", "seconds": 0.0}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "stage export done", "seconds": 0.0}
+{"ts": "2026-10-13T17:05:27", "invocation": "inv-20261013T170527-d18592", "msg": "run end", "wall_seconds": 0.02, "status": {"completed": 100}, "spent": 0.08008}

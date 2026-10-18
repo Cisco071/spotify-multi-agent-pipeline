@@ -1,0 +1,1361 @@
+{
+  "ranking_top": [
+    {
+      "issue_id": "other.general_criticism",
+      "complaint_count": 19032,
+      "severity_sum": 37607,
+      "mean_severity": "1.975988",
+      "priority_score": 37607,
+      "rank": 1,
+      "title": "Generic negative sentiment without specifics"
+    },
+    {
+      "issue_id": "billing.premium_only_controls",
+      "complaint_count": 9415,
+      "severity_sum": 26630,
+      "mean_severity": "2.828465",
+      "priority_score": 26630,
+      "rank": 2,
+      "title": "Basic playback controls locked behind premium"
+    },
+    {
+      "issue_id": "usability.ads",
+      "complaint_count": 8512,
+      "severity_sum": 18041,
+      "mean_severity": "2.119478",
+      "priority_score": 18041,
+      "rank": 3,
+      "title": "Too many ads interrupting listening"
+    },
+    {
+      "issue_id": "playback.stops_or_skips",
+      "complaint_count": 3097,
+      "severity_sum": 9685,
+      "mean_severity": "3.127220",
+      "priority_score": 9685,
+      "rank": 4,
+      "title": "Music stops, skips, or cuts out mid-song"
+    },
+    {
+      "issue_id": "playback.crashes_or_wont_open",
+      "complaint_count": 2156,
+      "severity_sum": 7559,
+      "mean_severity": "3.506030",
+      "priority_score": 7559,
+      "rank": 5,
+      "title": "App crashes or fails to open after updates"
+    },
+    {
+      "issue_id": "usability.redesign_update",
+      "complaint_count": 3138,
+      "severity_sum": 7177,
+      "mean_severity": "2.287126",
+      "priority_score": 7177,
+      "rank": 6,
+      "title": "Recent update made app worse"
+    },
+    {
+      "issue_id": "access.login_failure",
+      "complaint_count": 1558,
+      "severity_sum": 6073,
+      "mean_severity": "3.897946",
+      "priority_score": 6073,
+      "rank": 7,
+      "title": "Cannot sign in to the app"
+    },
+    {
+      "issue_id": "usability.shuffle_autoplay",
+      "complaint_count": 2193,
+      "severity_sum": 5868,
+      "mean_severity": "2.675787",
+      "priority_score": 5868,
+      "rank": 8,
+      "title": "Shuffle forced; cannot play songs in order"
+    },
+    {
+      "issue_id": "usability.controls",
+      "complaint_count": 1988,
+      "severity_sum": 5620,
+      "mean_severity": "2.826962",
+      "priority_score": 5620,
+      "rank": 9,
+      "title": "Playback controls removed or unreliable"
+    },
+    {
+      "issue_id": "catalog.missing_or_removed_content",
+      "complaint_count": 1527,
+      "severity_sum": 4082,
+      "mean_severity": "2.673215",
+      "priority_score": 4082,
+      "rank": 10,
+      "title": "Songs missing or removed from catalog"
+    },
+    {
+      "issue_id": "usability.queue_playlist_management",
+      "complaint_count": 1284,
+      "severity_sum": 3520,
+      "mean_severity": "2.741433",
+      "priority_score": 3520,
+      "rank": 11,
+      "title": "Unwanted songs added to playlists and queue"
+    },
+    {
+      "issue_id": "playback.other",
+      "complaint_count": 1077,
+      "severity_sum": 3138,
+      "mean_severity": "2.913649",
+      "priority_score": 3138,
+      "rank": 12,
+      "title": "Wrong songs play or features fail to work"
+    },
+    {
+      "issue_id": "catalog.lyrics",
+      "complaint_count": 1080,
+      "severity_sum": 3002,
+      "mean_severity": "2.779630",
+      "priority_score": 3002,
+      "rank": 13,
+      "title": "Lyrics fail to load or display"
+    },
+    {
+      "issue_id": "billing.price",
+      "complaint_count": 1202,
+      "severity_sum": 2473,
+      "mean_severity": "2.057404",
+      "priority_score": 2473,
+      "rank": 14,
+      "title": "Premium subscription price considered too high"
+    },
+    {
+      "issue_id": "playback.connection_errors",
+      "complaint_count": 727,
+      "severity_sum": 2432,
+      "mean_severity": "3.345254",
+      "priority_score": 2432,
+      "rank": 15,
+      "title": "False 'no internet connection' errors while online"
+    }
+  ],
+  "ranking_rule": "priority_score = severity_sum = complaint_count x mean_severity; desc score, asc issue_id",
+  "issues_ranked_total": 50,
+  "aggregates": {
+    "scope": {
+      "records": 150013,
+      "completed": 149996,
+      "quarantined": 17,
+      "pending": 0,
+      "complaint_or_cancellation_records": 68288,
+      "needs_review_flagged": 15618,
+      "cache_reused_records": 34459
+    },
+    "by_topic": {
+      "access": {
+        "completed_records": 2430,
+        "complaint_count": 2338,
+        "severity_sum": 8905,
+        "mean_severity": "3.808811",
+        "cancellation_count": 134,
+        "severity_4_plus": 1896,
+        "intents": {
+          "complaint": 2204,
+          "cancellation": 134,
+          "request": 62,
+          "unclear": 6,
+          "praise": 24
+        }
+      },
+      "usability": {
+        "completed_records": 21827,
+        "complaint_count": 18178,
+        "severity_sum": 42777,
+        "mean_severity": "2.353229",
+        "cancellation_count": 1562,
+        "severity_4_plus": 84,
+        "intents": {
+          "complaint": 16616,
+          "praise": 1808,
+          "request": 1787,
+          "cancellation": 1562,
+          "unclear": 54
+        }
+      },
+      "playback": {
+        "completed_records": 10936,
+        "complaint_count": 9306,
+        "severity_sum": 29136,
+        "mean_severity": "3.130883",
+        "cancellation_count": 707,
+        "severity_4_plus": 2316,
+        "intents": {
+          "complaint": 8599,
+          "praise": 1407,
+          "cancellation": 707,
+          "request": 209,
+          "unclear": 14
+        }
+      },
+      "downloads": {
+        "completed_records": 2266,
+        "complaint_count": 1518,
+        "severity_sum": 4811,
+        "mean_severity": "3.169302",
+        "cancellation_count": 90,
+        "severity_4_plus": 400,
+        "intents": {
+          "complaint": 1428,
+          "request": 395,
+          "praise": 336,
+          "cancellation": 90,
+          "unclear": 17
+        }
+      },
+      "catalog": {
+        "completed_records": 13136,
+        "complaint_count": 4224,
+        "severity_sum": 10948,
+        "mean_severity": "2.591856",
+        "cancellation_count": 187,
+        "severity_4_plus": 113,
+        "intents": {
+          "praise": 7986,
+          "cancellation": 187,
+          "complaint": 4037,
+          "request": 856,
+          "unclear": 70
+        }
+      },
+      "billing": {
+        "completed_records": 13452,
+        "complaint_count": 11932,
+        "severity_sum": 33255,
+        "mean_severity": "2.787043",
+        "cancellation_count": 2411,
+        "severity_4_plus": 610,
+        "intents": {
+          "complaint": 9521,
+          "praise": 969,
+          "unclear": 100,
+          "request": 451,
+          "cancellation": 2411
+        }
+      },
+      "support": {
+        "completed_records": 226,
+        "complaint_count": 130,
+        "severity_sum": 342,
+        "mean_severity": "2.630769",
+        "cancellation_count": 19,
+        "severity_4_plus": 15,
+        "intents": {
+          "complaint": 111,
+          "praise": 83,
+          "cancellation": 19,
+          "request": 11,
+          "unclear": 2
+        }
+      },
+      "other": {
+        "completed_records": 85723,
+        "complaint_count": 20662,
+        "severity_sum": 40243,
+        "mean_severity": "1.947682",
+        "cancellation_count": 1582,
+        "severity_4_plus": 19,
+        "intents": {
+          "complaint": 19080,
+          "unclear": 10172,
+          "praise": 54385,
+          "cancellation": 1582,
+          "request": 504
+        }
+      }
+    },
+    "by_area": {
+      "access": {
+        "topics": [
+          "access"
+        ],
+        "complaint_count": 2338,
+        "severity_sum": 8905,
+        "mean_severity": "3.808811",
+        "cancellation_count": 134,
+        "severity_4_plus": 1896,
+        "share_of_all_complaints": "3.4%"
+      },
+      "usability": {
+        "topics": [
+          "usability"
+        ],
+        "complaint_count": 18178,
+        "severity_sum": 42777,
+        "mean_severity": "2.353229",
+        "cancellation_count": 1562,
+        "severity_4_plus": 84,
+        "share_of_all_complaints": "26.6%"
+      },
+      "playback": {
+        "topics": [
+          "playback",
+          "downloads"
+        ],
+        "complaint_count": 10824,
+        "severity_sum": 33947,
+        "mean_severity": "3.136271",
+        "cancellation_count": 797,
+        "severity_4_plus": 2716,
+        "share_of_all_complaints": "15.9%"
+      },
+      "billing_support": {
+        "topics": [
+          "billing",
+          "support"
+        ],
+        "complaint_count": 12062,
+        "severity_sum": 33597,
+        "mean_severity": "2.785359",
+        "cancellation_count": 2430,
+        "severity_4_plus": 625,
+        "share_of_all_complaints": "17.7%"
+      }
+    },
+    "area_note": "Area roll-up declared by code: playback includes downloads (offline playback); billing_support combines billing and support; catalog and other are reported but are outside the four candidate areas.",
+    "monthly": {
+      "2022-05": {
+        "completed": 3572,
+        "complaints": 1110,
+        "complaint_share": "31.1%",
+        "access_complaints": 43,
+        "usability_complaints": 372,
+        "playback_complaints": 386,
+        "billing_support_complaints": 107
+      },
+      "2022-06": {
+        "completed": 6885,
+        "complaints": 2064,
+        "complaint_share": "30.0%",
+        "access_complaints": 84,
+        "usability_complaints": 721,
+        "playback_complaints": 705,
+        "billing_support_complaints": 186
+      },
+      "2022-07": {
+        "completed": 7454,
+        "complaints": 2715,
+        "complaint_share": "36.4%",
+        "access_complaints": 102,
+        "usability_complaints": 819,
+        "playback_complaints": 1074,
+        "billing_support_complaints": 240
+      },
+      "2022-08": {
+        "completed": 7040,
+        "complaints": 2061,
+        "complaint_share": "29.3%",
+        "access_complaints": 76,
+        "usability_complaints": 801,
+        "playback_complaints": 609,
+        "billing_support_complaints": 231
+      },
+      "2022-09": {
+        "completed": 6087,
+        "complaints": 1697,
+        "complaint_share": "27.9%",
+        "access_complaints": 64,
+        "usability_complaints": 646,
+        "playback_complaints": 489,
+        "billing_support_complaints": 176
+      },
+      "2022-10": {
+        "completed": 6259,
+        "complaints": 1742,
+        "complaint_share": "27.8%",
+        "access_complaints": 70,
+        "usability_complaints": 755,
+        "playback_complaints": 443,
+        "billing_support_complaints": 165
+      },
+      "2022-11": {
+        "completed": 6111,
+        "complaints": 1862,
+        "complaint_share": "30.5%",
+        "access_complaints": 80,
+        "usability_complaints": 786,
+        "playback_complaints": 441,
+        "billing_support_complaints": 205
+      },
+      "2022-12": {
+        "completed": 7188,
+        "complaints": 2638,
+        "complaint_share": "36.7%",
+        "access_complaints": 102,
+        "usability_complaints": 824,
+        "playback_complaints": 764,
+        "billing_support_complaints": 228
+      },
+      "2023-01": {
+        "completed": 6453,
+        "complaints": 1959,
+        "complaint_share": "30.4%",
+        "access_complaints": 136,
+        "usability_complaints": 617,
+        "playback_complaints": 616,
+        "billing_support_complaints": 187
+      },
+      "2023-02": {
+        "completed": 4655,
+        "complaints": 1389,
+        "complaint_share": "29.8%",
+        "access_complaints": 64,
+        "usability_complaints": 564,
+        "playback_complaints": 352,
+        "billing_support_complaints": 166
+      },
+      "2023-03": {
+        "completed": 6225,
+        "complaints": 2169,
+        "complaint_share": "34.8%",
+        "access_complaints": 53,
+        "usability_complaints": 1107,
+        "playback_complaints": 447,
+        "billing_support_complaints": 188
+      },
+      "2023-04": {
+        "completed": 5746,
+        "complaints": 1965,
+        "complaint_share": "34.2%",
+        "access_complaints": 55,
+        "usability_complaints": 907,
+        "playback_complaints": 450,
+        "billing_support_complaints": 170
+      },
+      "2023-05": {
+        "completed": 6364,
+        "complaints": 2128,
+        "complaint_share": "33.4%",
+        "access_complaints": 146,
+        "usability_complaints": 741,
+        "playback_complaints": 437,
+        "billing_support_complaints": 271
+      },
+      "2023-06": {
+        "completed": 6224,
+        "complaints": 2309,
+        "complaint_share": "37.1%",
+        "access_complaints": 182,
+        "usability_complaints": 801,
+        "playback_complaints": 455,
+        "billing_support_complaints": 364
+      },
+      "2023-07": {
+        "completed": 19413,
+        "complaints": 12129,
+        "complaint_share": "62.5%",
+        "access_complaints": 237,
+        "usability_complaints": 1110,
+        "playback_complaints": 659,
+        "billing_support_complaints": 446
+      },
+      "2023-08": {
+        "completed": 7038,
+        "complaints": 2812,
+        "complaint_share": "40.0%",
+        "access_complaints": 250,
+        "usability_complaints": 853,
+        "playback_complaints": 544,
+        "billing_support_complaints": 351
+      },
+      "2023-09": {
+        "completed": 9586,
+        "complaints": 5156,
+        "complaint_share": "53.8%",
+        "access_complaints": 228,
+        "usability_complaints": 1529,
+        "playback_complaints": 625,
+        "billing_support_complaints": 1336
+      },
+      "2023-10": {
+        "completed": 20018,
+        "complaints": 15022,
+        "complaint_share": "75.0%",
+        "access_complaints": 255,
+        "usability_complaints": 2971,
+        "playback_complaints": 884,
+        "billing_support_complaints": 5535
+      },
+      "2023-11": {
+        "completed": 7678,
+        "complaints": 5361,
+        "complaint_share": "69.8%",
+        "access_complaints": 111,
+        "usability_complaints": 1254,
+        "playback_complaints": 444,
+        "billing_support_complaints": 1510
+      }
+    },
+    "monthly_note": "First (2022-05) and last (2023-11) calendar months are partial."
+  },
+  "evidence_pack": [
+    {
+      "issue_id": "other.general_criticism",
+      "title": "Generic negative sentiment without specifics",
+      "description": "Reviews express general dissatisfaction or hatred toward the app without naming a specific product problem.",
+      "examples": [
+        {
+          "review_id": "d21e2ed4-f11a-4cc6-bb76-ace0d2dbbd46",
+          "severity": 2,
+          "quote": "बहुत खराब"
+        },
+        {
+          "review_id": "e6f5601f-1e82-4d94-b473-3a49789a6327",
+          "severity": 2,
+          "quote": "Very bad apps"
+        },
+        {
+          "review_id": "738898ea-5057-449f-9f64-9b7a438f538a",
+          "severity": 2,
+          "quote": "V bad app"
+        },
+        {
+          "review_id": "e91f5f3d-fad6-45c4-9818-f2f5f6d3fdc7",
+          "severity": 1,
+          "quote": "Goodbye... spotify..."
+        }
+      ]
+    },
+    {
+      "issue_id": "billing.premium_only_controls",
+      "title": "Basic playback controls locked behind premium",
+      "description": "Users say features like repeating songs, playing specific song sections, and ordered playback now require a paid subscription.",
+      "examples": [
+        {
+          "review_id": "7e801961-bd6e-4a4c-af91-2068b0e2f173",
+          "severity": 3,
+          "quote": "don't like that u can't listen to the same song over again unless u pay for a subscription"
+        },
+        {
+          "review_id": "8feb3a4c-6984-4b24-8c89-934aced41635",
+          "severity": 3,
+          "quote": "it didn't allow us to play specific part of song or to play in order like each and everything requires premium now"
+        },
+        {
+          "review_id": "64329ea9-d8dd-4b14-9196-ad96b5a41603",
+          "severity": 3,
+          "quote": "Almost every single basic features are premium required"
+        },
+        {
+          "review_id": "121932ec-0c06-4825-9768-406d44c49134",
+          "severity": 3,
+          "quote": "the new update removed even the most basic things"
+        }
+      ]
+    },
+    {
+      "issue_id": "usability.ads",
+      "title": "Too many ads interrupting listening",
+      "description": "Users complain that ads are frequent and intrusive, often outnumbering the music they hear.",
+      "examples": [
+        {
+          "review_id": "16c47c30-882b-40c1-8dd4-6a304bf1e631",
+          "severity": 2,
+          "quote": "Itni jaldi bhikhari bhi dobara bhikh nhi mangta jitni jaldi tumhari app ad chala kar paise mangne lagti hai"
+        },
+        {
+          "review_id": "59d1e2cd-526e-4dea-86b5-964667c7c45e",
+          "severity": 2,
+          "quote": "Tooo many adds"
+        },
+        {
+          "review_id": "3dba3014-8270-4676-903f-ae296ec8d6ee",
+          "severity": 2,
+          "quote": "Listeners want music not ads"
+        },
+        {
+          "review_id": "817a1e29-faa5-412d-a61d-286b6e1e9af5",
+          "severity": 2,
+          "quote": "Too much adds"
+        }
+      ]
+    },
+    {
+      "issue_id": "playback.stops_or_skips",
+      "title": "Music stops, skips, or cuts out mid-song",
+      "description": "Users report songs skipping, audio cutting out, or playback stopping after short periods.",
+      "examples": [
+        {
+          "review_id": "74628553-a0a9-4fb9-a697-a7685e3c3520",
+          "severity": 3,
+          "quote": "The music skips when I'm listening to it. All the songs I listenes to, they all have skipped."
+        },
+        {
+          "review_id": "5b7e3bb6-a583-49fe-a712-e15512ad1449",
+          "severity": 3,
+          "quote": "my music stops in the middle of the song all the time. It's still playing but no audio comes from it until I clear the app"
+        },
+        {
+          "review_id": "2268b508-75a8-41ab-af08-23599e90be68",
+          "severity": 3,
+          "quote": "I can only listen to it for 3 seconds then it will stop playing. Not mention the amount of ads."
+        },
+        {
+          "review_id": "f1711dd9-55d8-4f25-823e-3c63d74de145",
+          "severity": 3,
+          "quote": "i accidentally played a other song i try playing enchanted but would just still continue to play the other song"
+        }
+      ]
+    },
+    {
+      "issue_id": "playback.crashes_or_wont_open",
+      "title": "App crashes or fails to open after updates",
+      "description": "Users report the app crashing constantly, closing during playback, or refusing to load until reinstalled.",
+      "examples": [
+        {
+          "review_id": "8cf8258f-7483-40aa-8e02-342afeee0ec2",
+          "severity": 3,
+          "quote": "after the last update, it's not working"
+        },
+        {
+          "review_id": "341a4bbd-9afa-43b6-840f-229d09392e84",
+          "severity": 4,
+          "quote": "before the whole app crashes, and I either have to restart the app"
+        },
+        {
+          "review_id": "1c288fb1-83a6-4e57-8860-a7b4217516e3",
+          "severity": 4,
+          "quote": "Ever since the latest updates, it has been nothing but glitches and crashes."
+        },
+        {
+          "review_id": "4dc3e3c5-4a49-4dbc-b0f1-0ca19e562878",
+          "severity": 4,
+          "quote": "when I playy music the app closes it and when I open the app it won't let me even I tried everything"
+        }
+      ]
+    },
+    {
+      "issue_id": "usability.redesign_update",
+      "title": "Recent update made app worse",
+      "description": "Users say a recent redesign or update removed features, hid content, and made the app harder to use.",
+      "examples": [
+        {
+          "review_id": "ad685b98-6613-4dcf-ada3-1f7d843e1b13",
+          "severity": 2,
+          "quote": "the new update is worst"
+        },
+        {
+          "review_id": "cd2f05c5-a74a-45a0-b276-8f029d3574a0",
+          "severity": 3,
+          "quote": "History has disappeared ALSO... no need to reinvent the wheel GUYS! everything worked fine before you decided to IMPROVE IT.."
+        },
+        {
+          "review_id": "77da0f23-e9a2-433c-8908-9aff0ee8dee3",
+          "severity": 2,
+          "quote": "Update sucks..."
+        },
+        {
+          "review_id": "000398f2-7667-4fa2-8c20-f5e1ec8fb8dd",
+          "severity": 4,
+          "quote": "App has become unusable since the new update."
+        }
+      ]
+    },
+    {
+      "issue_id": "access.login_failure",
+      "title": "Cannot sign in to the app",
+      "description": "Users repeatedly fail to sign in, including through Google or Facebook, and get stuck in login loops or error messages.",
+      "examples": [
+        {
+          "review_id": "8fa6d594-c085-405d-a4de-eb355c2dcf9a",
+          "severity": 4,
+          "quote": "i can't even sign in!!i really don't wanna give even a star"
+        },
+        {
+          "review_id": "b55fcf6f-5323-4b5a-b72b-a9046f390c3e",
+          "severity": 4,
+          "quote": "Sign in nightmare. Lately it has asked for sign in and no matter how many things I try.. And FINISH..it loops."
+        },
+        {
+          "review_id": "a0f9b23c-2326-4599-897f-3a6de9c1ea63",
+          "severity": 4,
+          "quote": "Can't sign in using Google!!"
+        },
+        {
+          "review_id": "77a0083c-5da7-46ed-9fe2-e200807e4f05",
+          "severity": 4,
+          "quote": "Its not logging in my partcular device trying spotify cares for 12+ hrs"
+        }
+      ]
+    },
+    {
+      "issue_id": "usability.shuffle_autoplay",
+      "title": "Shuffle forced; cannot play songs in order",
+      "description": "Users cannot choose specific songs or play in order because shuffle is forced and tracks repeat.",
+      "examples": [
+        {
+          "review_id": "5e807049-ae62-45f6-92be-19423ee29d37",
+          "severity": 3,
+          "quote": "I don't like the shuffle when i wanna play the song and it keep play the other random song"
+        },
+        {
+          "review_id": "d15df68f-b934-4761-bc23-16a9f22f3c41",
+          "severity": 3,
+          "quote": "Seems to be playing the same songs over and over and over again. I pay for premium and the Shuffle option sucks nutsack!"
+        },
+        {
+          "review_id": "c05399af-5afa-473e-b540-9855a9800785",
+          "severity": 3,
+          "quote": "Your always on shuffle and never get to pick your on music you want to listen to."
+        },
+        {
+          "review_id": "9859999b-c799-435a-ad7f-094ed609f8c8",
+          "severity": 3,
+          "quote": "everything is repetitive and not all songs are being played or randomly picked."
+        }
+      ]
+    }
+  ],
+  "insights": {
+    "rules": "Feeds the memo writer and the dashboard.   python -m pipeline.stages.insights --run-id final-100k\nRules (declared): anomaly = full or partial month whose share is >= 2x the median of the previous 3 months AND\n>= +1.0 percentage point AND >= 50 reviews. Recurring = complaint share >= 0.5% in a month. Shares use classified\nreviews that month as the denominator. Keyword series are regex matches (code), not model labels.",
+    "comparable_windows": {
+      "windows": {
+        "H2-2022 (2022-06..2022-11)": {
+          "classified": 39836,
+          "complaints": 12141,
+          "complaint_share": "30.5%",
+          "areas": {
+            "access": {
+              "complaints": 476,
+              "share_of_classified": "1.19%",
+              "share_of_complaints": "3.9%"
+            },
+            "usability": {
+              "complaints": 4528,
+              "share_of_classified": "11.37%",
+              "share_of_complaints": "37.3%"
+            },
+            "playback": {
+              "complaints": 3761,
+              "share_of_classified": "9.44%",
+              "share_of_complaints": "31.0%"
+            },
+            "billing_support": {
+              "complaints": 1203,
+              "share_of_classified": "3.02%",
+              "share_of_complaints": "9.9%"
+            }
+          }
+        },
+        "mid-2023 (2023-05..2023-10)": {
+          "classified": 68643,
+          "complaints": 39556,
+          "complaint_share": "57.6%",
+          "areas": {
+            "access": {
+              "complaints": 1298,
+              "share_of_classified": "1.89%",
+              "share_of_complaints": "3.3%"
+            },
+            "usability": {
+              "complaints": 8005,
+              "share_of_classified": "11.66%",
+              "share_of_complaints": "20.2%"
+            },
+            "playback": {
+              "complaints": 3604,
+              "share_of_classified": "5.25%",
+              "share_of_complaints": "9.1%"
+            },
+            "billing_support": {
+              "complaints": 8303,
+              "share_of_classified": "12.10%",
+              "share_of_complaints": "21.0%"
+            }
+          }
+        }
+      },
+      "note": "Full calendar months only; shares use classified reviews in the window as the denominator. Review volume is self-selected (e.g. spikes in 2023-07 and 2023-10)."
+    },
+    "anomalies": [
+      {
+        "month": "2022-12",
+        "series": "issue:playback.stops_or_skips",
+        "value": 328,
+        "share_pct": 4.56,
+        "expected_share_pct": 2.03,
+        "ratio": 2.25,
+        "partial_month": false,
+        "top_driver": "playback.stops_or_skips"
+      },
+      {
+        "month": "2023-03",
+        "series": "issue:usability.redesign_update",
+        "value": 462,
+        "share_pct": 7.42,
+        "expected_share_pct": 0.74,
+        "ratio": 10.03,
+        "partial_month": false,
+        "top_driver": "usability.redesign_update"
+      },
+      {
+        "month": "2023-04",
+        "series": "issue:catalog.missing_or_removed_content",
+        "value": 114,
+        "share_pct": 1.98,
+        "expected_share_pct": 0.79,
+        "ratio": 2.51,
+        "partial_month": false,
+        "top_driver": "catalog.missing_or_removed_content"
+      },
+      {
+        "month": "2023-04",
+        "series": "issue:usability.redesign_update",
+        "value": 332,
+        "share_pct": 5.78,
+        "expected_share_pct": 0.74,
+        "ratio": 7.81,
+        "partial_month": false,
+        "top_driver": "usability.redesign_update"
+      },
+      {
+        "month": "2023-05",
+        "series": "area:access",
+        "value": 146,
+        "share_pct": 2.29,
+        "expected_share_pct": 0.96,
+        "ratio": 2.39,
+        "partial_month": false,
+        "top_driver": "access.login_failure"
+      },
+      {
+        "month": "2023-05",
+        "series": "issue:access.login_failure",
+        "value": 104,
+        "share_pct": 1.63,
+        "expected_share_pct": 0.59,
+        "ratio": 2.76,
+        "partial_month": false,
+        "top_driver": "access.login_failure"
+      },
+      {
+        "month": "2023-06",
+        "series": "area:access",
+        "value": 182,
+        "share_pct": 2.92,
+        "expected_share_pct": 0.96,
+        "ratio": 3.04,
+        "partial_month": false,
+        "top_driver": "access.login_failure"
+      },
+      {
+        "month": "2023-06",
+        "series": "issue:access.login_failure",
+        "value": 148,
+        "share_pct": 2.38,
+        "expected_share_pct": 0.59,
+        "ratio": 4.03,
+        "partial_month": false,
+        "top_driver": "access.login_failure"
+      },
+      {
+        "month": "2023-06",
+        "series": "issue:billing.premium_only_controls",
+        "value": 262,
+        "share_pct": 4.21,
+        "expected_share_pct": 1.62,
+        "ratio": 2.6,
+        "partial_month": false,
+        "top_driver": "billing.premium_only_controls"
+      },
+      {
+        "month": "2023-06",
+        "series": "issue:catalog.lyrics",
+        "value": 104,
+        "share_pct": 1.67,
+        "expected_share_pct": 0.31,
+        "ratio": 5.39,
+        "partial_month": false,
+        "top_driver": "catalog.lyrics"
+      },
+      {
+        "month": "2023-07",
+        "series": "boycott",
+        "value": 2589,
+        "share_pct": 13.34,
+        "expected_share_pct": 0.29,
+        "ratio": 46.0,
+        "partial_month": false,
+        "top_driver": "other.boycott_political"
+      },
+      {
+        "month": "2023-07",
+        "series": "volume",
+        "value": 19413,
+        "share_pct": null,
+        "expected_share_pct": null,
+        "ratio": 3.12,
+        "partial_month": false,
+        "top_driver": "other.general_criticism"
+      },
+      {
+        "month": "2023-08",
+        "series": "boycott",
+        "value": 171,
+        "share_pct": 2.43,
+        "expected_share_pct": 0.64,
+        "ratio": 3.8,
+        "partial_month": false,
+        "top_driver": "other.boycott_political"
+      },
+      {
+        "month": "2023-09",
+        "series": "area:billing_support",
+        "value": 1336,
+        "share_pct": 13.94,
+        "expected_share_pct": 4.99,
+        "ratio": 2.79,
+        "partial_month": false,
+        "top_driver": "billing.premium_only_controls"
+      },
+      {
+        "month": "2023-09",
+        "series": "issue:billing.premium_only_controls",
+        "value": 1142,
+        "share_pct": 11.91,
+        "expected_share_pct": 2.63,
+        "ratio": 4.53,
+        "partial_month": false,
+        "top_driver": "billing.premium_only_controls"
+      },
+      {
+        "month": "2023-09",
+        "series": "issue:catalog.lyrics",
+        "value": 211,
+        "share_pct": 2.2,
+        "expected_share_pct": 0.54,
+        "ratio": 4.07,
+        "partial_month": false,
+        "top_driver": "catalog.lyrics"
+      },
+      {
+        "month": "2023-09",
+        "series": "issue:usability.controls",
+        "value": 229,
+        "share_pct": 2.39,
+        "expected_share_pct": 0.82,
+        "ratio": 2.91,
+        "partial_month": false,
+        "top_driver": "usability.controls"
+      },
+      {
+        "month": "2023-09",
+        "series": "issue:usability.redesign_update",
+        "value": 273,
+        "share_pct": 2.85,
+        "expected_share_pct": 0.7,
+        "ratio": 4.07,
+        "partial_month": false,
+        "top_driver": "usability.redesign_update"
+      },
+      {
+        "month": "2023-09",
+        "series": "issue:usability.shuffle_autoplay",
+        "value": 279,
+        "share_pct": 2.91,
+        "expected_share_pct": 1.45,
+        "ratio": 2.01,
+        "partial_month": false,
+        "top_driver": "usability.shuffle_autoplay"
+      },
+      {
+        "month": "2023-10",
+        "series": "area:billing_support",
+        "value": 5535,
+        "share_pct": 27.65,
+        "expected_share_pct": 4.99,
+        "ratio": 5.54,
+        "partial_month": false,
+        "top_driver": "billing.premium_only_controls"
+      },
+      {
+        "month": "2023-10",
+        "series": "issue:billing.premium_only_controls",
+        "value": 4981,
+        "share_pct": 24.88,
+        "expected_share_pct": 2.63,
+        "ratio": 9.46,
+        "partial_month": false,
+        "top_driver": "billing.premium_only_controls"
+      },
+      {
+        "month": "2023-10",
+        "series": "issue:usability.controls",
+        "value": 554,
+        "share_pct": 2.77,
+        "expected_share_pct": 0.82,
+        "ratio": 3.38,
+        "partial_month": false,
+        "top_driver": "usability.controls"
+      },
+      {
+        "month": "2023-10",
+        "series": "issue:usability.redesign_update",
+        "value": 901,
+        "share_pct": 4.5,
+        "expected_share_pct": 0.7,
+        "ratio": 6.43,
+        "partial_month": false,
+        "top_driver": "usability.redesign_update"
+      },
+      {
+        "month": "2023-10",
+        "series": "volume",
+        "value": 20018,
+        "share_pct": null,
+        "expected_share_pct": null,
+        "ratio": 2.09,
+        "partial_month": false,
+        "top_driver": "billing.premium_only_controls"
+      }
+    ],
+    "recurring": [
+      {
+        "issue": "billing.premium_only_controls",
+        "complaints": 9415,
+        "months_present": 17,
+        "full_months": 17,
+        "months_in_top5": 15,
+        "first6_mean_share_pct": 1.61,
+        "last6_mean_share_pct": 7.92,
+        "trend": "rising",
+        "peak_month": "2023-10",
+        "peak_share_pct": 24.88,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "usability.ads",
+        "complaints": 8512,
+        "months_present": 17,
+        "full_months": 17,
+        "months_in_top5": 17,
+        "first6_mean_share_pct": 6.24,
+        "last6_mean_share_pct": 5.75,
+        "trend": "steady",
+        "peak_month": "2023-08",
+        "peak_share_pct": 7.99,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "usability.redesign_update",
+        "complaints": 3138,
+        "months_present": 16,
+        "full_months": 17,
+        "months_in_top5": 6,
+        "first6_mean_share_pct": 0.9,
+        "last6_mean_share_pct": 1.92,
+        "trend": "rising",
+        "peak_month": "2023-03",
+        "peak_share_pct": 7.42,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "playback.stops_or_skips",
+        "complaints": 3097,
+        "months_present": 17,
+        "full_months": 17,
+        "months_in_top5": 15,
+        "first6_mean_share_pct": 2.41,
+        "last6_mean_share_pct": 1.66,
+        "trend": "steady",
+        "peak_month": "2022-12",
+        "peak_share_pct": 4.56,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "usability.shuffle_autoplay",
+        "complaints": 2193,
+        "months_present": 17,
+        "full_months": 17,
+        "months_in_top5": 10,
+        "first6_mean_share_pct": 1.48,
+        "last6_mean_share_pct": 1.6,
+        "trend": "steady",
+        "peak_month": "2023-09",
+        "peak_share_pct": 2.91,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "playback.crashes_or_wont_open",
+        "complaints": 2156,
+        "months_present": 17,
+        "full_months": 17,
+        "months_in_top5": 9,
+        "first6_mean_share_pct": 2.2,
+        "last6_mean_share_pct": 1.01,
+        "trend": "falling",
+        "peak_month": "2022-07",
+        "peak_share_pct": 4.52,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "usability.controls",
+        "complaints": 1988,
+        "months_present": 16,
+        "full_months": 17,
+        "months_in_top5": 2,
+        "first6_mean_share_pct": 0.99,
+        "last6_mean_share_pct": 1.52,
+        "trend": "rising",
+        "peak_month": "2023-10",
+        "peak_share_pct": 2.77,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "access.login_failure",
+        "complaints": 1558,
+        "months_present": 16,
+        "full_months": 17,
+        "months_in_top5": 5,
+        "first6_mean_share_pct": 0.63,
+        "last6_mean_share_pct": 1.69,
+        "trend": "rising",
+        "peak_month": "2023-08",
+        "peak_share_pct": 2.57,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "catalog.missing_or_removed_content",
+        "complaints": 1527,
+        "months_present": 17,
+        "full_months": 17,
+        "months_in_top5": 4,
+        "first6_mean_share_pct": 0.89,
+        "last6_mean_share_pct": 1.25,
+        "trend": "steady",
+        "peak_month": "2023-05",
+        "peak_share_pct": 2.53,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "usability.queue_playlist_management",
+        "complaints": 1284,
+        "months_present": 16,
+        "full_months": 17,
+        "months_in_top5": 1,
+        "first6_mean_share_pct": 0.92,
+        "last6_mean_share_pct": 0.81,
+        "trend": "steady",
+        "peak_month": "2022-11",
+        "peak_share_pct": 1.34,
+        "pattern": "chronic"
+      },
+      {
+        "issue": "catalog.lyrics",
+        "complaints": 1080,
+        "months_present": 5,
+        "full_months": 17,
+        "months_in_top5": 1,
+        "first6_mean_share_pct": 0.29,
+        "last6_mean_share_pct": 1.17,
+        "trend": "rising",
+        "peak_month": "2023-09",
+        "peak_share_pct": 2.2,
+        "pattern": "episodic"
+      },
+      {
+        "issue": "playback.other",
+        "complaints": 1077,
+        "months_present": 16,
+        "full_months": 17,
+        "months_in_top5": 0,
+        "first6_mean_share_pct": 0.96,
+        "last6_mean_share_pct": 0.61,
+        "trend": "steady",
+        "peak_month": "2022-07",
+        "peak_share_pct": 1.48,
+        "pattern": "chronic"
+      }
+    ],
+    "alt_rankings": {
+      "severity_sum": [
+        "other.general_criticism",
+        "billing.premium_only_controls",
+        "usability.ads",
+        "playback.stops_or_skips",
+        "playback.crashes_or_wont_open",
+        "usability.redesign_update",
+        "access.login_failure",
+        "usability.shuffle_autoplay",
+        "usability.controls",
+        "catalog.missing_or_removed_content"
+      ],
+      "severity_4_plus": [
+        "access.login_failure",
+        "playback.crashes_or_wont_open",
+        "playback.stops_or_skips",
+        "billing.subscription_activation",
+        "playback.connection_errors",
+        "access.logged_out",
+        "downloads.downloads_disappear",
+        "access.account_hacked_or_locked",
+        "billing.unexpected_charges",
+        "playback.other"
+      ],
+      "cancellations": [
+        "billing.premium_only_controls",
+        "other.general_criticism",
+        "usability.ads",
+        "usability.redesign_update",
+        "playback.stops_or_skips",
+        "other.boycott_political",
+        "usability.shuffle_autoplay",
+        "usability.controls",
+        "billing.price",
+        "playback.crashes_or_wont_open"
+      ],
+      "recent_3m_complaints": [
+        "billing.premium_only_controls",
+        "other.general_criticism",
+        "usability.ads",
+        "usability.redesign_update",
+        "usability.controls",
+        "usability.shuffle_autoplay",
+        "playback.stops_or_skips",
+        "catalog.lyrics",
+        "access.login_failure",
+        "billing.price"
+      ]
+    },
+    "alt_ranking_table_top10": [
+      {
+        "issue": "other.general_criticism",
+        "complaint_count": 19032,
+        "severity_sum": 37607,
+        "severity_4_plus": 16,
+        "cancellations": 1223,
+        "recent_3m_complaints": 6201,
+        "recent_3m_share_pct": 16.92
+      },
+      {
+        "issue": "billing.premium_only_controls",
+        "complaint_count": 9415,
+        "severity_sum": 26630,
+        "severity_4_plus": 91,
+        "cancellations": 2049,
+        "recent_3m_complaints": 6308,
+        "recent_3m_share_pct": 17.22
+      },
+      {
+        "issue": "usability.ads",
+        "complaint_count": 8512,
+        "severity_sum": 18041,
+        "severity_4_plus": 15,
+        "cancellations": 531,
+        "recent_3m_complaints": 2117,
+        "recent_3m_share_pct": 5.78
+      },
+      {
+        "issue": "playback.stops_or_skips",
+        "complaint_count": 3097,
+        "severity_sum": 9685,
+        "severity_4_plus": 533,
+        "cancellations": 300,
+        "recent_3m_complaints": 601,
+        "recent_3m_share_pct": 1.64
+      },
+      {
+        "issue": "playback.crashes_or_wont_open",
+        "complaint_count": 2156,
+        "severity_sum": 7559,
+        "severity_4_plus": 1196,
+        "cancellations": 106,
+        "recent_3m_complaints": 385,
+        "recent_3m_share_pct": 1.05
+      },
+      {
+        "issue": "usability.redesign_update",
+        "complaint_count": 3138,
+        "severity_sum": 7177,
+        "severity_4_plus": 22,
+        "cancellations": 440,
+        "recent_3m_complaints": 1223,
+        "recent_3m_share_pct": 3.34
+      },
+      {
+        "issue": "access.login_failure",
+        "complaint_count": 1558,
+        "severity_sum": 6073,
+        "severity_4_plus": 1409,
+        "cancellations": 82,
+        "recent_3m_complaints": 531,
+        "recent_3m_share_pct": 1.45
+      },
+      {
+        "issue": "usability.shuffle_autoplay",
+        "complaint_count": 2193,
+        "severity_sum": 5868,
+        "severity_4_plus": 8,
+        "cancellations": 231,
+        "recent_3m_complaints": 683,
+        "recent_3m_share_pct": 1.86
+      },
+      {
+        "issue": "usability.controls",
+        "complaint_count": 1988,
+        "severity_sum": 5620,
+        "severity_4_plus": 13,
+        "cancellations": 228,
+        "recent_3m_complaints": 841,
+        "recent_3m_share_pct": 2.3
+      },
+      {
+        "issue": "catalog.missing_or_removed_content",
+        "complaint_count": 1527,
+        "severity_sum": 4082,
+        "severity_4_plus": 78,
+        "cancellations": 88,
+        "recent_3m_complaints": 312,
+        "recent_3m_share_pct": 0.85
+      }
+    ],
+    "events": [
+      {
+        "id": "EV1",
+        "month": "2023-03",
+        "title": "Home feed redesign announced (Stream On)",
+        "matching_anomalies": [
+          "2023-03:issue:usability.redesign_update",
+          "2023-04:issue:usability.redesign_update"
+        ]
+      },
+      {
+        "id": "EV2",
+        "month": "2023-07",
+        "title": "Quran burnings in Sweden → calls to boycott Swedish brands",
+        "matching_anomalies": [
+          "2023-07:boycott",
+          "2023-07:volume",
+          "2023-08:boycott"
+        ]
+      },
+      {
+        "id": "EV3",
+        "month": "2023-09",
+        "title": "Lyrics paywall test for free users",
+        "matching_anomalies": [
+          "2023-09:issue:billing.premium_only_controls",
+          "2023-09:issue:catalog.lyrics",
+          "2023-10:issue:billing.premium_only_controls"
+        ]
+      },
+      {
+        "id": "EV4",
+        "month": "2023-10",
+        "title": "Free-tier restrictions in India (no manual order, rewind, repeat)",
+        "matching_anomalies": [
+          "2023-10:area:billing_support",
+          "2023-10:issue:billing.premium_only_controls",
+          "2023-10:volume"
+        ]
+      }
+    ],
+    "events_note": "Curated EXTERNAL context from news reports, used only to annotate the timeline. Dates and descriptions come from the cited sources; a matching spike in reviews is a correlation, not proof of cause."
+  }
+}

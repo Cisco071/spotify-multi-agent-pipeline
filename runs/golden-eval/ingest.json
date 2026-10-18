@@ -1,0 +1,9 @@
+{
+  "input": "dataset/golden_50_to_label.csv",
+  "input_sha256": "1a125c3e509f58b0246ba16d0ea332675a53ffadb1928be4338a0bd7053a11c7",
+  "rows": 50,
+  "inserted": 50,
+  "nonempty": 50,
+  "empty_quarantined": 0,
+  "distinct_nonempty_texts": 49
+}

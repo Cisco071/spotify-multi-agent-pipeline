@@ -1,0 +1,93 @@
+{
+  "run_id": "final-150k",
+  "input": "analysis_150k.csv",
+  "input_sha256": "8ae9c59c74eaba57064798e0612eac610de3e0571342990b1e3d4cbdf3b78bfe",
+  "full_source_sha256": "1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6",
+  "code_commit": null,
+  "python": "3.14.7",
+  "prompts_sha256": {
+    "enrich_v1.md": "4aa55db8eabfe7b37849fb3d755c3f2a1fc77bb6482ed0fc7b176db8699ad00b",
+    "group_v1.md": "718d49746a79a8d6d41a9178ea5e1a42fe7b2c48586f7ab7e345d6971fdbc885",
+    "labels.md": "c604d599e65e9566036c95b110c663d79921a25f25ffaab1d47ebb0b80c99152",
+    "memo_v1.md": "e1b752cbe00c4ea4c2ba08507adf5c5e5db9c39f2c91620ed7c0b65692a375ec",
+    "memo_v2.md": "4743ad7fe85a071db1a73628cb95e340ab25f3a1bae4aa29340a0c8fa2c198b7",
+    "verify_v1.md": "a6ab79ed3ce60ba332c67432c311865f2feff7b22532178bc66bbe66606fa02f"
+  },
+  "schema_version": "schema_v1",
+  "taxonomy_version": "taxonomy_v1",
+  "roles": {
+    "enrich": {
+      "model": "claude-haiku-5-5",
+      "prompt": "enrich_v1",
+      "thinking": {
+        "type": "disabled"
+      },
+      "effort": "low",
+      "max_tokens": 8000,
+      "label_config": "claude-haiku-5-5+thinking-disabled+effort-low+enrich_v1+schema_v1+taxonomy_v1"
+    },
+    "enrich_fallback": {
+      "model": "claude-sonnet-5-5",
+      "prompt": "enrich_v1",
+      "thinking": {
+        "type": "between_tools"
+      },
+      "effort": "low",
+      "max_tokens": 4000,
+      "label_config": "claude-sonnet-5-5+thinking-between_tools+effort-low+enrich_v1+schema_v1+taxonomy_v1"
+    },
+    "verify": {
+      "model": "claude-sonnet-5-5",
+      "prompt": "verify_v1",
+      "thinking": {
+        "type": "between_tools"
+      },
+      "effort": "low",
+      "max_tokens": 8000,
+      "label_config": "claude-sonnet-5-5+thinking-between_tools+effort-low+verify_v1+schema_v1+taxonomy_v1"
+    },
+    "group": {
+      "model": "claude-haiku-5-5",
+      "prompt": "group_v1",
+      "thinking": {
+        "type": "disabled"
+      },
+      "effort": "low",
+      "max_tokens": 4000,
+      "label_config": "claude-haiku-5-5+thinking-disabled+effort-low+group_v1+schema_v1+taxonomy_v1"
+    },
+    "memo": {
+      "model": "claude-sonnet-5-5",
+      "prompt": "memo_v2",
+      "thinking": {
+        "type": "adaptive"
+      },
+      "effort": "medium",
+      "max_tokens": 12000,
+      "label_config": "claude-sonnet-5-5+thinking-adaptive+effort-medium+memo_v2+schema_v1+taxonomy_v1"
+    }
+  },
+  "limits": {
+    "batch_size": 50,
+    "verify_batch_size": 25,
+    "fallback_fraction_cap": 0.02,
+    "invalid_output_retries": 1,
+    "transient_retries": 4
+  },
+  "prices_usd_per_mtok": {
+    "claude-haiku-5-5": {
+      "input": 0.1,
+      "cache_write": 0.125,
+      "cache_read": 0.01,
+      "output": 0.5
+    },
+    "claude-sonnet-5-5": {
+      "input": 2.0,
+      "cache_write": 2.5,
+      "cache_read": 0.2,
+      "output": 10.0
+    }
+  },
+  "price_source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "price_checked": "2026-10-13"
+}

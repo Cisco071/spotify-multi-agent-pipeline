@@ -1,0 +1,9 @@
+claim_id,issue_id,metric,value
+C1,billing.premium_only_controls,complaint_count,9415
+C2,billing.premium_only_controls,severity_sum,26630
+C3,billing.premium_only_controls,mean_severity,2.828465
+C4,other.general_criticism,severity_sum,37607
+C5,usability.controls,complaint_count,1988
+C6,usability.ads,complaint_count,8512
+C7,playback.stops_or_skips,complaint_count,3097
+C8,access.login_failure,mean_severity,3.897946

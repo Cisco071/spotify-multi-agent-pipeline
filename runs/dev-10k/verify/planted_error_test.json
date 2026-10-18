@@ -1,0 +1,98 @@
+{
+  "synthetic_test_copy": true,
+  "cases": [
+    {
+      "synthetic": true,
+      "review_id": "f6b592f4-0e90-448a-9282-1eafe1e3234c",
+      "planted_field": "topic",
+      "original": "other",
+      "planted": "support",
+      "verifier": "other",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "957dd8c7-4db7-4d86-9a1f-bd6c178e97f6",
+      "planted_field": "intent",
+      "original": "complaint",
+      "planted": "praise",
+      "verifier": "complaint",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "ac3de4d6-dbe5-496b-a727-719bd83e0c02",
+      "planted_field": "severity",
+      "original": 4,
+      "planted": 1,
+      "verifier": 4,
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "5687d4c0-48ba-45c7-945d-fac743523fcc",
+      "planted_field": "topic",
+      "original": "other",
+      "planted": "support",
+      "verifier": "other",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "4edbc09b-88ec-4507-9013-ee8f962d780f",
+      "planted_field": "intent",
+      "original": "praise",
+      "planted": "complaint",
+      "verifier": "praise",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "396d6639-37bc-41e1-a5db-773c26884f6e",
+      "planted_field": "severity",
+      "original": 2,
+      "planted": 5,
+      "verifier": 2,
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "9692c6cb-b4d7-4ecf-ba0e-24821a691b3d",
+      "planted_field": "topic",
+      "original": "other",
+      "planted": "support",
+      "verifier": "other",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "01543718-4b76-4321-8e76-daf468407a22",
+      "planted_field": "intent",
+      "original": "complaint",
+      "planted": "praise",
+      "verifier": "complaint",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "ac3e091e-cc41-411e-a3e2-b710997e4a0c",
+      "planted_field": "severity",
+      "original": 4,
+      "planted": 1,
+      "verifier": 4,
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "b1f6fbe5-73d0-4c20-84e7-a7012acc1aff",
+      "planted_field": "topic",
+      "original": "catalog",
+      "planted": "support",
+      "verifier": "catalog",
+      "flagged": true
+    }
+  ],
+  "planted": 10,
+  "flagged": 10,
+  "pass": true
+}

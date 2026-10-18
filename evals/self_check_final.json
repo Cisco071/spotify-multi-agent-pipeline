@@ -1,0 +1,1016 @@
+{
+  "audit_script_sha256": "d60bd66d84922d934c65b3d42b2c7d36cc738e8c75e2d6f2b2f58bca3141c26d",
+  "audit_version": "a5-audit-v1",
+  "automatic_grade": null,
+  "calculated_ranking": [
+    {
+      "complaint_count": 19032,
+      "issue_id": "other.general_criticism",
+      "mean_severity": "1.975988",
+      "priority_score": 37607,
+      "rank": 1,
+      "severity_sum": 37607
+    },
+    {
+      "complaint_count": 9415,
+      "issue_id": "billing.premium_only_controls",
+      "mean_severity": "2.828465",
+      "priority_score": 26630,
+      "rank": 2,
+      "severity_sum": 26630
+    },
+    {
+      "complaint_count": 8512,
+      "issue_id": "usability.ads",
+      "mean_severity": "2.119478",
+      "priority_score": 18041,
+      "rank": 3,
+      "severity_sum": 18041
+    },
+    {
+      "complaint_count": 3097,
+      "issue_id": "playback.stops_or_skips",
+      "mean_severity": "3.127220",
+      "priority_score": 9685,
+      "rank": 4,
+      "severity_sum": 9685
+    },
+    {
+      "complaint_count": 2156,
+      "issue_id": "playback.crashes_or_wont_open",
+      "mean_severity": "3.506030",
+      "priority_score": 7559,
+      "rank": 5,
+      "severity_sum": 7559
+    },
+    {
+      "complaint_count": 3138,
+      "issue_id": "usability.redesign_update",
+      "mean_severity": "2.287126",
+      "priority_score": 7177,
+      "rank": 6,
+      "severity_sum": 7177
+    },
+    {
+      "complaint_count": 1558,
+      "issue_id": "access.login_failure",
+      "mean_severity": "3.897946",
+      "priority_score": 6073,
+      "rank": 7,
+      "severity_sum": 6073
+    },
+    {
+      "complaint_count": 2193,
+      "issue_id": "usability.shuffle_autoplay",
+      "mean_severity": "2.675787",
+      "priority_score": 5868,
+      "rank": 8,
+      "severity_sum": 5868
+    },
+    {
+      "complaint_count": 1988,
+      "issue_id": "usability.controls",
+      "mean_severity": "2.826962",
+      "priority_score": 5620,
+      "rank": 9,
+      "severity_sum": 5620
+    },
+    {
+      "complaint_count": 1527,
+      "issue_id": "catalog.missing_or_removed_content",
+      "mean_severity": "2.673215",
+      "priority_score": 4082,
+      "rank": 10,
+      "severity_sum": 4082
+    },
+    {
+      "complaint_count": 1284,
+      "issue_id": "usability.queue_playlist_management",
+      "mean_severity": "2.741433",
+      "priority_score": 3520,
+      "rank": 11,
+      "severity_sum": 3520
+    },
+    {
+      "complaint_count": 1077,
+      "issue_id": "playback.other",
+      "mean_severity": "2.913649",
+      "priority_score": 3138,
+      "rank": 12,
+      "severity_sum": 3138
+    },
+    {
+      "complaint_count": 1080,
+      "issue_id": "catalog.lyrics",
+      "mean_severity": "2.779630",
+      "priority_score": 3002,
+      "rank": 13,
+      "severity_sum": 3002
+    },
+    {
+      "complaint_count": 1202,
+      "issue_id": "billing.price",
+      "mean_severity": "2.057404",
+      "priority_score": 2473,
+      "rank": 14,
+      "severity_sum": 2473
+    },
+    {
+      "complaint_count": 727,
+      "issue_id": "playback.connection_errors",
+      "mean_severity": "3.345254",
+      "priority_score": 2432,
+      "rank": 15,
+      "severity_sum": 2432
+    },
+    {
+      "complaint_count": 765,
+      "issue_id": "playback.device_connectivity",
+      "mean_severity": "2.985621",
+      "priority_score": 2284,
+      "rank": 16,
+      "severity_sum": 2284
+    },
+    {
+      "complaint_count": 678,
+      "issue_id": "playback.lag_or_slow",
+      "mean_severity": "2.871681",
+      "priority_score": 1947,
+      "rank": 17,
+      "severity_sum": 1947
+    },
+    {
+      "complaint_count": 1211,
+      "issue_id": "other.boycott_political",
+      "mean_severity": "1.516928",
+      "priority_score": 1837,
+      "rank": 18,
+      "severity_sum": 1837
+    },
+    {
+      "complaint_count": 792,
+      "issue_id": "catalog.recommendations",
+      "mean_severity": "2.202020",
+      "priority_score": 1744,
+      "rank": 19,
+      "severity_sum": 1744
+    },
+    {
+      "complaint_count": 706,
+      "issue_id": "usability.navigation_layout",
+      "mean_severity": "2.362606",
+      "priority_score": 1668,
+      "rank": 20,
+      "severity_sum": 1668
+    },
+    {
+      "complaint_count": 457,
+      "issue_id": "billing.subscription_activation",
+      "mean_severity": "3.621444",
+      "priority_score": 1655,
+      "rank": 21,
+      "severity_sum": 1655
+    },
+    {
+      "complaint_count": 402,
+      "issue_id": "downloads.downloads_disappear",
+      "mean_severity": "3.597015",
+      "priority_score": 1446,
+      "rank": 22,
+      "severity_sum": 1446
+    },
+    {
+      "complaint_count": 462,
+      "issue_id": "downloads.offline_mode",
+      "mean_severity": "3.129870",
+      "priority_score": 1446,
+      "rank": 23,
+      "severity_sum": 1446
+    },
+    {
+      "complaint_count": 428,
+      "issue_id": "downloads.download_failure",
+      "mean_severity": "3.035047",
+      "priority_score": 1299,
+      "rank": 24,
+      "severity_sum": 1299
+    },
+    {
+      "complaint_count": 319,
+      "issue_id": "access.logged_out",
+      "mean_severity": "3.683386",
+      "priority_score": 1175,
+      "rank": 25,
+      "severity_sum": 1175
+    },
+    {
+      "complaint_count": 404,
+      "issue_id": "catalog.search",
+      "mean_severity": "2.764851",
+      "priority_score": 1117,
+      "rank": 26,
+      "severity_sum": 1117
+    },
+    {
+      "complaint_count": 427,
+      "issue_id": "playback.audio_quality",
+      "mean_severity": "2.449649",
+      "priority_score": 1046,
+      "rank": 27,
+      "severity_sum": 1046
+    },
+    {
+      "complaint_count": 348,
+      "issue_id": "billing.plans_family_student",
+      "mean_severity": "2.410920",
+      "priority_score": 839,
+      "rank": 28,
+      "severity_sum": 839
+    },
+    {
+      "complaint_count": 185,
+      "issue_id": "billing.unexpected_charges",
+      "mean_severity": "4.286486",
+      "priority_score": 793,
+      "rank": 29,
+      "severity_sum": 793
+    },
+    {
+      "complaint_count": 180,
+      "issue_id": "access.account_hacked_or_locked",
+      "mean_severity": "3.961111",
+      "priority_score": 713,
+      "rank": 30,
+      "severity_sum": 713
+    },
+    {
+      "complaint_count": 248,
+      "issue_id": "playback.background_play",
+      "mean_severity": "2.862903",
+      "priority_score": 710,
+      "rank": 31,
+      "severity_sum": 710
+    },
+    {
+      "complaint_count": 254,
+      "issue_id": "catalog.other",
+      "mean_severity": "2.240157",
+      "priority_score": 569,
+      "rank": 32,
+      "severity_sum": 569
+    },
+    {
+      "complaint_count": 264,
+      "issue_id": "other.other",
+      "mean_severity": "2.007576",
+      "priority_score": 530,
+      "rank": 33,
+      "severity_sum": 530
+    },
+    {
+      "complaint_count": 146,
+      "issue_id": "access.other",
+      "mean_severity": "3.226027",
+      "priority_score": 471,
+      "rank": 34,
+      "severity_sum": 471
+    },
+    {
+      "complaint_count": 177,
+      "issue_id": "usability.other",
+      "mean_severity": "2.514124",
+      "priority_score": 445,
+      "rank": 35,
+      "severity_sum": 445
+    },
+    {
+      "complaint_count": 180,
+      "issue_id": "usability.widgets_notifications_lockscreen",
+      "mean_severity": "2.433333",
+      "priority_score": 438,
+      "rank": 36,
+      "severity_sum": 438
+    },
+    {
+      "complaint_count": 146,
+      "issue_id": "billing.cancel_or_refund",
+      "mean_severity": "2.979452",
+      "priority_score": 435,
+      "rank": 37,
+      "severity_sum": 435
+    },
+    {
+      "complaint_count": 167,
+      "issue_id": "catalog.podcasts_audiobooks",
+      "mean_severity": "2.598802",
+      "priority_score": 434,
+      "rank": 38,
+      "severity_sum": 434
+    },
+    {
+      "complaint_count": 179,
+      "issue_id": "billing.other",
+      "mean_severity": "2.402235",
+      "priority_score": 430,
+      "rank": 39,
+      "severity_sum": 430
+    },
+    {
+      "complaint_count": 131,
+      "issue_id": "playback.battery_resource_use",
+      "mean_severity": "2.557252",
+      "priority_score": 335,
+      "rank": 40,
+      "severity_sum": 335
+    },
+    {
+      "complaint_count": 92,
+      "issue_id": "access.signup",
+      "mean_severity": "3.543478",
+      "priority_score": 326,
+      "rank": 41,
+      "severity_sum": 326
+    },
+    {
+      "complaint_count": 114,
+      "issue_id": "downloads.other",
+      "mean_severity": "2.728070",
+      "priority_score": 311,
+      "rank": 42,
+      "severity_sum": 311
+    },
+    {
+      "complaint_count": 112,
+      "issue_id": "downloads.storage",
+      "mean_severity": "2.758929",
+      "priority_score": 309,
+      "rank": 43,
+      "severity_sum": 309
+    },
+    {
+      "complaint_count": 116,
+      "issue_id": "other.general_praise",
+      "mean_severity": "1.732759",
+      "priority_score": 201,
+      "rank": 44,
+      "severity_sum": 201
+    },
+    {
+      "complaint_count": 72,
+      "issue_id": "support.unhelpful_response",
+      "mean_severity": "2.652778",
+      "priority_score": 191,
+      "rank": 45,
+      "severity_sum": 191
+    },
+    {
+      "complaint_count": 43,
+      "issue_id": "access.password_reset",
+      "mean_severity": "3.418605",
+      "priority_score": 147,
+      "rank": 46,
+      "severity_sum": 147
+    },
+    {
+      "complaint_count": 31,
+      "issue_id": "support.no_response",
+      "mean_severity": "2.645161",
+      "priority_score": 82,
+      "rank": 47,
+      "severity_sum": 82
+    },
+    {
+      "complaint_count": 39,
+      "issue_id": "other.unrelated_or_unintelligible",
+      "mean_severity": "1.743590",
+      "priority_score": 68,
+      "rank": 48,
+      "severity_sum": 68
+    },
+    {
+      "complaint_count": 21,
+      "issue_id": "support.contact_difficulty",
+      "mean_severity": "2.666667",
+      "priority_score": 56,
+      "rank": 49,
+      "severity_sum": 56
+    },
+    {
+      "complaint_count": 6,
+      "issue_id": "support.other",
+      "mean_severity": "2.166667",
+      "priority_score": 13,
+      "rank": 50,
+      "severity_sum": 13
+    }
+  ],
+  "coverage": {
+    "accounted_fraction": 1.0,
+    "duplicate_ids": 0,
+    "expected": 150013,
+    "invalid_or_unresolved": 0,
+    "labelable": 150000,
+    "labelable_completion_fraction": 0.999973,
+    "missing": 0,
+    "quarantined": 17,
+    "received_lines": 150013,
+    "unique_expected_ids": 150013,
+    "valid_cache_reuses": 34459,
+    "valid_completed": 149996,
+    "valid_completion_fraction": 0.999887
+  },
+  "examples": [
+    {
+      "code": "unfinished_classification",
+      "detail": "4"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "d4c7c49b-6f2f-4914-ac48-f02e2f36a925"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "2fd5129f-aea4-4808-961a-9cf851a69925"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "8fa0fa37-e548-47a5-8b6f-f89c352c1b29"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "83ee651b-e4e5-4892-9ed6-973b08133042"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "eaa6d090-986c-4d1c-9cba-8ff537494c7c"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "f3778e18-1f34-462d-89aa-394b989de499"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "f9529e64-d058-4076-85ad-b9f9558114f4"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "6b90a49a-3784-473b-a134-8b2746a6249f"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "49e98b99-a01a-4391-836f-a409ac53cf5d"
+    },
+    {
+      "code": "call_config_mismatch",
+      "detail": "22b5fbed-ab5a-44a2-9e31-9425cc7193b9"
+    }
+  ],
+  "hash_convention": "Reference/benchmark: canonical UTF-8 JSON via canonical(); input files and audit script: exact bytes.",
+  "input_files_sha256": {
+    "calls.jsonl.gz": "694635b59316be1e36f692ecd4eff13872ae1f94d9af000d42bb7943a78e7870",
+    "checkpoint_after.json": "6bc19c78bd692ba125635dac8569a56ead0f0f0756a75d4def6c6d3500afb79c",
+    "checkpoint_before.json": "3168355a82ee64a0c98251c0408a2d11f279b89db889051d91dc125c1579d15b",
+    "claims.csv": "ffee34be39cdfa79fbe882a43e6049573f7a01557e7935c4a834523814d6dad2",
+    "ingestion.json": "5512dd793b0bde3bd51f28b20b440108f3c9bab31233819bea5f32ce19482153",
+    "membership.csv": "5032c1107cfd143e449632ac97ed3940b5fbccc45a73840e82516f7f1ba3f32c",
+    "ranking.csv": "7944a661976d41242102dc43565baf5b508b27a5acb4f51000adb92a862c6df1",
+    "records.jsonl.gz": "3c89c3c525c8f4c157664186611b0cff30b51ba9db794706df5fcf081594f0a1",
+    "run.json": "8094aea1c4511d3a54a3da0ef7e8248ad80ed95d7add18b8c65696b3b50d1ddb"
+  },
+  "issue_counts": {
+    "call_config_mismatch": 26,
+    "unfinished_classification": 1
+  },
+  "limits": [
+    "Artifacts do not prove actual model execution, authorship, cost, or independent verification.",
+    "Exact quote membership does not prove that the quote supports the label.",
+    "Claims export checks numbers; a person must check that all memo claims are represented.",
+    "Benchmark agreement is diagnostic; final 4/3/3 grades require rubric review."
+  ],
+  "quality": {
+    "agreement": {
+      "intent": 0.84,
+      "joint": 0.46,
+      "severity": 0.82,
+      "topic": 0.6
+    },
+    "approved_cases": 50,
+    "benchmark_sha256": "c9b0e665c3b3a395eadf6524e9f4792431d05cdef6e709deab878df03487fd57",
+    "benchmark_version": "golden50-human-v1",
+    "cases": [
+      {
+        "intent_correct": true,
+        "review_id": "292ce26a-815d-4bce-a3b6-93cb6c9e7e2c",
+        "severity_correct": false,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "a70e8d3e-3f84-46bc-b008-67f476c67963",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "0d4f8b48-74c1-4e2a-89b5-11eaa737027e",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "991b6b3a-f511-458a-a5b7-234f78048fb5",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "599a0d41-989a-40ef-8ed2-e92db76eea46",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "0c6ca545-3f89-4da6-b3db-1a352371fb6e",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "111f9048-f7bd-4be0-813e-76b8fc49f73f",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "b567f70c-edba-4922-ac2a-e945e5eb3472",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "b5ee7834-a0eb-4c15-9c7b-935831021922",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": false,
+        "review_id": "1fc8b08f-7d6a-472f-b317-8ceb28d00f22",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "947821dc-b356-45dc-a0bc-1903728fad40",
+        "severity_correct": false,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": false,
+        "review_id": "723f07de-9881-4049-8680-1a9e25652914",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "47428620-ec21-424d-a515-0b0b0012a5cf",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": false,
+        "review_id": "fc344263-308d-48a1-9715-c380d063b6de",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "6112667b-3d71-475c-b1a4-159b87f73d2b",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "01d453b0-dca3-42e9-8aa4-5fc167b08070",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": false,
+        "review_id": "ac6cd66d-a9d2-42a4-afb8-2f84beff7fd1",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "44129679-31a0-4108-9314-086a3456f6ae",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "46842184-32f8-4088-ac15-2a700a7e94ed",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "657f1b77-0183-4b06-bf48-5e6d9ab08f9a",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": false,
+        "review_id": "5de7f95b-ccad-41b2-9f63-a13f7c1d9f09",
+        "severity_correct": false,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "de48c99b-46fe-4837-8634-e63dbc72a5ea",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "aa573851-0b86-4b1b-adf6-210268c08d2a",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": false,
+        "review_id": "372d4e67-59cc-4c54-879f-3e8a202ee554",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "47f1406d-4918-4d60-9647-5ca8e610caca",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "82780cbe-6435-4efb-84f6-8e5fa47ffc3a",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "36609c5c-fe48-4459-86b8-cc78fd3c77cd",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": false,
+        "review_id": "f4c8146a-d5c8-4168-b00e-21af666afc6a",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "3ddb3f4e-f7b9-430b-b335-eadc6d321f46",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "16d640e9-b281-4746-9562-c7dbcf7126b6",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "8cc4fad4-26ec-47b7-96e8-49c7da714eca",
+        "severity_correct": false,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "215463ae-95b7-4481-8747-1754b68f31fa",
+        "severity_correct": false,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "46c0b49f-83a1-427e-8f0b-cef62e3c94b5",
+        "severity_correct": false,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "283b5843-a992-464f-b1dc-9dc7281ff390",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "1d15724a-98ff-400a-8083-0d9afc801098",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "89ea724c-358f-48ab-9516-cd130d21c471",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "2aa566c6-b98d-4513-b900-83702a8db8eb",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "8c0546b0-ce43-4a36-9d33-9f979e98d522",
+        "severity_correct": false,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "a972945c-6601-4108-882a-afe986866a7b",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "8fd3dd72-5535-40f6-8779-1bd60892131e",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": false,
+        "review_id": "b58dd6f0-ad88-4319-b6db-58afb60c37c1",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "1a41c7e1-a655-4c63-b4db-c22bdff18003",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "dceb14e7-2df0-422f-bb2b-73d7c373159a",
+        "severity_correct": false,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "5fba12ea-4980-4f25-a129-f830a3974fd2",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "ac4e860a-c042-49cc-90f3-189591c336ac",
+        "severity_correct": false,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "9034d675-9582-49b6-a1c1-c4ddabf8baf1",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "d2f3874f-d15d-4a2f-bb97-4f1213defa46",
+        "severity_correct": true,
+        "topic_correct": false,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "99b93e31-9f15-4daa-88ac-349ab0419c48",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "ca63dfbe-7120-4e18-af6e-8ea786cd157d",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      },
+      {
+        "intent_correct": true,
+        "review_id": "083811c7-d469-499b-9bef-5b9fb096653d",
+        "severity_correct": true,
+        "topic_correct": true,
+        "valid_prediction": true
+      }
+    ],
+    "class_counts": {
+      "intent": {
+        "cancellation:correct": 1,
+        "cancellation:support": 2,
+        "complaint:correct": 20,
+        "complaint:support": 21,
+        "praise:correct": 18,
+        "praise:support": 21,
+        "unclear:correct": 3,
+        "unclear:support": 6
+      },
+      "severity": {
+        "1:correct": 26,
+        "1:support": 26,
+        "2:correct": 10,
+        "2:support": 14,
+        "3:correct": 4,
+        "3:support": 7,
+        "4:correct": 1,
+        "4:support": 2,
+        "5:correct": 0,
+        "5:support": 1
+      },
+      "topic": {
+        "catalog:correct": 1,
+        "catalog:support": 1,
+        "other:correct": 21,
+        "other:support": 25,
+        "playback:correct": 2,
+        "playback:support": 5,
+        "support:correct": 0,
+        "support:support": 1,
+        "usability:correct": 6,
+        "usability:support": 18
+      }
+    },
+    "missing_or_invalid_predictions": 0,
+    "note": "Missing, quarantined and invalid predictions count as incorrect in agreement; MAE reports valid predictions only. Pending labels prevent official use.",
+    "official": true,
+    "severity_mae_on_valid_predictions": 0.24,
+    "singleton_metrics": {
+      "intent": {
+        "macro_f1": 0.763511,
+        "per_class": {
+          "cancellation": {
+            "f1": 0.666667,
+            "precision": 1.0,
+            "predicted": 1,
+            "recall": 0.5,
+            "support": 2
+          },
+          "complaint": {
+            "f1": 0.930233,
+            "precision": 0.909091,
+            "predicted": 22,
+            "recall": 0.952381,
+            "support": 21
+          },
+          "praise": {
+            "f1": 0.857143,
+            "precision": 0.857143,
+            "predicted": 21,
+            "recall": 0.857143,
+            "support": 21
+          },
+          "unclear": {
+            "f1": 0.6,
+            "precision": 0.75,
+            "predicted": 4,
+            "recall": 0.5,
+            "support": 6
+          }
+        }
+      },
+      "severity": {
+        "macro_f1": 0.539259,
+        "per_class": {
+          "1": {
+            "f1": 0.962963,
+            "precision": 0.928571,
+            "predicted": 28,
+            "recall": 1.0,
+            "support": 26
+          },
+          "2": {
+            "f1": 0.8,
+            "precision": 0.909091,
+            "predicted": 11,
+            "recall": 0.714286,
+            "support": 14
+          },
+          "3": {
+            "f1": 0.533333,
+            "precision": 0.5,
+            "predicted": 8,
+            "recall": 0.571429,
+            "support": 7
+          },
+          "4": {
+            "f1": 0.4,
+            "precision": 0.333333,
+            "predicted": 3,
+            "recall": 0.5,
+            "support": 2
+          },
+          "5": {
+            "f1": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": 0.0,
+            "support": 1
+          }
+        }
+      },
+      "topic": {
+        "macro_f1": 0.394131,
+        "per_class": {
+          "catalog": {
+            "f1": 0.333333,
+            "precision": 0.2,
+            "predicted": 5,
+            "recall": 1.0,
+            "support": 1
+          },
+          "other": {
+            "f1": 0.823529,
+            "precision": 0.807692,
+            "predicted": 26,
+            "recall": 0.84,
+            "support": 25
+          },
+          "playback": {
+            "f1": 0.4,
+            "precision": 0.4,
+            "predicted": 5,
+            "recall": 0.4,
+            "support": 5
+          },
+          "support": {
+            "f1": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": 0.0,
+            "support": 1
+          },
+          "usability": {
+            "f1": 0.413793,
+            "precision": 0.545455,
+            "predicted": 11,
+            "recall": 0.333333,
+            "support": 18
+          }
+        }
+      }
+    },
+    "status": "ready",
+    "total_cases": 50
+  },
+  "reference_sha256": "d7667d64b73a10773e4b913e871715a7ea0104dada006562df93f0aec6b079ba",
+  "reported_calls": 3721,
+  "reported_input_tokens": 8931279,
+  "reported_output_tokens": 15484162,
+  "status": "review_required",
+  "working_coverage_point_candidate": 1.0
+}

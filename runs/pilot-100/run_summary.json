@@ -1,0 +1,189 @@
+{
+  "run_id": "pilot-100",
+  "invocation": "inv-20261013T170527-d18592",
+  "phase": "resume",
+  "stages": {
+    "ingest": {
+      "seconds": 0.02,
+      "result": {
+        "input": "Final Assignment - Spotify Reviews Dataset/cost_100.csv",
+        "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+        "rows": 100,
+        "inserted": 0,
+        "nonempty": 100,
+        "empty_quarantined": 0,
+        "distinct_nonempty_texts": 100
+      }
+    },
+    "enrich": {
+      "seconds": 0.0,
+      "result": {
+        "batches": 0,
+        "calls_ok": 0,
+        "calls_failed": 0,
+        "completed": 0,
+        "cache_hits": -2,
+        "retried_ids": 0,
+        "fallback_ids": 0,
+        "quarantined": 0,
+        "stopped_reason": null,
+        "wall_s": 0.0,
+        "status_before": {
+          "completed": 100
+        },
+        "status_after": {
+          "completed": 100
+        }
+      }
+    },
+    "verify": {
+      "seconds": 0.0,
+      "result": {
+        "summary": {
+          "n": 10,
+          "agreement": {
+            "topic": 0.8,
+            "intent": 1.0,
+            "severity_exact": 0.8,
+            "sentiment_within_tol": 1.0,
+            "complaint_flag": 1.0,
+            "all_core_agree": 0.7
+          },
+          "severity_mae": 0.2,
+          "disagreements": 3,
+          "topic_pairs": {
+            "other->other": 6,
+            "access->access": 1,
+            "catalog->other": 1,
+            "other->billing": 1,
+            "catalog->catalog": 1
+          },
+          "intent_pairs": {
+            "praise->praise": 5,
+            "complaint->complaint": 4,
+            "unclear->unclear": 1
+          },
+          "sentiment_tolerance": 0.5
+        },
+        "planted_error_pass": true
+      }
+    },
+    "group": {
+      "seconds": 0.0,
+      "result": {
+        "issues": 17,
+        "memberships": 52
+      }
+    },
+    "rank": {
+      "seconds": 0.0,
+      "result": {
+        "issues_ranked": 17,
+        "top5": [
+          "billing.premium_only_controls",
+          "other.general_criticism",
+          "usability.ads",
+          "usability.redesign_update",
+          "access.login_failure"
+        ]
+      }
+    },
+    "memo": {
+      "seconds": 0.0,
+      "result": {
+        "recommended_area": "billing_support",
+        "claims": 12
+      }
+    },
+    "export": {
+      "seconds": 0.0,
+      "result": {
+        "files": [
+          "aggregates.csv",
+          "aggregates.json",
+          "calls.jsonl",
+          "claims.csv",
+          "enriched.jsonl",
+          "group_names.json",
+          "ingest.json",
+          "issues.json",
+          "manifest.json",
+          "membership.csv",
+          "memo.json",
+          "memo.md",
+          "memo_inputs.json",
+          "quarantine.jsonl",
+          "ranking.csv",
+          "run_log.jsonl",
+          "run_summaries.jsonl",
+          "run_summary.json",
+          "verify"
+        ]
+      }
+    }
+  },
+  "spend_cap_usd": 2.0,
+  "workers": 1,
+  "started_at": "2026-10-13T17:05:27",
+  "wall_seconds": 0.02,
+  "status_counts": {
+    "completed": 100
+  },
+  "usage_this_invocation": [],
+  "usage_all_invocations": [
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 2,
+      "i": 7363,
+      "o": 12546,
+      "cw": 4006,
+      "cr": 4006,
+      "usd": 0.0075501100000000005,
+      "lat": 45396
+    },
+    {
+      "role": "group",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 2,
+      "i": 3914,
+      "o": 1744,
+      "cw": 776,
+      "cr": 776,
+      "usd": 0.0013681599999999998,
+      "lat": 9571
+    },
+    {
+      "role": "memo",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 1,
+      "i": 6380,
+      "o": 3398,
+      "cw": 1513,
+      "cr": 0,
+      "usd": 0.0505225,
+      "lat": 20746
+    },
+    {
+      "role": "verify",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 1,
+      "i": 547,
+      "o": 1168,
+      "cw": 3146,
+      "cr": 0,
+      "usd": 0.020639,
+      "lat": 20795
+    }
+  ],
+  "ledger": {
+    "cap_usd": 2.0,
+    "spent_usd": 0.08008,
+    "reserved_usd": 0.0
+  },
+  "stopped": false
+}

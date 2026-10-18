@@ -1,0 +1,25 @@
+request_id,pilot_run,role,model,outcome,billing_item,billed_units,unit,usage_source
+local-ad6844fe45ef4dab,cold,enrich,claude-haiku-5-5,succeeded,input,3608,token,provider response.usage
+local-ad6844fe45ef4dab,cold,enrich,claude-haiku-5-5,succeeded,cache_write_5m,4006,token,provider response.usage
+local-ad6844fe45ef4dab,cold,enrich,claude-haiku-5-5,succeeded,cache_read,0,token,provider response.usage
+local-ad6844fe45ef4dab,cold,enrich,claude-haiku-5-5,succeeded,output,6233,token,provider response.usage
+local-8b40371607694e9d,cold,enrich,claude-haiku-5-5,succeeded,input,3755,token,provider response.usage
+local-8b40371607694e9d,cold,enrich,claude-haiku-5-5,succeeded,cache_write_5m,0,token,provider response.usage
+local-8b40371607694e9d,cold,enrich,claude-haiku-5-5,succeeded,cache_read,4006,token,provider response.usage
+local-8b40371607694e9d,cold,enrich,claude-haiku-5-5,succeeded,output,6313,token,provider response.usage
+local-8917550b797e4164,cold,verify,claude-sonnet-5-5,succeeded,input,547,token,provider response.usage
+local-8917550b797e4164,cold,verify,claude-sonnet-5-5,succeeded,cache_write_5m,3146,token,provider response.usage
+local-8917550b797e4164,cold,verify,claude-sonnet-5-5,succeeded,cache_read,0,token,provider response.usage
+local-8917550b797e4164,cold,verify,claude-sonnet-5-5,succeeded,output,1168,token,provider response.usage
+local-dcfe6ac2bc264862,cold,group,claude-haiku-5-5,succeeded,input,2351,token,provider response.usage
+local-dcfe6ac2bc264862,cold,group,claude-haiku-5-5,succeeded,cache_write_5m,776,token,provider response.usage
+local-dcfe6ac2bc264862,cold,group,claude-haiku-5-5,succeeded,cache_read,0,token,provider response.usage
+local-dcfe6ac2bc264862,cold,group,claude-haiku-5-5,succeeded,output,939,token,provider response.usage
+local-7c48a0ff85bf4da0,cold,group,claude-haiku-5-5,succeeded,input,1563,token,provider response.usage
+local-7c48a0ff85bf4da0,cold,group,claude-haiku-5-5,succeeded,cache_write_5m,0,token,provider response.usage
+local-7c48a0ff85bf4da0,cold,group,claude-haiku-5-5,succeeded,cache_read,776,token,provider response.usage
+local-7c48a0ff85bf4da0,cold,group,claude-haiku-5-5,succeeded,output,805,token,provider response.usage
+local-f98e04bcf8f54b7d,cold,memo,claude-sonnet-5-5,succeeded,input,6380,token,provider response.usage
+local-f98e04bcf8f54b7d,cold,memo,claude-sonnet-5-5,succeeded,cache_write_5m,1513,token,provider response.usage
+local-f98e04bcf8f54b7d,cold,memo,claude-sonnet-5-5,succeeded,cache_read,0,token,provider response.usage
+local-f98e04bcf8f54b7d,cold,memo,claude-sonnet-5-5,succeeded,output,3398,token,provider response.usage

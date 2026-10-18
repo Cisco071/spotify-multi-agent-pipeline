@@ -1,0 +1,33 @@
+{"ts": "2026-10-13T17:39:16", "invocation": "inv-20261013T173916-bfa385", "msg": "run start", "run_id": "dev-500", "stages": ["ingest", "enrich", "verify", "group", "rank", "memo", "export"], "phase": "initial", "input": "dataset/checkpoint_500.csv", "spent_before": 0.0}
+{"ts": "2026-10-13T17:39:16", "invocation": "inv-20261013T173916-bfa385", "msg": "stage ingest done", "seconds": 0.03}
+{"ts": "2026-10-13T17:39:16", "invocation": "inv-20261013T173916-bfa385", "msg": "[enrich] imported 100 results from the cross-run cache (same label_config, same review_id)"}
+{"ts": "2026-10-13T17:39:35", "invocation": "inv-20261013T173916-bfa385", "msg": "batch", "agent": "enricher_1", "attempt": 0, "model": "claude-haiku-5-5", "sent": 50, "ok": 50, "invalid": 0, "invalid_reasons": [], "latency_ms": 18750, "in_tok": 3466, "out_tok": 6233, "cache_read": 0, "cost_usd": 0.003964, "request_id": "local-373a63d4ece44426"}
+{"ts": "2026-10-13T17:39:35", "invocation": "inv-20261013T173916-bfa385", "msg": "[enrich] batches=1 completed=165 pending=335 quarantined=0 spent=$0.0040 elapsed=19s"}
+{"ts": "2026-10-13T17:39:35", "invocation": "inv-20261013T173916-bfa385", "msg": "batch", "agent": "enricher_0", "attempt": 0, "model": "claude-haiku-5-5", "sent": 50, "ok": 50, "invalid": 0, "invalid_reasons": [], "latency_ms": 18976, "in_tok": 3541, "out_tok": 6421, "cache_read": 0, "cost_usd": 0.004065, "request_id": "local-92416a88db3641f8"}
+{"ts": "2026-10-13T17:39:35", "invocation": "inv-20261013T173916-bfa385", "msg": "[enrich] batches=2 completed=215 pending=285 quarantined=0 spent=$0.0080 elapsed=20s"}
+{"ts": "2026-10-13T17:39:54", "invocation": "inv-20261013T173916-bfa385", "msg": "batch", "agent": "enricher_0", "attempt": 0, "model": "claude-haiku-5-5", "sent": 50, "ok": 50, "invalid": 0, "invalid_reasons": [], "latency_ms": 18855, "in_tok": 3698, "out_tok": 6243, "cache_read": 4006, "cost_usd": 0.003531, "request_id": "local-9ca92c172cc849e7"}
+{"ts": "2026-10-13T17:39:54", "invocation": "inv-20261013T173916-bfa385", "msg": "[enrich] batches=3 completed=266 pending=234 quarantined=0 spent=$0.0116 elapsed=38s"}
+{"ts": "2026-10-13T17:39:56", "invocation": "inv-20261013T173916-bfa385", "msg": "batch", "agent": "enricher_1", "attempt": 0, "model": "claude-haiku-5-5", "sent": 50, "ok": 50, "invalid": 0, "invalid_reasons": [], "latency_ms": 20867, "in_tok": 3796, "out_tok": 6719, "cache_read": 4006, "cost_usd": 0.003779, "request_id": "local-9e9cd5371a184738"}
+{"ts": "2026-10-13T17:39:56", "invocation": "inv-20261013T173916-bfa385", "msg": "[enrich] batches=4 completed=318 pending=182 quarantined=0 spent=$0.0153 elapsed=40s"}
+{"ts": "2026-10-13T17:40:13", "invocation": "inv-20261013T173916-bfa385", "msg": "batch", "agent": "enricher_0", "attempt": 0, "model": "claude-haiku-5-5", "sent": 50, "ok": 50, "invalid": 0, "invalid_reasons": [], "latency_ms": 19341, "in_tok": 3527, "out_tok": 6341, "cache_read": 4006, "cost_usd": 0.003563, "request_id": "local-3b960fb73b68410b"}
+{"ts": "2026-10-13T17:40:13", "invocation": "inv-20261013T173916-bfa385", "msg": "[enrich] batches=5 completed=370 pending=130 quarantined=0 spent=$0.0189 elapsed=58s"}
+{"ts": "2026-10-13T17:40:15", "invocation": "inv-20261013T173916-bfa385", "msg": "batch", "agent": "enricher_1", "attempt": 0, "model": "claude-haiku-5-5", "sent": 50, "ok": 50, "invalid": 0, "invalid_reasons": [], "latency_ms": 18908, "in_tok": 3520, "out_tok": 6283, "cache_read": 4006, "cost_usd": 0.003534, "request_id": "local-b5b2680af1404856"}
+{"ts": "2026-10-13T17:40:15", "invocation": "inv-20261013T173916-bfa385", "msg": "[enrich] batches=6 completed=420 pending=80 quarantined=0 spent=$0.0224 elapsed=59s"}
+{"ts": "2026-10-13T17:40:26", "invocation": "inv-20261013T173916-bfa385", "msg": "batch", "agent": "enricher_1", "attempt": 0, "model": "claude-haiku-5-5", "sent": 29, "ok": 29, "invalid": 0, "invalid_reasons": [], "latency_ms": 11077, "in_tok": 2069, "out_tok": 3723, "cache_read": 4006, "cost_usd": 0.002108, "request_id": "local-e1aabcd2bd0145c2"}
+{"ts": "2026-10-13T17:40:26", "invocation": "inv-20261013T173916-bfa385", "msg": "[enrich] batches=7 completed=449 pending=51 quarantined=0 spent=$0.0245 elapsed=70s"}
+{"ts": "2026-10-13T17:40:32", "invocation": "inv-20261013T173916-bfa385", "msg": "batch", "agent": "enricher_0", "attempt": 0, "model": "claude-haiku-5-5", "sent": 50, "ok": 48, "invalid": 2, "invalid_reasons": ["quote_not_substring"], "latency_ms": 19033, "in_tok": 3732, "out_tok": 6372, "cache_read": 4006, "cost_usd": 0.003599, "request_id": "local-b9440b149e6f429d"}
+{"ts": "2026-10-13T17:40:34", "invocation": "inv-20261013T173916-bfa385", "msg": "batch", "agent": "enricher_0", "attempt": 1, "model": "claude-haiku-5-5", "sent": 2, "ok": 2, "invalid": 0, "invalid_reasons": [], "latency_ms": 1729, "in_tok": 391, "out_tok": 340, "cache_read": 4006, "cost_usd": 0.000249, "request_id": "local-87ad6a4bee514d8e"}
+{"ts": "2026-10-13T17:40:34", "invocation": "inv-20261013T173916-bfa385", "msg": "[enrich] batches=8 completed=500 pending=0 quarantined=0 spent=$0.0284 elapsed=79s"}
+{"ts": "2026-10-13T17:40:34", "invocation": "inv-20261013T173916-bfa385", "msg": "stage enrich done", "seconds": 78.6}
+{"ts": "2026-10-13T17:40:51", "invocation": "inv-20261013T173916-bfa385", "msg": "[verify] 25/48 spent=$0.0691"}
+{"ts": "2026-10-13T17:41:08", "invocation": "inv-20261013T173916-bfa385", "msg": "[verify] 48/48 spent=$0.1014"}
+{"ts": "2026-10-13T17:41:08", "invocation": "inv-20261013T173916-bfa385", "msg": "stage verify done", "seconds": 33.53}
+{"ts": "2026-10-13T17:41:13", "invocation": "inv-20261013T173916-bfa385", "msg": "[group] named 10/31 issues"}
+{"ts": "2026-10-13T17:41:18", "invocation": "inv-20261013T173916-bfa385", "msg": "[group] named 20/31 issues"}
+{"ts": "2026-10-13T17:41:24", "invocation": "inv-20261013T173916-bfa385", "msg": "[group] named 30/31 issues"}
+{"ts": "2026-10-13T17:41:26", "invocation": "inv-20261013T173916-bfa385", "msg": "[group] named 31/31 issues"}
+{"ts": "2026-10-13T17:41:26", "invocation": "inv-20261013T173916-bfa385", "msg": "stage group done", "seconds": 18.07}
+{"ts": "2026-10-13T17:41:26", "invocation": "inv-20261013T173916-bfa385", "msg": "stage rank done", "seconds": 0.01}
+{"ts": "2026-10-13T17:41:53", "invocation": "inv-20261013T173916-bfa385", "msg": "stage memo done", "seconds": 27.01}
+{"ts": "2026-10-13T17:41:53", "invocation": "inv-20261013T173916-bfa385", "msg": "stage export done", "seconds": 0.01}
+{"ts": "2026-10-13T17:41:53", "invocation": "inv-20261013T173916-bfa385", "msg": "run end", "wall_seconds": 157.26, "status": {"completed": 500}, "spent": 0.160855}

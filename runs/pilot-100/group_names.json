@@ -1,0 +1,178 @@
+{
+  "access.login_failure": {
+    "key": "4886d620e23d8459f03a66acb3ea8e0aecefc071525a15837b3a8d6053b98535",
+    "title": "Cannot log in with correct password",
+    "description": "Users report the app rejects their password and blocks access to their account.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "32fb340f-4f9f-4551-8dae-755221e58d6a"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "billing.premium_only_controls": {
+    "key": "3d563d2492ba1f00f4726a393f6336c099deac2ffbba902f1e834bc0178944e9",
+    "title": "Basic playback controls locked behind premium",
+    "description": "Users say skipping, queue control, and song selection were moved behind the premium subscription in a recent update.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "catalog.lyrics": {
+    "key": "dd3eaf5817f8fbcc33340cf89d00df7facd5be1091be7d62a42af5e385354d3e",
+    "title": "Lyrics missing for some songs",
+    "description": "Users report lyrics sometimes fail to appear, with inconsistent availability across songs.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "catalog.missing_or_removed_content": {
+    "key": "408598513881789c4332085aef343ffa559a894b70469e23ecdd525b1ef20dc1",
+    "title": "Many songs and genres unavailable",
+    "description": "Users feel the catalog lacks many songs, including certain genres like gospel music.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "catalog.recommendations": {
+    "key": "9e8d8e5a7d517a029cb9c1978c8af496ad54a685797a4a646f1f10ca9de0c9ed",
+    "title": "Recommendations feel unwanted or worse",
+    "description": "Users dislike the app's recommendations, saying they are excessive or have declined in quality.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "downloads.download_failure": {
+    "key": "bbcac49d4b06694ffbf5b44c39565a3f08d49d777614aefde52f1dbef637753e",
+    "title": "Song downloads get stuck in background",
+    "description": "Downloads stall in the background and only resume when the app is opened.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "downloads.offline_mode": {
+    "key": "ba51532eb670324d4003733d764ae659bff5e097599b26dbe4adfbead27556fe",
+    "title": "Offline mode does not work",
+    "description": "A user reports that offline mode is not functioning.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "other.boycott_political": {
+    "key": "e7316b90d74fededf0b007da2b6427acda2a56f42f7cb1af92413b2124046f71",
+    "title": "Users boycotting app over political issues",
+    "description": "Users say they will uninstall or boycott the app over its country of origin and related political controversies.",
+    "coherent": false,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "Political or geopolitical boycott sentiment",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "other.general_criticism": {
+    "key": "8801542c2c342e65baa25b8ecfe0f23d6bc62376a2c3ae399e8910f967007bdf",
+    "title": "Vague general dissatisfaction with app",
+    "description": "Users express broad negative sentiment without naming a specific problem.",
+    "coherent": false,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "Unspecified general dissatisfaction",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "playback.audio_quality": {
+    "key": "7545fe3ec5f59bd09458f68c2d7b651288b677d4cd9fb24576533de0dc3d399f",
+    "title": "Music adjustment settings not working properly",
+    "description": "A user reports that music adjustment controls do not function correctly.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-dcfe6ac2bc264862"
+  },
+  "playback.connection_errors": {
+    "key": "1d78d3337555e3ea7ce93448a55aba7de8229912e3bdecd0e64bdaf326c0ed3e",
+    "title": "App fails to connect over Wi-Fi",
+    "description": "Premium user reports the app cannot connect to the internet on Wi-Fi while mobile data works, and some song quality is poor.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "4ab2089a-ffa8-49e7-a8a3-aeb583a96796"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-7c48a0ff85bf4da0"
+  },
+  "playback.crashes_or_wont_open": {
+    "key": "76f8b98fbc9a9d54992d3b1d361637fa85512963fb0d6e04426848e4104bcf47",
+    "title": "App crashes or stalls at launch",
+    "description": "Users report the app gets stuck on the loading screen or crashes after an update, preventing it from opening.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-7c48a0ff85bf4da0"
+  },
+  "playback.device_connectivity": {
+    "key": "4d0086a9427b17e29906d14e87e7e72381bfbd1005f2195778cd49f8d310ecac",
+    "title": "Google Assistant playback not working",
+    "description": "Google Assistant says it is playing a Spotify playlist but does not actually play the songs.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-7c48a0ff85bf4da0"
+  },
+  "playback.stops_or_skips": {
+    "key": "faf130c4cff69cbbe99699927713977517993353e5dce44550c991951986332b",
+    "title": "Playback stops midway and jumps tracks",
+    "description": "Music keeps stopping halfway through and does not resume where it left off, starting a new song instead.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-7c48a0ff85bf4da0"
+  },
+  "usability.ads": {
+    "key": "73190ebdcbf4720daa4d56b52488731e1127046de9889b2a485429342e7ba7e4",
+    "title": "Too many ads for free users",
+    "description": "Free users say ads play very frequently, sometimes every one or two songs, and are loud, making the app frustrating to use.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-7c48a0ff85bf4da0"
+  },
+  "usability.redesign_update": {
+    "key": "182d8ee3b4ae895e93cf473ed20209e813d2b2f4734690c8e8026e621effaabe",
+    "title": "Unwanted redesign and autoplay changes",
+    "description": "Users dislike the new homescreen and update, including losing the ability to skip back a few seconds and large auto-playing audio elements with no way to disable them.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "e16a4550-43e7-4ae1-b538-a65cc652c31b"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Homescreen autoplay audio without disable option; Removed back-skip control in p",
+    "request_id": "local-7c48a0ff85bf4da0"
+  },
+  "usability.shuffle_autoplay": {
+    "key": "b2fb84f331886762612a4fe173f7f5b07864f7b8b6fa5a0ef0e3798ae1659577",
+    "title": "Shuffle plays songs out of order",
+    "description": "Users report they can only skip a limited number of tracks and that playlists play songs randomly rather than as expected.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-7c48a0ff85bf4da0"
+  }
+}

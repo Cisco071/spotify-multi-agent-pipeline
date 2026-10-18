@@ -1,0 +1,71 @@
+{
+  "synthetic_test_copy": true,
+  "cases": [
+    {
+      "synthetic": true,
+      "review_id": "32fb340f-4f9f-4551-8dae-755221e58d6a",
+      "planted_field": "topic",
+      "original": "access",
+      "planted": "support",
+      "verifier": "access",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "4aee0d75-6901-426e-b0f7-11d042ccc73e",
+      "planted_field": "intent",
+      "original": "praise",
+      "planted": "complaint",
+      "verifier": "praise",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "0658feaa-5bec-416e-b6b0-3de2a4c14580",
+      "planted_field": "severity",
+      "original": 2,
+      "planted": 5,
+      "verifier": 2,
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "23de7958-ccb0-4356-bc12-094935e6857d",
+      "planted_field": "topic",
+      "original": "other",
+      "planted": "support",
+      "verifier": "other",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "67b21b33-e6b9-4d1a-b874-86bc182b9ada",
+      "planted_field": "intent",
+      "original": "unclear",
+      "planted": "praise",
+      "verifier": "unclear",
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "5d4d3f47-4b3c-4be4-8f11-6cca41d27068",
+      "planted_field": "severity",
+      "original": 1,
+      "planted": 5,
+      "verifier": 1,
+      "flagged": true
+    },
+    {
+      "synthetic": true,
+      "review_id": "aeee488a-2077-489d-8914-1e01d5f7672f",
+      "planted_field": "topic",
+      "original": "other",
+      "planted": "support",
+      "verifier": "other",
+      "flagged": true
+    }
+  ],
+  "planted": 7,
+  "flagged": 7,
+  "pass": true
+}

@@ -1,0 +1,7 @@
+{"ts": "2026-10-13T18:46:17", "invocation": "inv-20261013T184617-a012fe", "msg": "run start", "run_id": "golden-eval", "stages": ["ingest", "enrich", "export"], "phase": "initial", "input": "dataset/golden_50_to_label.csv", "spent_before": 0.0}
+{"ts": "2026-10-13T18:46:17", "invocation": "inv-20261013T184617-a012fe", "msg": "stage ingest done", "seconds": 0.02}
+{"ts": "2026-10-13T18:46:38", "invocation": "inv-20261013T184617-a012fe", "msg": "batch", "agent": "enricher_0", "attempt": 0, "model": "claude-haiku-5-5", "sent": 49, "ok": 49, "invalid": 0, "invalid_reasons": [], "latency_ms": 20365, "in_tok": 3460, "out_tok": 6655, "cache_read": 0, "cost_usd": 0.004174, "request_id": "local-ab37e1653ad640d3"}
+{"ts": "2026-10-13T18:46:38", "invocation": "inv-20261013T184617-a012fe", "msg": "[enrich] batches=1 completed=50 pending=0 quarantined=0 spent=$0.0042 elapsed=21s"}
+{"ts": "2026-10-13T18:46:38", "invocation": "inv-20261013T184617-a012fe", "msg": "stage enrich done", "seconds": 21.3}
+{"ts": "2026-10-13T18:46:38", "invocation": "inv-20261013T184617-a012fe", "msg": "stage export done", "seconds": 0.0}
+{"ts": "2026-10-13T18:46:38", "invocation": "inv-20261013T184617-a012fe", "msg": "run end", "wall_seconds": 21.32, "status": {"completed": 50}, "spent": 0.004174}

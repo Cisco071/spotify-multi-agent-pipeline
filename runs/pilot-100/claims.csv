@@ -1,0 +1,13 @@
+claim_id,issue_id,metric,value
+C1,billing.premium_only_controls,complaint_count,8
+C2,billing.premium_only_controls,severity_sum,24
+C3,billing.premium_only_controls,mean_severity,3.000000
+C4,billing.premium_only_controls,priority_score,24
+C5,usability.ads,complaint_count,7
+C6,usability.ads,priority_score,14
+C7,usability.redesign_update,complaint_count,4
+C8,usability.redesign_update,priority_score,10
+C9,access.login_failure,complaint_count,2
+C10,access.login_failure,mean_severity,4.000000
+C11,playback.crashes_or_wont_open,complaint_count,2
+C12,playback.crashes_or_wont_open,mean_severity,4.000000

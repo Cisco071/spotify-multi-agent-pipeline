@@ -1,0 +1,9 @@
+{
+  "input": "Final Assignment - Spotify Reviews Dataset/cost_100.csv",
+  "input_sha256": "c884ac3b9be5066995d5063f96ad9af6e5e082975788c1684c4f6b6ea661dd0e",
+  "rows": 100,
+  "inserted": 0,
+  "nonempty": 100,
+  "empty_quarantined": 0,
+  "distinct_nonempty_texts": 100
+}

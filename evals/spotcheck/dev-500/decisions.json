@@ -1,0 +1,848 @@
+{
+  "run_id": "dev-500",
+  "label_config": "claude-haiku-5-5+thinking-disabled+effort-low+enrich_v1+schema_v1+taxonomy_v1",
+  "saved_at": "2026-10-14T01:45:33.940Z",
+  "decisions": {
+    "9d851b7f-a738-449b-a841-de8076f13276": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "89a8e180-7846-4421-a2b6-fa7787e9d0d2": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "9e3a706c-f502-4664-a23f-33f3480eca64": {
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "topic": {
+        "ok": true
+      }
+    },
+    "d27e9b26-a7af-469c-9a4e-8deea2db72ae": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "0cc5a3be-e40c-4e9f-918d-53d284e2e5b3": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "1f13c3a2-e57b-460c-b569-964e6b2b1f31": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "544a8481-e12b-4878-92d0-ec3a5256e13a": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "0b716a9d-85bf-4f4e-8e2e-be71e4a379a6": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "62ad2462-7b07-4238-9025-8cdcaf4e7c8d": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "ac480d7d-1af8-48ab-b581-ab13ede82e67": {
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      },
+      "topic": {
+        "ok": true
+      }
+    },
+    "3e0f6d1b-8d2f-42e0-8ce1-021fe544b585": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "55cc3abf-c295-4591-8c3a-78085cfdefaa": {
+      "topic": {
+        "ok": false,
+        "correct": "access"
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "de0a9cdf-8974-48bc-802f-331228df4619": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "66a29b3c-c14d-440e-b722-b23e0c99ae82": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "32fb340f-4f9f-4551-8dae-755221e58d6a": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "a7b7539a-c8d3-4f4e-9edd-d46cd1b1fd12": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "16929558-ce1e-4b87-8738-a1de3f557f66": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "3df77a78-ad9a-4456-8be8-8178ffd43d67": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "b03d6dc9-449a-4647-b112-559186656759": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "0fcf89b2-0b81-4838-bf5f-41c684e43b2d": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "651e6e7b-f93e-4369-9631-15c73ddcd4ad": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "c7df9cb8-7bec-4036-a6a1-1353d2d705d8": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "4a806587-0dde-4fb4-b4f1-f5c7d197c927": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "98d936e1-fd1d-475a-89ee-0e1517cb60d3": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "bcdf315e-c82d-41f0-9fcd-ba5933dfe77e": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "12efd15d-4d4f-4a71-8e71-69d03b6f983a": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "d87536c5-6fe0-4b38-b0b1-c47936e4a0d8": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "065c418e-7f18-42a3-b241-fe693b7a2b0c": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "9ce5f16c-aef0-48eb-ace1-91905796bc3d": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "3899ed22-7b96-4c4f-9706-42985b8d8049": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "a0cbc9d6-51bb-46f0-9ba9-ad4f4593c266": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "f87fb3d9-501a-4119-bc40-b0669270ae44": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "1d1480fb-0142-46da-8570-45bf3983bf6d": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "686fa8a8-f220-4ddd-b283-d61dd242051a": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "06d4c78d-73b4-4b54-9ef3-3d5a0d18cb96": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "5be3399d-dcd2-405b-a931-29b02ffc966e": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "4c34f240-76d4-451a-ac74-5bc6bd484825": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "d3b74f36-aa48-42af-ae4a-d4a8b0499a60": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "f6f9c680-0970-443f-b422-b1a6ad85e7ce": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "89be32ab-664a-4647-a5e3-e4006a67e4e1": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "0a7f2420-1b49-41fa-8cfc-0b2e178bea6b": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "398566f7-2519-40e6-a2f4-6676657a18a7": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "45c561b9-cc47-4d80-95d3-f0d20bc84af3": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "b47c203f-366e-4409-922d-cd52aa8bbef6": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "88439ec2-7c49-4c57-bedb-c5e098692aff": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "9b7042bf-56c4-4b64-9c8a-3c6c10ca487b": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "1340bd5d-35eb-4434-84b2-0ce9ca7dc9be": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "237e6174-4921-44df-828c-28f7b9d6196e": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "6a5955ed-feb5-4941-a2fd-4cb2783899d1": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "b551645f-204f-4134-b3ec-dd37dda36d95": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "e27a8abd-a52e-469b-a0db-79ce8711226c": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "f67fefbf-9055-4f7c-a777-80446653997c": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "9d15352b-b78f-477b-b56f-44a6698ba55a": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "d7b04025-054b-4929-a507-15b751c39fdc": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "3e8bdc92-4934-457e-85cc-8b9d14bf51c0": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "e23c12dd-e6f1-469c-a6e0-506f56b7b786": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "6b55ac9c-8dd2-4170-8782-bd35985ec0d9": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "5c9c17d3-9d6a-4fa1-a2a4-ae98eefbbd25": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "eb3e15c2-8576-40e3-9024-2f619aa5b983": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    },
+    "ad730d1a-829a-4dc4-9561-7e1cd07e2c30": {
+      "topic": {
+        "ok": true
+      },
+      "intent": {
+        "ok": true
+      },
+      "severity": {
+        "ok": true
+      },
+      "quote": {
+        "ok": true
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "a5-audit-v1",
+  "analysis_count": 150013,
+  "analysis_sha256": "8ae9c59c74eaba57064798e0612eac610de3e0571342990b1e3d4cbdf3b78bfe",
+  "classification_input_fields": [
+    "review_text"
+  ],
+  "allow_multi_issue": false,
+  "run_id": "final-150k",
+  "scope_note": "See README: declared >=100k analysis subset; full file profiled."
+}

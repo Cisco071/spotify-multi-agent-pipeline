@@ -1,0 +1,51 @@
+rank,issue_id,title,complaint_count,severity_sum,mean_severity,priority_score
+1,other.general_criticism,Generic negative sentiment without specifics,19032,37607,1.975988,37607
+2,billing.premium_only_controls,Basic playback controls locked behind premium,9415,26630,2.828465,26630
+3,usability.ads,Too many ads interrupting listening,8512,18041,2.119478,18041
+4,playback.stops_or_skips,"Music stops, skips, or cuts out mid-song",3097,9685,3.127220,9685
+5,playback.crashes_or_wont_open,App crashes or fails to open after updates,2156,7559,3.506030,7559
+6,usability.redesign_update,Recent update made app worse,3138,7177,2.287126,7177
+7,access.login_failure,Cannot sign in to the app,1558,6073,3.897946,6073
+8,usability.shuffle_autoplay,Shuffle forced; cannot play songs in order,2193,5868,2.675787,5868
+9,usability.controls,Playback controls removed or unreliable,1988,5620,2.826962,5620
+10,catalog.missing_or_removed_content,Songs missing or removed from catalog,1527,4082,2.673215,4082
+11,usability.queue_playlist_management,Unwanted songs added to playlists and queue,1284,3520,2.741433,3520
+12,playback.other,Wrong songs play or features fail to work,1077,3138,2.913649,3138
+13,catalog.lyrics,Lyrics fail to load or display,1080,3002,2.779630,3002
+14,billing.price,Premium subscription price considered too high,1202,2473,2.057404,2473
+15,playback.connection_errors,False 'no internet connection' errors while online,727,2432,3.345254,2432
+16,playback.device_connectivity,"Problems playing through Bluetooth, speakers, and watches",765,2284,2.985621,2284
+17,playback.lag_or_slow,App is slow to respond and load content,678,1947,2.871681,1947
+18,other.boycott_political,Users boycott app over political controversy,1211,1837,1.516928,1837
+19,catalog.recommendations,Unwanted or repetitive algorithmic recommendations,792,1744,2.202020,1744
+20,usability.navigation_layout,Confusing navigation and cluttered interface layout,706,1668,2.362606,1668
+21,billing.subscription_activation,Unable to purchase or activate premium subscription,457,1655,3.621444,1655
+22,downloads.downloads_disappear,Downloaded songs vanish or reset unexpectedly,402,1446,3.597015,1446
+23,downloads.offline_mode,Downloaded music won't play offline,462,1446,3.129870,1446
+24,downloads.download_failure,Songs and podcasts fail to download,428,1299,3.035047,1299
+25,access.logged_out,Unexpectedly logged out and losing library,319,1175,3.683386,1175
+26,catalog.search,Search fails or returns wrong songs,404,1117,2.764851,1117
+27,playback.audio_quality,Poor audio quality with noise and dropouts,427,1046,2.449649,1046
+28,billing.plans_family_student,Plan tiers and premium value concerns,348,839,2.410920,839
+29,billing.unexpected_charges,Charged after cancelling or without subscribing,185,793,4.286486,793
+30,access.account_hacked_or_locked,"Account blocked, hacked, or wrongly locked out",180,713,3.961111,713
+31,playback.background_play,App stops or misbehaves in background playback,248,710,2.862903,710
+32,catalog.other,Miscellaneous song and content complaints,254,569,2.240157,569
+33,other.other,Frustration with recent app update,264,530,2.007576,530
+34,access.other,"Miscellaneous access, region, and compatibility problems",146,471,3.226027,471
+35,usability.other,Miscellaneous usability and performance complaints,177,445,2.514124,445
+36,usability.widgets_notifications_lockscreen,"Widgets, notifications, and lock-screen controls problematic",180,438,2.433333,438
+37,billing.cancel_or_refund,Difficult to cancel subscription,146,435,2.979452,435
+38,catalog.podcasts_audiobooks,"Podcasts unavailable, missing, or unsearchable",167,434,2.598802,434
+39,billing.other,"Billing, gift card, and subscription complaints",179,430,2.402235,430
+40,playback.battery_resource_use,App drains battery and uses excessive resources,131,335,2.557252,335
+41,access.signup,Cannot create a new account,92,326,3.543478,326
+42,downloads.other,Downloads and playlists missing or not working,114,311,2.728070,311
+43,downloads.storage,App takes too much storage and misuses SD card,112,309,2.758929,309
+44,other.general_praise,Positive feedback with wish for artist pay,116,201,1.732759,201
+45,support.unhelpful_response,"Support gives unhelpful, repetitive, or no resolution",72,191,2.652778,191
+46,access.password_reset,Password reset emails and recovery fail,43,147,3.418605,147
+47,support.no_response,Support requests and reviews go unanswered,31,82,2.645161,82
+48,other.unrelated_or_unintelligible,"Unrelated, unintelligible, or off-topic comments",39,68,1.743590,68
+49,support.contact_difficulty,No accessible customer support or phone contact,21,56,2.666667,56
+50,support.other,Poor customer support experience overall,6,13,2.166667,13

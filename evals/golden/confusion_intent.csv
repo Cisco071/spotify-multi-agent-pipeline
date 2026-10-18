@@ -1,0 +1,6 @@
+gold\pred,cancellation,complaint,request,praise,unclear
+cancellation,1,1,0,0,0
+complaint,0,20,1,0,0
+request,0,0,0,0,0
+praise,0,1,1,18,1
+unclear,0,0,0,3,3

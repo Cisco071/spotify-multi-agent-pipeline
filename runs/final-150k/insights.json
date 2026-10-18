@@ -1,0 +1,2982 @@
+{
+  "rules": "Feeds the memo writer and the dashboard.   python -m pipeline.stages.insights --run-id final-100k\nRules (declared): anomaly = full or partial month whose share is >= 2x the median of the previous 3 months AND\n>= +1.0 percentage point AND >= 50 reviews. Recurring = complaint share >= 0.5% in a month. Shares use classified\nreviews that month as the denominator. Keyword series are regex matches (code), not model labels.",
+  "months": [
+    "2022-05",
+    "2022-06",
+    "2022-07",
+    "2022-08",
+    "2022-09",
+    "2022-10",
+    "2022-11",
+    "2022-12",
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11"
+  ],
+  "top_issues": [
+    "billing.premium_only_controls",
+    "usability.ads",
+    "playback.stops_or_skips",
+    "playback.crashes_or_wont_open",
+    "usability.redesign_update",
+    "access.login_failure",
+    "usability.shuffle_autoplay",
+    "usability.controls",
+    "catalog.missing_or_removed_content",
+    "usability.queue_playlist_management",
+    "playback.other",
+    "catalog.lyrics"
+  ],
+  "monthly": [
+    {
+      "month": "2022-05",
+      "partial": true,
+      "classified": 3572,
+      "complaints": 1110,
+      "complaint_share": 31.08,
+      "cancellations": 69,
+      "severity_4_plus": 191,
+      "mean_severity_complaints": 2.762,
+      "areas": {
+        "access": 43,
+        "usability": 372,
+        "playback": 386,
+        "billing_support": 107
+      },
+      "issues": {
+        "billing.premium_only_controls": 52,
+        "usability.ads": 189,
+        "playback.stops_or_skips": 82,
+        "playback.crashes_or_wont_open": 116,
+        "usability.redesign_update": 26,
+        "access.login_failure": 27,
+        "usability.shuffle_autoplay": 51,
+        "usability.controls": 31,
+        "catalog.missing_or_removed_content": 34,
+        "usability.queue_playlist_management": 44,
+        "playback.other": 35,
+        "catalog.lyrics": 16
+      },
+      "boycott_political": 6,
+      "keywords": {
+        "boycott": 0,
+        "sweden_quran": 0,
+        "premium_paywall": 171,
+        "update": 121,
+        "ads": 211,
+        "lyrics": 37,
+        "shuffle": 57
+      }
+    },
+    {
+      "month": "2022-06",
+      "partial": false,
+      "classified": 6885,
+      "complaints": 2064,
+      "complaint_share": 29.98,
+      "cancellations": 142,
+      "severity_4_plus": 330,
+      "mean_severity_complaints": 2.717,
+      "areas": {
+        "access": 84,
+        "usability": 721,
+        "playback": 705,
+        "billing_support": 186
+      },
+      "issues": {
+        "billing.premium_only_controls": 93,
+        "usability.ads": 382,
+        "playback.stops_or_skips": 166,
+        "playback.crashes_or_wont_open": 198,
+        "usability.redesign_update": 55,
+        "access.login_failure": 47,
+        "usability.shuffle_autoplay": 103,
+        "usability.controls": 63,
+        "catalog.missing_or_removed_content": 61,
+        "usability.queue_playlist_management": 64,
+        "playback.other": 71,
+        "catalog.lyrics": 31
+      },
+      "boycott_political": 13,
+      "keywords": {
+        "boycott": 1,
+        "sweden_quran": 0,
+        "premium_paywall": 338,
+        "update": 202,
+        "ads": 437,
+        "lyrics": 83,
+        "shuffle": 98
+      }
+    },
+    {
+      "month": "2022-07",
+      "partial": false,
+      "classified": 7454,
+      "complaints": 2715,
+      "complaint_share": 36.42,
+      "cancellations": 179,
+      "severity_4_plus": 548,
+      "mean_severity_complaints": 2.814,
+      "areas": {
+        "access": 102,
+        "usability": 819,
+        "playback": 1074,
+        "billing_support": 240
+      },
+      "issues": {
+        "billing.premium_only_controls": 137,
+        "usability.ads": 412,
+        "playback.stops_or_skips": 290,
+        "playback.crashes_or_wont_open": 337,
+        "usability.redesign_update": 51,
+        "access.login_failure": 55,
+        "usability.shuffle_autoplay": 129,
+        "usability.controls": 80,
+        "catalog.missing_or_removed_content": 106,
+        "usability.queue_playlist_management": 71,
+        "playback.other": 110,
+        "catalog.lyrics": 16
+      },
+      "boycott_political": 14,
+      "keywords": {
+        "boycott": 0,
+        "sweden_quran": 0,
+        "premium_paywall": 407,
+        "update": 270,
+        "ads": 492,
+        "lyrics": 58,
+        "shuffle": 99
+      }
+    },
+    {
+      "month": "2022-08",
+      "partial": false,
+      "classified": 7040,
+      "complaints": 2061,
+      "complaint_share": 29.28,
+      "cancellations": 131,
+      "severity_4_plus": 271,
+      "mean_severity_complaints": 2.657,
+      "areas": {
+        "access": 76,
+        "usability": 801,
+        "playback": 609,
+        "billing_support": 231
+      },
+      "issues": {
+        "billing.premium_only_controls": 119,
+        "usability.ads": 483,
+        "playback.stops_or_skips": 171,
+        "playback.crashes_or_wont_open": 135,
+        "usability.redesign_update": 38,
+        "access.login_failure": 42,
+        "usability.shuffle_autoplay": 89,
+        "usability.controls": 62,
+        "catalog.missing_or_removed_content": 53,
+        "usability.queue_playlist_management": 63,
+        "playback.other": 60,
+        "catalog.lyrics": 5
+      },
+      "boycott_political": 12,
+      "keywords": {
+        "boycott": 1,
+        "sweden_quran": 2,
+        "premium_paywall": 373,
+        "update": 191,
+        "ads": 526,
+        "lyrics": 39,
+        "shuffle": 100
+      }
+    },
+    {
+      "month": "2022-09",
+      "partial": false,
+      "classified": 6087,
+      "complaints": 1697,
+      "complaint_share": 27.88,
+      "cancellations": 119,
+      "severity_4_plus": 197,
+      "mean_severity_complaints": 2.626,
+      "areas": {
+        "access": 64,
+        "usability": 646,
+        "playback": 489,
+        "billing_support": 176
+      },
+      "issues": {
+        "billing.premium_only_controls": 94,
+        "usability.ads": 393,
+        "playback.stops_or_skips": 126,
+        "playback.crashes_or_wont_open": 84,
+        "usability.redesign_update": 38,
+        "access.login_failure": 34,
+        "usability.shuffle_autoplay": 86,
+        "usability.controls": 46,
+        "catalog.missing_or_removed_content": 52,
+        "usability.queue_playlist_management": 40,
+        "playback.other": 63,
+        "catalog.lyrics": 9
+      },
+      "boycott_political": 7,
+      "keywords": {
+        "boycott": 1,
+        "sweden_quran": 0,
+        "premium_paywall": 298,
+        "update": 146,
+        "ads": 428,
+        "lyrics": 56,
+        "shuffle": 89
+      }
+    },
+    {
+      "month": "2022-10",
+      "partial": false,
+      "classified": 6259,
+      "complaints": 1742,
+      "complaint_share": 27.83,
+      "cancellations": 98,
+      "severity_4_plus": 215,
+      "mean_severity_complaints": 2.614,
+      "areas": {
+        "access": 70,
+        "usability": 755,
+        "playback": 443,
+        "billing_support": 165
+      },
+      "issues": {
+        "billing.premium_only_controls": 93,
+        "usability.ads": 443,
+        "playback.stops_or_skips": 103,
+        "playback.crashes_or_wont_open": 75,
+        "usability.redesign_update": 74,
+        "access.login_failure": 32,
+        "usability.shuffle_autoplay": 81,
+        "usability.controls": 54,
+        "catalog.missing_or_removed_content": 47,
+        "usability.queue_playlist_management": 47,
+        "playback.other": 41,
+        "catalog.lyrics": 29
+      },
+      "boycott_political": 8,
+      "keywords": {
+        "boycott": 0,
+        "sweden_quran": 0,
+        "premium_paywall": 274,
+        "update": 158,
+        "ads": 471,
+        "lyrics": 63,
+        "shuffle": 93
+      }
+    },
+    {
+      "month": "2022-11",
+      "partial": false,
+      "classified": 6111,
+      "complaints": 1862,
+      "complaint_share": 30.47,
+      "cancellations": 132,
+      "severity_4_plus": 209,
+      "mean_severity_complaints": 2.638,
+      "areas": {
+        "access": 80,
+        "usability": 786,
+        "playback": 441,
+        "billing_support": 205
+      },
+      "issues": {
+        "billing.premium_only_controls": 106,
+        "usability.ads": 364,
+        "playback.stops_or_skips": 124,
+        "playback.crashes_or_wont_open": 79,
+        "usability.redesign_update": 95,
+        "access.login_failure": 41,
+        "usability.shuffle_autoplay": 102,
+        "usability.controls": 89,
+        "catalog.missing_or_removed_content": 41,
+        "usability.queue_playlist_management": 82,
+        "playback.other": 42,
+        "catalog.lyrics": 24
+      },
+      "boycott_political": 13,
+      "keywords": {
+        "boycott": 1,
+        "sweden_quran": 0,
+        "premium_paywall": 344,
+        "update": 269,
+        "ads": 439,
+        "lyrics": 48,
+        "shuffle": 111
+      }
+    },
+    {
+      "month": "2022-12",
+      "partial": false,
+      "classified": 7188,
+      "complaints": 2638,
+      "complaint_share": 36.7,
+      "cancellations": 173,
+      "severity_4_plus": 287,
+      "mean_severity_complaints": 2.622,
+      "areas": {
+        "access": 102,
+        "usability": 824,
+        "playback": 764,
+        "billing_support": 228
+      },
+      "issues": {
+        "billing.premium_only_controls": 106,
+        "usability.ads": 440,
+        "playback.stops_or_skips": 328,
+        "playback.crashes_or_wont_open": 140,
+        "usability.redesign_update": 80,
+        "access.login_failure": 57,
+        "usability.shuffle_autoplay": 98,
+        "usability.controls": 68,
+        "catalog.missing_or_removed_content": 105,
+        "usability.queue_playlist_management": 74,
+        "playback.other": 50,
+        "catalog.lyrics": 21
+      },
+      "boycott_political": 59,
+      "keywords": {
+        "boycott": 1,
+        "sweden_quran": 1,
+        "premium_paywall": 461,
+        "update": 462,
+        "ads": 505,
+        "lyrics": 59,
+        "shuffle": 137
+      }
+    },
+    {
+      "month": "2023-01",
+      "partial": false,
+      "classified": 6453,
+      "complaints": 1959,
+      "complaint_share": 30.36,
+      "cancellations": 129,
+      "severity_4_plus": 344,
+      "mean_severity_complaints": 2.709,
+      "areas": {
+        "access": 136,
+        "usability": 617,
+        "playback": 616,
+        "billing_support": 187
+      },
+      "issues": {
+        "billing.premium_only_controls": 102,
+        "usability.ads": 338,
+        "playback.stops_or_skips": 180,
+        "playback.crashes_or_wont_open": 129,
+        "usability.redesign_update": 48,
+        "access.login_failure": 91,
+        "usability.shuffle_autoplay": 77,
+        "usability.controls": 48,
+        "catalog.missing_or_removed_content": 51,
+        "usability.queue_playlist_management": 64,
+        "playback.other": 60,
+        "catalog.lyrics": 9
+      },
+      "boycott_political": 48,
+      "keywords": {
+        "boycott": 9,
+        "sweden_quran": 31,
+        "premium_paywall": 356,
+        "update": 214,
+        "ads": 391,
+        "lyrics": 49,
+        "shuffle": 83
+      }
+    },
+    {
+      "month": "2023-02",
+      "partial": false,
+      "classified": 4655,
+      "complaints": 1389,
+      "complaint_share": 29.84,
+      "cancellations": 90,
+      "severity_4_plus": 125,
+      "mean_severity_complaints": 2.551,
+      "areas": {
+        "access": 64,
+        "usability": 564,
+        "playback": 352,
+        "billing_support": 166
+      },
+      "issues": {
+        "billing.premium_only_controls": 82,
+        "usability.ads": 350,
+        "playback.stops_or_skips": 112,
+        "playback.crashes_or_wont_open": 46,
+        "usability.redesign_update": 25,
+        "access.login_failure": 30,
+        "usability.shuffle_autoplay": 66,
+        "usability.controls": 25,
+        "catalog.missing_or_removed_content": 33,
+        "usability.queue_playlist_management": 60,
+        "playback.other": 28,
+        "catalog.lyrics": 15
+      },
+      "boycott_political": 11,
+      "keywords": {
+        "boycott": 1,
+        "sweden_quran": 3,
+        "premium_paywall": 271,
+        "update": 99,
+        "ads": 408,
+        "lyrics": 36,
+        "shuffle": 65
+      }
+    },
+    {
+      "month": "2023-03",
+      "partial": false,
+      "classified": 6225,
+      "complaints": 2169,
+      "complaint_share": 34.84,
+      "cancellations": 207,
+      "severity_4_plus": 174,
+      "mean_severity_complaints": 2.542,
+      "areas": {
+        "access": 53,
+        "usability": 1107,
+        "playback": 447,
+        "billing_support": 188
+      },
+      "issues": {
+        "billing.premium_only_controls": 95,
+        "usability.ads": 382,
+        "playback.stops_or_skips": 128,
+        "playback.crashes_or_wont_open": 54,
+        "usability.redesign_update": 462,
+        "access.login_failure": 23,
+        "usability.shuffle_autoplay": 112,
+        "usability.controls": 34,
+        "catalog.missing_or_removed_content": 110,
+        "usability.queue_playlist_management": 47,
+        "playback.other": 53,
+        "catalog.lyrics": 19
+      },
+      "boycott_political": 9,
+      "keywords": {
+        "boycott": 0,
+        "sweden_quran": 0,
+        "premium_paywall": 349,
+        "update": 357,
+        "ads": 425,
+        "lyrics": 59,
+        "shuffle": 131
+      }
+    },
+    {
+      "month": "2023-04",
+      "partial": false,
+      "classified": 5746,
+      "complaints": 1965,
+      "complaint_share": 34.2,
+      "cancellations": 179,
+      "severity_4_plus": 181,
+      "mean_severity_complaints": 2.588,
+      "areas": {
+        "access": 55,
+        "usability": 907,
+        "playback": 450,
+        "billing_support": 170
+      },
+      "issues": {
+        "billing.premium_only_controls": 93,
+        "usability.ads": 309,
+        "playback.stops_or_skips": 129,
+        "playback.crashes_or_wont_open": 60,
+        "usability.redesign_update": 332,
+        "access.login_failure": 34,
+        "usability.shuffle_autoplay": 95,
+        "usability.controls": 51,
+        "catalog.missing_or_removed_content": 114,
+        "usability.queue_playlist_management": 57,
+        "playback.other": 46,
+        "catalog.lyrics": 16
+      },
+      "boycott_political": 15,
+      "keywords": {
+        "boycott": 0,
+        "sweden_quran": 1,
+        "premium_paywall": 334,
+        "update": 327,
+        "ads": 367,
+        "lyrics": 62,
+        "shuffle": 101
+      }
+    },
+    {
+      "month": "2023-05",
+      "partial": false,
+      "classified": 6364,
+      "complaints": 2128,
+      "complaint_share": 33.44,
+      "cancellations": 163,
+      "severity_4_plus": 242,
+      "mean_severity_complaints": 2.649,
+      "areas": {
+        "access": 146,
+        "usability": 741,
+        "playback": 437,
+        "billing_support": 271
+      },
+      "issues": {
+        "billing.premium_only_controls": 169,
+        "usability.ads": 343,
+        "playback.stops_or_skips": 106,
+        "playback.crashes_or_wont_open": 54,
+        "usability.redesign_update": 85,
+        "access.login_failure": 104,
+        "usability.shuffle_autoplay": 96,
+        "usability.controls": 85,
+        "catalog.missing_or_removed_content": 161,
+        "usability.queue_playlist_management": 76,
+        "playback.other": 39,
+        "catalog.lyrics": 38
+      },
+      "boycott_political": 41,
+      "keywords": {
+        "boycott": 0,
+        "sweden_quran": 1,
+        "premium_paywall": 446,
+        "update": 264,
+        "ads": 412,
+        "lyrics": 84,
+        "shuffle": 161
+      }
+    },
+    {
+      "month": "2023-06",
+      "partial": false,
+      "classified": 6224,
+      "complaints": 2309,
+      "complaint_share": 37.1,
+      "cancellations": 177,
+      "severity_4_plus": 282,
+      "mean_severity_complaints": 2.678,
+      "areas": {
+        "access": 182,
+        "usability": 801,
+        "playback": 455,
+        "billing_support": 364
+      },
+      "issues": {
+        "billing.premium_only_controls": 262,
+        "usability.ads": 396,
+        "playback.stops_or_skips": 133,
+        "playback.crashes_or_wont_open": 60,
+        "usability.redesign_update": 106,
+        "access.login_failure": 148,
+        "usability.shuffle_autoplay": 106,
+        "usability.controls": 85,
+        "catalog.missing_or_removed_content": 88,
+        "usability.queue_playlist_management": 61,
+        "playback.other": 50,
+        "catalog.lyrics": 104
+      },
+      "boycott_political": 18,
+      "keywords": {
+        "boycott": 2,
+        "sweden_quran": 9,
+        "premium_paywall": 533,
+        "update": 346,
+        "ads": 471,
+        "lyrics": 151,
+        "shuffle": 187
+      }
+    },
+    {
+      "month": "2023-07",
+      "partial": false,
+      "classified": 19413,
+      "complaints": 12129,
+      "complaint_share": 62.48,
+      "cancellations": 622,
+      "severity_4_plus": 368,
+      "mean_severity_complaints": 2.104,
+      "areas": {
+        "access": 237,
+        "usability": 1110,
+        "playback": 659,
+        "billing_support": 446
+      },
+      "issues": {
+        "billing.premium_only_controls": 245,
+        "usability.ads": 719,
+        "playback.stops_or_skips": 184,
+        "playback.crashes_or_wont_open": 112,
+        "usability.redesign_update": 85,
+        "access.login_failure": 178,
+        "usability.shuffle_autoplay": 103,
+        "usability.controls": 82,
+        "catalog.missing_or_removed_content": 110,
+        "usability.queue_playlist_management": 62,
+        "playback.other": 47,
+        "catalog.lyrics": 89
+      },
+      "boycott_political": 2589,
+      "keywords": {
+        "boycott": 582,
+        "sweden_quran": 1240,
+        "premium_paywall": 574,
+        "update": 292,
+        "ads": 727,
+        "lyrics": 142,
+        "shuffle": 142
+      }
+    },
+    {
+      "month": "2023-08",
+      "partial": false,
+      "classified": 7038,
+      "complaints": 2812,
+      "complaint_share": 39.95,
+      "cancellations": 200,
+      "severity_4_plus": 409,
+      "mean_severity_complaints": 2.606,
+      "areas": {
+        "access": 250,
+        "usability": 853,
+        "playback": 544,
+        "billing_support": 351
+      },
+      "issues": {
+        "billing.premium_only_controls": 185,
+        "usability.ads": 562,
+        "playback.stops_or_skips": 142,
+        "playback.crashes_or_wont_open": 121,
+        "usability.redesign_update": 49,
+        "access.login_failure": 181,
+        "usability.shuffle_autoplay": 102,
+        "usability.controls": 58,
+        "catalog.missing_or_removed_content": 98,
+        "usability.queue_playlist_management": 51,
+        "playback.other": 42,
+        "catalog.lyrics": 38
+      },
+      "boycott_political": 171,
+      "keywords": {
+        "boycott": 87,
+        "sweden_quran": 98,
+        "premium_paywall": 484,
+        "update": 218,
+        "ads": 615,
+        "lyrics": 80,
+        "shuffle": 125
+      }
+    },
+    {
+      "month": "2023-09",
+      "partial": false,
+      "classified": 9586,
+      "complaints": 5156,
+      "complaint_share": 53.79,
+      "cancellations": 629,
+      "severity_4_plus": 392,
+      "mean_severity_complaints": 2.591,
+      "areas": {
+        "access": 228,
+        "usability": 1529,
+        "playback": 625,
+        "billing_support": 1336
+      },
+      "issues": {
+        "billing.premium_only_controls": 1142,
+        "usability.ads": 611,
+        "playback.stops_or_skips": 168,
+        "playback.crashes_or_wont_open": 112,
+        "usability.redesign_update": 273,
+        "access.login_failure": 170,
+        "usability.shuffle_autoplay": 279,
+        "usability.controls": 229,
+        "catalog.missing_or_removed_content": 102,
+        "usability.queue_playlist_management": 77,
+        "playback.other": 75,
+        "catalog.lyrics": 211
+      },
+      "boycott_political": 91,
+      "keywords": {
+        "boycott": 42,
+        "sweden_quran": 53,
+        "premium_paywall": 1436,
+        "update": 1216,
+        "ads": 802,
+        "lyrics": 685,
+        "shuffle": 489
+      }
+    },
+    {
+      "month": "2023-10",
+      "partial": false,
+      "classified": 20018,
+      "complaints": 15022,
+      "complaint_share": 75.04,
+      "cancellations": 2592,
+      "severity_4_plus": 473,
+      "mean_severity_complaints": 2.48,
+      "areas": {
+        "access": 255,
+        "usability": 2971,
+        "playback": 884,
+        "billing_support": 5535
+      },
+      "issues": {
+        "billing.premium_only_controls": 4981,
+        "usability.ads": 944,
+        "playback.stops_or_skips": 291,
+        "playback.crashes_or_wont_open": 152,
+        "usability.redesign_update": 901,
+        "access.login_failure": 180,
+        "usability.shuffle_autoplay": 302,
+        "usability.controls": 554,
+        "catalog.missing_or_removed_content": 112,
+        "usability.queue_playlist_management": 168,
+        "playback.other": 123,
+        "catalog.lyrics": 304
+      },
+      "boycott_political": 84,
+      "keywords": {
+        "boycott": 42,
+        "sweden_quran": 23,
+        "premium_paywall": 4554,
+        "update": 5155,
+        "ads": 1404,
+        "lyrics": 835,
+        "shuffle": 754
+      }
+    },
+    {
+      "month": "2023-11",
+      "partial": true,
+      "classified": 7678,
+      "complaints": 5361,
+      "complaint_share": 69.82,
+      "cancellations": 661,
+      "severity_4_plus": 215,
+      "mean_severity_complaints": 2.436,
+      "areas": {
+        "access": 111,
+        "usability": 1254,
+        "playback": 444,
+        "billing_support": 1510
+      },
+      "issues": {
+        "billing.premium_only_controls": 1259,
+        "usability.ads": 452,
+        "playback.stops_or_skips": 134,
+        "playback.crashes_or_wont_open": 92,
+        "usability.redesign_update": 315,
+        "access.login_failure": 84,
+        "usability.shuffle_autoplay": 116,
+        "usability.controls": 244,
+        "catalog.missing_or_removed_content": 49,
+        "usability.queue_playlist_management": 76,
+        "playback.other": 42,
+        "catalog.lyrics": 86
+      },
+      "boycott_political": 21,
+      "keywords": {
+        "boycott": 13,
+        "sweden_quran": 4,
+        "premium_paywall": 1253,
+        "update": 1453,
+        "ads": 562,
+        "lyrics": 196,
+        "shuffle": 166
+      }
+    }
+  ],
+  "anomalies": [
+    {
+      "month": "2022-12",
+      "series": "issue:playback.stops_or_skips",
+      "label": "playback.stops_or_skips complaints",
+      "partial_month": false,
+      "value": 328,
+      "share_pct": 4.56,
+      "expected_share_pct": 2.03,
+      "expected_value": null,
+      "ratio": 2.25,
+      "drivers": [
+        {
+          "issue": "playback.stops_or_skips",
+          "count": 328,
+          "share_pct": 4.56,
+          "prev_share_pct": 1.91
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "36469882-fd58-4927-8c29-f04148e3a9d8",
+          "severity": 4,
+          "quote": "it start glitching and stopping every few songs, but i can't even use the search feature without beinng kicked out of the app"
+        },
+        {
+          "review_id": "8b0cd702-de8d-4c84-a453-7437bf9ebbf5",
+          "severity": 4,
+          "quote": "Basically the app is almost unuseable."
+        },
+        {
+          "review_id": "e6f71d4e-1eea-4ae3-9ee4-08e6dded9f62",
+          "severity": 4,
+          "quote": "I cannot for the life of me play a single song in my playlist. Can't shuffle nor get anything that isn't saved to play."
+        }
+      ]
+    },
+    {
+      "month": "2023-03",
+      "series": "issue:usability.redesign_update",
+      "label": "usability.redesign_update complaints",
+      "partial_month": false,
+      "value": 462,
+      "share_pct": 7.42,
+      "expected_share_pct": 0.74,
+      "expected_value": null,
+      "ratio": 10.03,
+      "drivers": [
+        {
+          "issue": "usability.redesign_update",
+          "count": 462,
+          "share_pct": 7.42,
+          "prev_share_pct": 0.84
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "2b25d996-2f48-4e5a-a401-5c3f55604a9a",
+          "severity": 4,
+          "quote": "I've had to cancel my subscription after attempting to use this app. This app received an update that made the app unusable"
+        },
+        {
+          "review_id": "730d333b-e11d-4467-bb69-33ac63194f83",
+          "severity": 4,
+          "quote": "New UI completely breaks the app."
+        },
+        {
+          "review_id": "31e5c630-a636-43cf-93f2-9dbef3f5ddfa",
+          "severity": 4,
+          "quote": "Because I don't like new update I can't listen songs"
+        }
+      ]
+    },
+    {
+      "month": "2023-04",
+      "series": "issue:catalog.missing_or_removed_content",
+      "label": "catalog.missing_or_removed_content complaints",
+      "partial_month": false,
+      "value": 114,
+      "share_pct": 1.98,
+      "expected_share_pct": 0.79,
+      "expected_value": null,
+      "ratio": 2.51,
+      "drivers": [
+        {
+          "issue": "catalog.missing_or_removed_content",
+          "count": 114,
+          "share_pct": 1.98,
+          "prev_share_pct": 1.12
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "9c4ad7ee-46e6-4582-ae20-62b0ace4f42c",
+          "severity": 5,
+          "quote": "most of my liked songs disappeared from my playlist and the app itself"
+        },
+        {
+          "review_id": "1d0981ca-43ed-473a-9dbc-5723554a4cb6",
+          "severity": 5,
+          "quote": "now all songs i liked disappeared"
+        },
+        {
+          "review_id": "7ecd8c56-43d7-4421-b7f9-a7d64abce4d0",
+          "severity": 4,
+          "quote": "the app keeps saying \"artist not found\""
+        }
+      ]
+    },
+    {
+      "month": "2023-04",
+      "series": "issue:usability.redesign_update",
+      "label": "usability.redesign_update complaints",
+      "partial_month": false,
+      "value": 332,
+      "share_pct": 5.78,
+      "expected_share_pct": 0.74,
+      "expected_value": null,
+      "ratio": 7.81,
+      "drivers": [
+        {
+          "issue": "usability.redesign_update",
+          "count": 332,
+          "share_pct": 5.78,
+          "prev_share_pct": 3.09
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "a73769b9-a7e3-42e4-82f4-3b05013598ed",
+          "severity": 4,
+          "quote": "The app crashes a lot now, the home page is clunky, unappealing, messy, and annoying to navigate. Sometimes I dread opening the app because it temporarily freezes on the home page."
+        },
+        {
+          "review_id": "2c875de6-319b-47d6-a7e7-531ad1175cd8",
+          "severity": 4,
+          "quote": "if you want an update that won't let you listen to your songs then get it this update is garbage"
+        },
+        {
+          "review_id": "ec1400ee-c198-4bc7-a353-2917159d206c",
+          "severity": 4,
+          "quote": "New update is terrible, it's now unusable. can't see any of the playlists I want to listen to"
+        }
+      ]
+    },
+    {
+      "month": "2023-05",
+      "series": "area:access",
+      "label": "access complaints",
+      "partial_month": false,
+      "value": 146,
+      "share_pct": 2.29,
+      "expected_share_pct": 0.96,
+      "expected_value": null,
+      "ratio": 2.39,
+      "drivers": [
+        {
+          "issue": "access.login_failure",
+          "count": 104,
+          "share_pct": 1.63,
+          "prev_share_pct": 0.52
+        },
+        {
+          "issue": "access.logged_out",
+          "count": 22,
+          "share_pct": 0.35,
+          "prev_share_pct": 0.14
+        },
+        {
+          "issue": "access.other",
+          "count": 5,
+          "share_pct": 0.08,
+          "prev_share_pct": 0.06
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "47a1557c-36e8-4e7a-9b72-0a940c2ec715",
+          "severity": 5,
+          "quote": "I lost 150 songs saved in Playlist."
+        },
+        {
+          "review_id": "ad0a8ede-3cbe-4655-bf04-ff5823cfff57",
+          "severity": 4,
+          "quote": "I can't use it! I wanted to log in with my Google account"
+        },
+        {
+          "review_id": "179463c8-c58b-45e8-b9f4-a2d6149218d2",
+          "severity": 4,
+          "quote": "it completely stopped working. I do mean that tbh it now won't even allow me to get into the app"
+        }
+      ]
+    },
+    {
+      "month": "2023-05",
+      "series": "issue:access.login_failure",
+      "label": "access.login_failure complaints",
+      "partial_month": false,
+      "value": 104,
+      "share_pct": 1.63,
+      "expected_share_pct": 0.59,
+      "expected_value": null,
+      "ratio": 2.76,
+      "drivers": [
+        {
+          "issue": "access.login_failure",
+          "count": 104,
+          "share_pct": 1.63,
+          "prev_share_pct": 0.52
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "47a1557c-36e8-4e7a-9b72-0a940c2ec715",
+          "severity": 5,
+          "quote": "I lost 150 songs saved in Playlist."
+        },
+        {
+          "review_id": "ad0a8ede-3cbe-4655-bf04-ff5823cfff57",
+          "severity": 4,
+          "quote": "I can't use it! I wanted to log in with my Google account"
+        },
+        {
+          "review_id": "179463c8-c58b-45e8-b9f4-a2d6149218d2",
+          "severity": 4,
+          "quote": "it completely stopped working. I do mean that tbh it now won't even allow me to get into the app"
+        }
+      ]
+    },
+    {
+      "month": "2023-06",
+      "series": "area:access",
+      "label": "access complaints",
+      "partial_month": false,
+      "value": 182,
+      "share_pct": 2.92,
+      "expected_share_pct": 0.96,
+      "expected_value": null,
+      "ratio": 3.04,
+      "drivers": [
+        {
+          "issue": "access.login_failure",
+          "count": 148,
+          "share_pct": 2.38,
+          "prev_share_pct": 0.88
+        },
+        {
+          "issue": "access.signup",
+          "count": 8,
+          "share_pct": 0.13,
+          "prev_share_pct": 0.07
+        },
+        {
+          "issue": "access.logged_out",
+          "count": 13,
+          "share_pct": 0.21,
+          "prev_share_pct": 0.18
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "0a3e7f2b-f776-4a6f-879c-cb244e1e3e81",
+          "severity": 4,
+          "quote": "Won't let me log in??"
+        },
+        {
+          "review_id": "95582aca-2f6a-4938-9c9a-aa9ff1681c12",
+          "severity": 4,
+          "quote": "I cannot login through any modes"
+        },
+        {
+          "review_id": "7e55d429-3872-4192-bd8c-e3c8b90c7364",
+          "severity": 4,
+          "quote": "Now i can't login my account."
+        }
+      ]
+    },
+    {
+      "month": "2023-06",
+      "series": "issue:access.login_failure",
+      "label": "access.login_failure complaints",
+      "partial_month": false,
+      "value": 148,
+      "share_pct": 2.38,
+      "expected_share_pct": 0.59,
+      "expected_value": null,
+      "ratio": 4.03,
+      "drivers": [
+        {
+          "issue": "access.login_failure",
+          "count": 148,
+          "share_pct": 2.38,
+          "prev_share_pct": 0.88
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "0a3e7f2b-f776-4a6f-879c-cb244e1e3e81",
+          "severity": 4,
+          "quote": "Won't let me log in??"
+        },
+        {
+          "review_id": "95582aca-2f6a-4938-9c9a-aa9ff1681c12",
+          "severity": 4,
+          "quote": "I cannot login through any modes"
+        },
+        {
+          "review_id": "7e55d429-3872-4192-bd8c-e3c8b90c7364",
+          "severity": 4,
+          "quote": "Now i can't login my account."
+        }
+      ]
+    },
+    {
+      "month": "2023-06",
+      "series": "issue:billing.premium_only_controls",
+      "label": "billing.premium_only_controls complaints",
+      "partial_month": false,
+      "value": 262,
+      "share_pct": 4.21,
+      "expected_share_pct": 1.62,
+      "expected_value": null,
+      "ratio": 2.6,
+      "drivers": [
+        {
+          "issue": "billing.premium_only_controls",
+          "count": 262,
+          "share_pct": 4.21,
+          "prev_share_pct": 1.95
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "5da9488b-14a4-42dd-94cd-e2512b78bb63",
+          "severity": 4,
+          "quote": "i only can play the chorus of the song and i realized that u meed to pay for premium just to hear a song"
+        },
+        {
+          "review_id": "dbf3f3d4-4965-4672-a321-c83cc7ed5fbb",
+          "severity": 4,
+          "quote": "the app won't let me use premium features"
+        },
+        {
+          "review_id": "91249dd1-cc16-4523-84e1-c86b115acca7",
+          "severity": 4,
+          "quote": "Group session doesn't work anymore says not premium member."
+        }
+      ]
+    },
+    {
+      "month": "2023-06",
+      "series": "issue:catalog.lyrics",
+      "label": "catalog.lyrics complaints",
+      "partial_month": false,
+      "value": 104,
+      "share_pct": 1.67,
+      "expected_share_pct": 0.31,
+      "expected_value": null,
+      "ratio": 5.39,
+      "drivers": [
+        {
+          "issue": "catalog.lyrics",
+          "count": 104,
+          "share_pct": 1.67,
+          "prev_share_pct": 0.4
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "0359aefe-41ca-45b5-9139-055960ca15b0",
+          "severity": 3,
+          "quote": "The lyrics feature disappeared all of a sudden?!"
+        },
+        {
+          "review_id": "91d37291-f4e5-47b8-8964-54b4044fa703",
+          "severity": 3,
+          "quote": "I can't see the lyrics on any song I see! I've tried reinstalling it and re logging in and also changing the settings!"
+        },
+        {
+          "review_id": "2264145b-c219-4ab2-a4a5-e60e581311e6",
+          "severity": 3,
+          "quote": "I cant see the lyrics anymore Ive tried everything"
+        }
+      ]
+    },
+    {
+      "month": "2023-07",
+      "series": "boycott",
+      "label": "Boycott / political reviews",
+      "partial_month": false,
+      "value": 2589,
+      "share_pct": 13.34,
+      "expected_share_pct": 0.29,
+      "expected_value": null,
+      "ratio": 46.0,
+      "drivers": [
+        {
+          "issue": "other.boycott_political",
+          "count": 2589,
+          "share_pct": 13.34,
+          "prev_share_pct": 0.4
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "e0df21f2-738b-4bf2-8327-e3fc84f74072",
+          "severity": 3,
+          "quote": "it can collect your data and sell it to other companies"
+        },
+        {
+          "review_id": "12a033f5-c573-4075-a899-2a4bd397cd31",
+          "severity": 2,
+          "quote": "Learn to respect religions first."
+        },
+        {
+          "review_id": "d210506f-a21f-4840-af7c-61742a1c2f14",
+          "severity": 2,
+          "quote": "This app plays with the religious aspects and does not care of religious ethics."
+        }
+      ]
+    },
+    {
+      "month": "2023-07",
+      "series": "volume",
+      "label": "Review volume",
+      "partial_month": false,
+      "value": 19413,
+      "share_pct": null,
+      "expected_share_pct": null,
+      "expected_value": 6224,
+      "ratio": 3.12,
+      "drivers": [
+        {
+          "issue": "other.general_criticism",
+          "count": 8416,
+          "share_pct": 43.35,
+          "prev_share_pct": 3.1
+        },
+        {
+          "issue": "other.boycott_political",
+          "count": 2589,
+          "share_pct": 13.34,
+          "prev_share_pct": 0.4
+        },
+        {
+          "issue": "billing.price",
+          "count": 112,
+          "share_pct": 0.58,
+          "prev_share_pct": 0.5
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "f81e905d-4ec0-4297-ab0b-8725b06dd337",
+          "severity": 5,
+          "quote": "information leaking from these app and very dengeious app be careful from these harmfull appp"
+        },
+        {
+          "review_id": "68537dab-4dc1-4de4-b479-7892a8b12b67",
+          "severity": 5,
+          "quote": "This app leak some private data in other companies"
+        },
+        {
+          "review_id": "ced0cf1f-1414-468b-ad12-55bda45fe09f",
+          "severity": 5,
+          "quote": "Data leak"
+        }
+      ]
+    },
+    {
+      "month": "2023-08",
+      "series": "boycott",
+      "label": "Boycott / political reviews",
+      "partial_month": false,
+      "value": 171,
+      "share_pct": 2.43,
+      "expected_share_pct": 0.64,
+      "expected_value": null,
+      "ratio": 3.8,
+      "drivers": [
+        {
+          "issue": "other.boycott_political",
+          "count": 171,
+          "share_pct": 2.43,
+          "prev_share_pct": 8.27
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "b5549ac5-2475-4c94-bbdc-89f1dd3adc77",
+          "severity": 2,
+          "quote": "I hate this app and sweden i love Islam ❤️👍"
+        },
+        {
+          "review_id": "d80a7ef4-2eea-4f9b-8eea-07a1b7e4d8d2",
+          "severity": 2,
+          "quote": "I hate this app and sweden is a💩💩💩💩 poop 🤮🤮🤮🇸🇪"
+        },
+        {
+          "review_id": "9639b841-6d10-4057-b532-f5eff9ccd3f7",
+          "severity": 2,
+          "quote": "I hate this app because this is from Sweden"
+        }
+      ]
+    },
+    {
+      "month": "2023-09",
+      "series": "area:billing_support",
+      "label": "billing_support complaints",
+      "partial_month": false,
+      "value": 1336,
+      "share_pct": 13.94,
+      "expected_share_pct": 4.99,
+      "expected_value": null,
+      "ratio": 2.79,
+      "drivers": [
+        {
+          "issue": "billing.premium_only_controls",
+          "count": 1142,
+          "share_pct": 11.91,
+          "prev_share_pct": 2.12
+        },
+        {
+          "issue": "billing.price",
+          "count": 92,
+          "share_pct": 0.96,
+          "prev_share_pct": 0.67
+        },
+        {
+          "issue": "billing.plans_family_student",
+          "count": 32,
+          "share_pct": 0.33,
+          "prev_share_pct": 0.17
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "3f92199f-62d5-4e29-85cd-b639936b8c52",
+          "severity": 4,
+          "quote": "The latest update is a disaster I can't play any song it's like this app is forcing to take premium"
+        },
+        {
+          "review_id": "4c42d99f-f623-4f08-b7a8-c378225b3bcd",
+          "severity": 4,
+          "quote": "the playlist we made can be destoryed in seconds we cannot listen our playlist in our order"
+        },
+        {
+          "review_id": "da5cd791-316b-4bef-b337-1f822bd9bc89",
+          "severity": 4,
+          "quote": "Can't even play song we love to listen they have charged premium to listen songs"
+        }
+      ]
+    },
+    {
+      "month": "2023-09",
+      "series": "issue:billing.premium_only_controls",
+      "label": "billing.premium_only_controls complaints",
+      "partial_month": false,
+      "value": 1142,
+      "share_pct": 11.91,
+      "expected_share_pct": 2.63,
+      "expected_value": null,
+      "ratio": 4.53,
+      "drivers": [
+        {
+          "issue": "billing.premium_only_controls",
+          "count": 1142,
+          "share_pct": 11.91,
+          "prev_share_pct": 2.12
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "3f92199f-62d5-4e29-85cd-b639936b8c52",
+          "severity": 4,
+          "quote": "The latest update is a disaster I can't play any song it's like this app is forcing to take premium"
+        },
+        {
+          "review_id": "4c42d99f-f623-4f08-b7a8-c378225b3bcd",
+          "severity": 4,
+          "quote": "the playlist we made can be destoryed in seconds we cannot listen our playlist in our order"
+        },
+        {
+          "review_id": "da5cd791-316b-4bef-b337-1f822bd9bc89",
+          "severity": 4,
+          "quote": "Can't even play song we love to listen they have charged premium to listen songs"
+        }
+      ]
+    },
+    {
+      "month": "2023-09",
+      "series": "issue:catalog.lyrics",
+      "label": "catalog.lyrics complaints",
+      "partial_month": false,
+      "value": 211,
+      "share_pct": 2.2,
+      "expected_share_pct": 0.54,
+      "expected_value": null,
+      "ratio": 4.07,
+      "drivers": [
+        {
+          "issue": "catalog.lyrics",
+          "count": 211,
+          "share_pct": 2.2,
+          "prev_share_pct": 0.71
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "c150f02c-8658-42c5-83d0-cd948391ad02",
+          "severity": 3,
+          "quote": "Mostly all of the songs that I listen I can't see the lyrics"
+        },
+        {
+          "review_id": "1d60ef09-a090-4ce4-bbe9-9178a0000f90",
+          "severity": 3,
+          "quote": "none of the lyrics show up anymore"
+        },
+        {
+          "review_id": "17fe80f9-e1aa-4c7d-9695-1098fc11af6d",
+          "severity": 3,
+          "quote": "Lyrics never show up."
+        }
+      ]
+    },
+    {
+      "month": "2023-09",
+      "series": "issue:usability.controls",
+      "label": "usability.controls complaints",
+      "partial_month": false,
+      "value": 229,
+      "share_pct": 2.39,
+      "expected_share_pct": 0.82,
+      "expected_value": null,
+      "ratio": 2.91,
+      "drivers": [
+        {
+          "issue": "usability.controls",
+          "count": 229,
+          "share_pct": 2.39,
+          "prev_share_pct": 0.69
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "200d9033-a2c2-4933-80de-5f56aac59cce",
+          "severity": 4,
+          "quote": "No previous Click available for songs, No shuffle available,only limited Songs for day to listen"
+        },
+        {
+          "review_id": "f0e3ac13-1f4b-4218-9a2c-c89de2362245",
+          "severity": 3,
+          "quote": "We cannot go to any desired time in a song. We cannot disable shuffle mode. We cannot apply loop mode. At every point it says try premium."
+        },
+        {
+          "review_id": "f313e9fd-89f9-4fcd-be48-686fad600d7f",
+          "severity": 3,
+          "quote": "the options that load move around the screen after a split second, causing me to click the wrong thing"
+        }
+      ]
+    },
+    {
+      "month": "2023-09",
+      "series": "issue:usability.redesign_update",
+      "label": "usability.redesign_update complaints",
+      "partial_month": false,
+      "value": 273,
+      "share_pct": 2.85,
+      "expected_share_pct": 0.7,
+      "expected_value": null,
+      "ratio": 4.07,
+      "drivers": [
+        {
+          "issue": "usability.redesign_update",
+          "count": 273,
+          "share_pct": 2.85,
+          "prev_share_pct": 0.73
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "500f9852-7599-4a4c-a796-1d1c1355ac92",
+          "severity": 3,
+          "quote": "The previous Spotify interface was already perfect & it was so unnecessary of them to change it."
+        },
+        {
+          "review_id": "410fc23d-ee6a-478d-9f32-654185f3adeb",
+          "severity": 3,
+          "quote": "after the updation the option for replay had gone..at first we could touch the lyrics and play those lines but now its not available"
+        },
+        {
+          "review_id": "b69eb19d-390a-4e47-98fb-a78defc47bd9",
+          "severity": 3,
+          "quote": "The new update is dumb, trash.... just turn of the shuffle play. And I can't even REVIND ANY MORE."
+        }
+      ]
+    },
+    {
+      "month": "2023-09",
+      "series": "issue:usability.shuffle_autoplay",
+      "label": "usability.shuffle_autoplay complaints",
+      "partial_month": false,
+      "value": 279,
+      "share_pct": 2.91,
+      "expected_share_pct": 1.45,
+      "expected_value": null,
+      "ratio": 2.01,
+      "drivers": [
+        {
+          "issue": "usability.shuffle_autoplay",
+          "count": 279,
+          "share_pct": 2.91,
+          "prev_share_pct": 0.95
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "f6d6b107-8f2d-43d5-bc48-fde0a0af05c7",
+          "severity": 4,
+          "quote": "a lot of my liked songs got unliked"
+        },
+        {
+          "review_id": "41f1f4d5-e949-44f2-8a95-732397b33eea",
+          "severity": 3,
+          "quote": "When turn on autoplay after a song you just played, it's very bad."
+        },
+        {
+          "review_id": "6965d34a-5c5c-472e-a149-a5ceff8914db",
+          "severity": 3,
+          "quote": "I'd really be grateful if the toggle to turn off autoplay actually turned off autoplay rather than just being there for looks."
+        }
+      ]
+    },
+    {
+      "month": "2023-10",
+      "series": "area:billing_support",
+      "label": "billing_support complaints",
+      "partial_month": false,
+      "value": 5535,
+      "share_pct": 27.65,
+      "expected_share_pct": 4.99,
+      "expected_value": null,
+      "ratio": 5.54,
+      "drivers": [
+        {
+          "issue": "billing.premium_only_controls",
+          "count": 4981,
+          "share_pct": 24.88,
+          "prev_share_pct": 4.36
+        },
+        {
+          "issue": "billing.price",
+          "count": 362,
+          "share_pct": 1.81,
+          "prev_share_pct": 0.76
+        },
+        {
+          "issue": "billing.plans_family_student",
+          "count": 80,
+          "share_pct": 0.4,
+          "prev_share_pct": 0.19
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "16cf6650-036c-4ce1-be06-c060276d141c",
+          "severity": 4,
+          "quote": "And also after the update my songs that i had liked they just got stolen,they are not in my liked Playlist"
+        },
+        {
+          "review_id": "8843ddf0-9d5c-4867-a6dc-14f2b6829c80",
+          "severity": 4,
+          "quote": "Can't even listen search music without prime this is so much restrictions. Not usable."
+        },
+        {
+          "review_id": "48ef5d4b-a761-4092-b722-c38d2bae4135",
+          "severity": 4,
+          "quote": "I am able to play only one song per day ... Shows error that buy premium"
+        }
+      ]
+    },
+    {
+      "month": "2023-10",
+      "series": "issue:billing.premium_only_controls",
+      "label": "billing.premium_only_controls complaints",
+      "partial_month": false,
+      "value": 4981,
+      "share_pct": 24.88,
+      "expected_share_pct": 2.63,
+      "expected_value": null,
+      "ratio": 9.46,
+      "drivers": [
+        {
+          "issue": "billing.premium_only_controls",
+          "count": 4981,
+          "share_pct": 24.88,
+          "prev_share_pct": 4.36
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "16cf6650-036c-4ce1-be06-c060276d141c",
+          "severity": 4,
+          "quote": "And also after the update my songs that i had liked they just got stolen,they are not in my liked Playlist"
+        },
+        {
+          "review_id": "8843ddf0-9d5c-4867-a6dc-14f2b6829c80",
+          "severity": 4,
+          "quote": "Can't even listen search music without prime this is so much restrictions. Not usable."
+        },
+        {
+          "review_id": "48ef5d4b-a761-4092-b722-c38d2bae4135",
+          "severity": 4,
+          "quote": "I am able to play only one song per day ... Shows error that buy premium"
+        }
+      ]
+    },
+    {
+      "month": "2023-10",
+      "series": "issue:usability.controls",
+      "label": "usability.controls complaints",
+      "partial_month": false,
+      "value": 554,
+      "share_pct": 2.77,
+      "expected_share_pct": 0.82,
+      "expected_value": null,
+      "ratio": 3.38,
+      "drivers": [
+        {
+          "issue": "usability.controls",
+          "count": 554,
+          "share_pct": 2.77,
+          "prev_share_pct": 1.02
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "39c502da-ee8b-46e4-9337-cf3c6e1bb518",
+          "severity": 4,
+          "quote": "I'm also having a lot of glitches and difficulties logging into my account since the update."
+        },
+        {
+          "review_id": "e85607c3-a8b4-4a61-a548-a58b17b0eae1",
+          "severity": 3,
+          "quote": "You can not skip to any part of the song. No lyrics available. You can't even play your favourite songs ."
+        },
+        {
+          "review_id": "b9b6ff85-59ea-421b-bb4f-50681dedca53",
+          "severity": 3,
+          "quote": "It not only disabled the play next or play from any part"
+        }
+      ]
+    },
+    {
+      "month": "2023-10",
+      "series": "issue:usability.redesign_update",
+      "label": "usability.redesign_update complaints",
+      "partial_month": false,
+      "value": 901,
+      "share_pct": 4.5,
+      "expected_share_pct": 0.7,
+      "expected_value": null,
+      "ratio": 6.43,
+      "drivers": [
+        {
+          "issue": "usability.redesign_update",
+          "count": 901,
+          "share_pct": 4.5,
+          "prev_share_pct": 1.13
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "a9957708-a270-48fe-8763-93fa4d3ccb9e",
+          "severity": 4,
+          "quote": "it's more like a reminder to get premium or u can't even open the app"
+        },
+        {
+          "review_id": "9079c130-1fff-44ee-b4e1-b907f546ae3c",
+          "severity": 4,
+          "quote": "After the new update everything is messed up i highly don't recommend this app we can't skip the song or even scroll through song or play song we like"
+        },
+        {
+          "review_id": "36791e47-f7fc-4589-aa27-282c999cbae3",
+          "severity": 4,
+          "quote": "we can't use anything and switch to other music app would be my current best choice."
+        }
+      ]
+    },
+    {
+      "month": "2023-10",
+      "series": "volume",
+      "label": "Review volume",
+      "partial_month": false,
+      "value": 20018,
+      "share_pct": null,
+      "expected_share_pct": null,
+      "expected_value": 9586,
+      "ratio": 2.09,
+      "drivers": [
+        {
+          "issue": "billing.premium_only_controls",
+          "count": 4981,
+          "share_pct": 24.88,
+          "prev_share_pct": 4.36
+        },
+        {
+          "issue": "usability.redesign_update",
+          "count": 901,
+          "share_pct": 4.5,
+          "prev_share_pct": 1.13
+        },
+        {
+          "issue": "usability.controls",
+          "count": 554,
+          "share_pct": 2.77,
+          "prev_share_pct": 1.02
+        }
+      ],
+      "examples": [
+        {
+          "review_id": "16cf6650-036c-4ce1-be06-c060276d141c",
+          "severity": 4,
+          "quote": "And also after the update my songs that i had liked they just got stolen,they are not in my liked Playlist"
+        },
+        {
+          "review_id": "8843ddf0-9d5c-4867-a6dc-14f2b6829c80",
+          "severity": 4,
+          "quote": "Can't even listen search music without prime this is so much restrictions. Not usable."
+        },
+        {
+          "review_id": "48ef5d4b-a761-4092-b722-c38d2bae4135",
+          "severity": 4,
+          "quote": "I am able to play only one song per day ... Shows error that buy premium"
+        }
+      ]
+    }
+  ],
+  "recurring": [
+    {
+      "issue": "billing.premium_only_controls",
+      "complaints": 9415,
+      "months_present": 17,
+      "full_months": 17,
+      "months_in_top5": 15,
+      "first6_mean_share_pct": 1.61,
+      "last6_mean_share_pct": 7.92,
+      "trend": "rising",
+      "peak_month": "2023-10",
+      "peak_share_pct": 24.88,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "usability.ads",
+      "complaints": 8512,
+      "months_present": 17,
+      "full_months": 17,
+      "months_in_top5": 17,
+      "first6_mean_share_pct": 6.24,
+      "last6_mean_share_pct": 5.75,
+      "trend": "steady",
+      "peak_month": "2023-08",
+      "peak_share_pct": 7.99,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "usability.redesign_update",
+      "complaints": 3138,
+      "months_present": 16,
+      "full_months": 17,
+      "months_in_top5": 6,
+      "first6_mean_share_pct": 0.9,
+      "last6_mean_share_pct": 1.92,
+      "trend": "rising",
+      "peak_month": "2023-03",
+      "peak_share_pct": 7.42,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "playback.stops_or_skips",
+      "complaints": 3097,
+      "months_present": 17,
+      "full_months": 17,
+      "months_in_top5": 15,
+      "first6_mean_share_pct": 2.41,
+      "last6_mean_share_pct": 1.66,
+      "trend": "steady",
+      "peak_month": "2022-12",
+      "peak_share_pct": 4.56,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "usability.shuffle_autoplay",
+      "complaints": 2193,
+      "months_present": 17,
+      "full_months": 17,
+      "months_in_top5": 10,
+      "first6_mean_share_pct": 1.48,
+      "last6_mean_share_pct": 1.6,
+      "trend": "steady",
+      "peak_month": "2023-09",
+      "peak_share_pct": 2.91,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "playback.crashes_or_wont_open",
+      "complaints": 2156,
+      "months_present": 17,
+      "full_months": 17,
+      "months_in_top5": 9,
+      "first6_mean_share_pct": 2.2,
+      "last6_mean_share_pct": 1.01,
+      "trend": "falling",
+      "peak_month": "2022-07",
+      "peak_share_pct": 4.52,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "usability.controls",
+      "complaints": 1988,
+      "months_present": 16,
+      "full_months": 17,
+      "months_in_top5": 2,
+      "first6_mean_share_pct": 0.99,
+      "last6_mean_share_pct": 1.52,
+      "trend": "rising",
+      "peak_month": "2023-10",
+      "peak_share_pct": 2.77,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "access.login_failure",
+      "complaints": 1558,
+      "months_present": 16,
+      "full_months": 17,
+      "months_in_top5": 5,
+      "first6_mean_share_pct": 0.63,
+      "last6_mean_share_pct": 1.69,
+      "trend": "rising",
+      "peak_month": "2023-08",
+      "peak_share_pct": 2.57,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "catalog.missing_or_removed_content",
+      "complaints": 1527,
+      "months_present": 17,
+      "full_months": 17,
+      "months_in_top5": 4,
+      "first6_mean_share_pct": 0.89,
+      "last6_mean_share_pct": 1.25,
+      "trend": "steady",
+      "peak_month": "2023-05",
+      "peak_share_pct": 2.53,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "usability.queue_playlist_management",
+      "complaints": 1284,
+      "months_present": 16,
+      "full_months": 17,
+      "months_in_top5": 1,
+      "first6_mean_share_pct": 0.92,
+      "last6_mean_share_pct": 0.81,
+      "trend": "steady",
+      "peak_month": "2022-11",
+      "peak_share_pct": 1.34,
+      "pattern": "chronic"
+    },
+    {
+      "issue": "catalog.lyrics",
+      "complaints": 1080,
+      "months_present": 5,
+      "full_months": 17,
+      "months_in_top5": 1,
+      "first6_mean_share_pct": 0.29,
+      "last6_mean_share_pct": 1.17,
+      "trend": "rising",
+      "peak_month": "2023-09",
+      "peak_share_pct": 2.2,
+      "pattern": "episodic"
+    },
+    {
+      "issue": "playback.other",
+      "complaints": 1077,
+      "months_present": 16,
+      "full_months": 17,
+      "months_in_top5": 0,
+      "first6_mean_share_pct": 0.96,
+      "last6_mean_share_pct": 0.61,
+      "trend": "steady",
+      "peak_month": "2022-07",
+      "peak_share_pct": 1.48,
+      "pattern": "chronic"
+    }
+  ],
+  "alt_rankings": {
+    "severity_sum": [
+      "other.general_criticism",
+      "billing.premium_only_controls",
+      "usability.ads",
+      "playback.stops_or_skips",
+      "playback.crashes_or_wont_open",
+      "usability.redesign_update",
+      "access.login_failure",
+      "usability.shuffle_autoplay",
+      "usability.controls",
+      "catalog.missing_or_removed_content"
+    ],
+    "severity_4_plus": [
+      "access.login_failure",
+      "playback.crashes_or_wont_open",
+      "playback.stops_or_skips",
+      "billing.subscription_activation",
+      "playback.connection_errors",
+      "access.logged_out",
+      "downloads.downloads_disappear",
+      "access.account_hacked_or_locked",
+      "billing.unexpected_charges",
+      "playback.other"
+    ],
+    "cancellations": [
+      "billing.premium_only_controls",
+      "other.general_criticism",
+      "usability.ads",
+      "usability.redesign_update",
+      "playback.stops_or_skips",
+      "other.boycott_political",
+      "usability.shuffle_autoplay",
+      "usability.controls",
+      "billing.price",
+      "playback.crashes_or_wont_open"
+    ],
+    "recent_3m_complaints": [
+      "billing.premium_only_controls",
+      "other.general_criticism",
+      "usability.ads",
+      "usability.redesign_update",
+      "usability.controls",
+      "usability.shuffle_autoplay",
+      "playback.stops_or_skips",
+      "catalog.lyrics",
+      "access.login_failure",
+      "billing.price"
+    ]
+  },
+  "alt_ranking_table": [
+    {
+      "issue": "other.general_criticism",
+      "complaint_count": 19032,
+      "severity_sum": 37607,
+      "severity_4_plus": 16,
+      "cancellations": 1223,
+      "recent_3m_complaints": 6201,
+      "recent_3m_share_pct": 16.92
+    },
+    {
+      "issue": "billing.premium_only_controls",
+      "complaint_count": 9415,
+      "severity_sum": 26630,
+      "severity_4_plus": 91,
+      "cancellations": 2049,
+      "recent_3m_complaints": 6308,
+      "recent_3m_share_pct": 17.22
+    },
+    {
+      "issue": "usability.ads",
+      "complaint_count": 8512,
+      "severity_sum": 18041,
+      "severity_4_plus": 15,
+      "cancellations": 531,
+      "recent_3m_complaints": 2117,
+      "recent_3m_share_pct": 5.78
+    },
+    {
+      "issue": "playback.stops_or_skips",
+      "complaint_count": 3097,
+      "severity_sum": 9685,
+      "severity_4_plus": 533,
+      "cancellations": 300,
+      "recent_3m_complaints": 601,
+      "recent_3m_share_pct": 1.64
+    },
+    {
+      "issue": "playback.crashes_or_wont_open",
+      "complaint_count": 2156,
+      "severity_sum": 7559,
+      "severity_4_plus": 1196,
+      "cancellations": 106,
+      "recent_3m_complaints": 385,
+      "recent_3m_share_pct": 1.05
+    },
+    {
+      "issue": "usability.redesign_update",
+      "complaint_count": 3138,
+      "severity_sum": 7177,
+      "severity_4_plus": 22,
+      "cancellations": 440,
+      "recent_3m_complaints": 1223,
+      "recent_3m_share_pct": 3.34
+    },
+    {
+      "issue": "access.login_failure",
+      "complaint_count": 1558,
+      "severity_sum": 6073,
+      "severity_4_plus": 1409,
+      "cancellations": 82,
+      "recent_3m_complaints": 531,
+      "recent_3m_share_pct": 1.45
+    },
+    {
+      "issue": "usability.shuffle_autoplay",
+      "complaint_count": 2193,
+      "severity_sum": 5868,
+      "severity_4_plus": 8,
+      "cancellations": 231,
+      "recent_3m_complaints": 683,
+      "recent_3m_share_pct": 1.86
+    },
+    {
+      "issue": "usability.controls",
+      "complaint_count": 1988,
+      "severity_sum": 5620,
+      "severity_4_plus": 13,
+      "cancellations": 228,
+      "recent_3m_complaints": 841,
+      "recent_3m_share_pct": 2.3
+    },
+    {
+      "issue": "catalog.missing_or_removed_content",
+      "complaint_count": 1527,
+      "severity_sum": 4082,
+      "severity_4_plus": 78,
+      "cancellations": 88,
+      "recent_3m_complaints": 312,
+      "recent_3m_share_pct": 0.85
+    },
+    {
+      "issue": "usability.queue_playlist_management",
+      "complaint_count": 1284,
+      "severity_sum": 3520,
+      "severity_4_plus": 18,
+      "cancellations": 81,
+      "recent_3m_complaints": 296,
+      "recent_3m_share_pct": 0.81
+    },
+    {
+      "issue": "playback.other",
+      "complaint_count": 1077,
+      "severity_sum": 3138,
+      "severity_4_plus": 115,
+      "cancellations": 67,
+      "recent_3m_complaints": 240,
+      "recent_3m_share_pct": 0.65
+    },
+    {
+      "issue": "catalog.lyrics",
+      "complaint_count": 1080,
+      "severity_sum": 3002,
+      "severity_4_plus": 2,
+      "cancellations": 25,
+      "recent_3m_complaints": 553,
+      "recent_3m_share_pct": 1.51
+    },
+    {
+      "issue": "billing.price",
+      "complaint_count": 1202,
+      "severity_sum": 2473,
+      "severity_4_plus": 6,
+      "cancellations": 129,
+      "recent_3m_complaints": 524,
+      "recent_3m_share_pct": 1.43
+    },
+    {
+      "issue": "playback.connection_errors",
+      "complaint_count": 727,
+      "severity_sum": 2432,
+      "severity_4_plus": 296,
+      "cancellations": 33,
+      "recent_3m_complaints": 146,
+      "recent_3m_share_pct": 0.4
+    },
+    {
+      "issue": "playback.device_connectivity",
+      "complaint_count": 765,
+      "severity_sum": 2284,
+      "severity_4_plus": 90,
+      "cancellations": 93,
+      "recent_3m_complaints": 110,
+      "recent_3m_share_pct": 0.3
+    },
+    {
+      "issue": "playback.lag_or_slow",
+      "complaint_count": 678,
+      "severity_sum": 1947,
+      "severity_4_plus": 53,
+      "cancellations": 36,
+      "recent_3m_complaints": 143,
+      "recent_3m_share_pct": 0.39
+    },
+    {
+      "issue": "other.boycott_political",
+      "complaint_count": 1211,
+      "severity_sum": 1837,
+      "severity_4_plus": 1,
+      "cancellations": 297,
+      "recent_3m_complaints": 110,
+      "recent_3m_share_pct": 0.3
+    },
+    {
+      "issue": "catalog.recommendations",
+      "complaint_count": 792,
+      "severity_sum": 1744,
+      "severity_4_plus": 0,
+      "cancellations": 45,
+      "recent_3m_complaints": 137,
+      "recent_3m_share_pct": 0.37
+    },
+    {
+      "issue": "usability.navigation_layout",
+      "complaint_count": 706,
+      "severity_sum": 1668,
+      "severity_4_plus": 5,
+      "cancellations": 29,
+      "recent_3m_complaints": 121,
+      "recent_3m_share_pct": 0.33
+    },
+    {
+      "issue": "billing.subscription_activation",
+      "complaint_count": 457,
+      "severity_sum": 1655,
+      "severity_4_plus": 303,
+      "cancellations": 28,
+      "recent_3m_complaints": 89,
+      "recent_3m_share_pct": 0.24
+    },
+    {
+      "issue": "downloads.offline_mode",
+      "complaint_count": 462,
+      "severity_sum": 1446,
+      "severity_4_plus": 109,
+      "cancellations": 30,
+      "recent_3m_complaints": 87,
+      "recent_3m_share_pct": 0.24
+    },
+    {
+      "issue": "downloads.downloads_disappear",
+      "complaint_count": 402,
+      "severity_sum": 1446,
+      "severity_4_plus": 198,
+      "cancellations": 38,
+      "recent_3m_complaints": 69,
+      "recent_3m_share_pct": 0.19
+    },
+    {
+      "issue": "downloads.download_failure",
+      "complaint_count": 428,
+      "severity_sum": 1299,
+      "severity_4_plus": 75,
+      "cancellations": 11,
+      "recent_3m_complaints": 70,
+      "recent_3m_share_pct": 0.19
+    },
+    {
+      "issue": "access.logged_out",
+      "complaint_count": 319,
+      "severity_sum": 1175,
+      "severity_4_plus": 208,
+      "cancellations": 16,
+      "recent_3m_complaints": 104,
+      "recent_3m_share_pct": 0.28
+    }
+  ],
+  "comparable_windows": {
+    "windows": {
+      "H2-2022 (2022-06..2022-11)": {
+        "classified": 39836,
+        "complaints": 12141,
+        "complaint_share": "30.5%",
+        "areas": {
+          "access": {
+            "complaints": 476,
+            "share_of_classified": "1.19%",
+            "share_of_complaints": "3.9%"
+          },
+          "usability": {
+            "complaints": 4528,
+            "share_of_classified": "11.37%",
+            "share_of_complaints": "37.3%"
+          },
+          "playback": {
+            "complaints": 3761,
+            "share_of_classified": "9.44%",
+            "share_of_complaints": "31.0%"
+          },
+          "billing_support": {
+            "complaints": 1203,
+            "share_of_classified": "3.02%",
+            "share_of_complaints": "9.9%"
+          }
+        }
+      },
+      "mid-2023 (2023-05..2023-10)": {
+        "classified": 68643,
+        "complaints": 39556,
+        "complaint_share": "57.6%",
+        "areas": {
+          "access": {
+            "complaints": 1298,
+            "share_of_classified": "1.89%",
+            "share_of_complaints": "3.3%"
+          },
+          "usability": {
+            "complaints": 8005,
+            "share_of_classified": "11.66%",
+            "share_of_complaints": "20.2%"
+          },
+          "playback": {
+            "complaints": 3604,
+            "share_of_classified": "5.25%",
+            "share_of_complaints": "9.1%"
+          },
+          "billing_support": {
+            "complaints": 8303,
+            "share_of_classified": "12.10%",
+            "share_of_complaints": "21.0%"
+          }
+        }
+      }
+    },
+    "note": "Full calendar months only; shares use classified reviews in the window as the denominator. Review volume is self-selected (e.g. spikes in 2023-07 and 2023-10)."
+  },
+  "severity_heatmap": {
+    "access": {
+      "1": 2,
+      "2": 69,
+      "3": 371,
+      "4": 1828,
+      "5": 68
+    },
+    "usability": {
+      "1": 3,
+      "2": 11838,
+      "3": 6253,
+      "4": 81,
+      "5": 3
+    },
+    "playback": {
+      "1": 2,
+      "2": 1112,
+      "3": 5876,
+      "4": 2298,
+      "5": 18
+    },
+    "downloads": {
+      "1": 0,
+      "2": 202,
+      "3": 916,
+      "4": 341,
+      "5": 59
+    },
+    "catalog": {
+      "1": 14,
+      "2": 1823,
+      "3": 2274,
+      "4": 99,
+      "5": 14
+    },
+    "billing": {
+      "1": 34,
+      "2": 3225,
+      "3": 8063,
+      "4": 468,
+      "5": 142
+    },
+    "support": {
+      "1": 0,
+      "2": 68,
+      "3": 47,
+      "4": 10,
+      "5": 5
+    },
+    "other": {
+      "1": 1285,
+      "2": 19199,
+      "3": 159,
+      "4": 12,
+      "5": 7
+    }
+  },
+  "versions": [
+    {
+      "version": "8.7.30",
+      "classified": 799,
+      "complaint_share_pct": 28.41,
+      "severity_4_plus_share_pct": 2.63,
+      "top_issue": "usability.ads",
+      "top_issue_count": 51,
+      "first_month": "2022-05"
+    },
+    {
+      "version": "8.7.32",
+      "classified": 1494,
+      "complaint_share_pct": 29.32,
+      "severity_4_plus_share_pct": 3.28,
+      "top_issue": "usability.ads",
+      "top_issue_count": 88,
+      "first_month": "2022-05"
+    },
+    {
+      "version": "8.7.34",
+      "classified": 1348,
+      "complaint_share_pct": 34.42,
+      "severity_4_plus_share_pct": 7.05,
+      "top_issue": "playback.crashes_or_wont_open",
+      "top_issue_count": 75,
+      "first_month": "2022-05"
+    },
+    {
+      "version": "8.7.36",
+      "classified": 1977,
+      "complaint_share_pct": 33.99,
+      "severity_4_plus_share_pct": 6.27,
+      "top_issue": "usability.ads",
+      "top_issue_count": 109,
+      "first_month": "2022-06"
+    },
+    {
+      "version": "8.7.38",
+      "classified": 1430,
+      "complaint_share_pct": 30.28,
+      "severity_4_plus_share_pct": 3.64,
+      "top_issue": "usability.ads",
+      "top_issue_count": 94,
+      "first_month": "2022-06"
+    },
+    {
+      "version": "8.7.42",
+      "classified": 1537,
+      "complaint_share_pct": 31.95,
+      "severity_4_plus_share_pct": 3.84,
+      "top_issue": "usability.ads",
+      "top_issue_count": 91,
+      "first_month": "2022-06"
+    },
+    {
+      "version": "8.7.44",
+      "classified": 2852,
+      "complaint_share_pct": 36.54,
+      "severity_4_plus_share_pct": 7.01,
+      "top_issue": "usability.ads",
+      "top_issue_count": 164,
+      "first_month": "2022-06"
+    },
+    {
+      "version": "8.7.48",
+      "classified": 2796,
+      "complaint_share_pct": 38.63,
+      "severity_4_plus_share_pct": 7.05,
+      "top_issue": "usability.ads",
+      "top_issue_count": 156,
+      "first_month": "2022-07"
+    },
+    {
+      "version": "8.7.52",
+      "classified": 1298,
+      "complaint_share_pct": 35.67,
+      "severity_4_plus_share_pct": 5.78,
+      "top_issue": "usability.ads",
+      "top_issue_count": 83,
+      "first_month": "2022-07"
+    },
+    {
+      "version": "8.7.54",
+      "classified": 1936,
+      "complaint_share_pct": 30.48,
+      "severity_4_plus_share_pct": 3.2,
+      "top_issue": "usability.ads",
+      "top_issue_count": 149,
+      "first_month": "2022-08"
+    },
+    {
+      "version": "8.7.56",
+      "classified": 1175,
+      "complaint_share_pct": 30.04,
+      "severity_4_plus_share_pct": 3.06,
+      "top_issue": "usability.ads",
+      "top_issue_count": 64,
+      "first_month": "2022-08"
+    },
+    {
+      "version": "8.7.58",
+      "classified": 1353,
+      "complaint_share_pct": 29.12,
+      "severity_4_plus_share_pct": 3.99,
+      "top_issue": "usability.ads",
+      "top_issue_count": 67,
+      "first_month": "2022-08"
+    },
+    {
+      "version": "8.7.60",
+      "classified": 509,
+      "complaint_share_pct": 29.86,
+      "severity_4_plus_share_pct": 3.93,
+      "top_issue": "usability.ads",
+      "top_issue_count": 23,
+      "first_month": "2022-08"
+    },
+    {
+      "version": "8.7.62",
+      "classified": 838,
+      "complaint_share_pct": 27.68,
+      "severity_4_plus_share_pct": 2.86,
+      "top_issue": "usability.ads",
+      "top_issue_count": 41,
+      "first_month": "2022-09"
+    },
+    {
+      "version": "8.7.64",
+      "classified": 1395,
+      "complaint_share_pct": 29.18,
+      "severity_4_plus_share_pct": 2.94,
+      "top_issue": "usability.ads",
+      "top_issue_count": 105,
+      "first_month": "2022-09"
+    },
+    {
+      "version": "8.7.66",
+      "classified": 1298,
+      "complaint_share_pct": 28.89,
+      "severity_4_plus_share_pct": 3.31,
+      "top_issue": "usability.ads",
+      "top_issue_count": 84,
+      "first_month": "2022-09"
+    },
+    {
+      "version": "8.7.68",
+      "classified": 1672,
+      "complaint_share_pct": 29.07,
+      "severity_4_plus_share_pct": 2.93,
+      "top_issue": "usability.ads",
+      "top_issue_count": 110,
+      "first_month": "2022-09"
+    },
+    {
+      "version": "8.7.70",
+      "classified": 503,
+      "complaint_share_pct": 29.82,
+      "severity_4_plus_share_pct": 3.58,
+      "top_issue": "usability.ads",
+      "top_issue_count": 31,
+      "first_month": "2022-10"
+    },
+    {
+      "version": "8.7.72",
+      "classified": 1390,
+      "complaint_share_pct": 30.22,
+      "severity_4_plus_share_pct": 3.38,
+      "top_issue": "usability.ads",
+      "top_issue_count": 103,
+      "first_month": "2022-10"
+    },
+    {
+      "version": "8.7.74",
+      "classified": 949,
+      "complaint_share_pct": 27.08,
+      "severity_4_plus_share_pct": 3.37,
+      "top_issue": "usability.ads",
+      "top_issue_count": 69,
+      "first_month": "2022-10"
+    },
+    {
+      "version": "8.7.76",
+      "classified": 1132,
+      "complaint_share_pct": 32.16,
+      "severity_4_plus_share_pct": 4.77,
+      "top_issue": "usability.ads",
+      "top_issue_count": 73,
+      "first_month": "2022-10"
+    },
+    {
+      "version": "8.7.78",
+      "classified": 2405,
+      "complaint_share_pct": 32.06,
+      "severity_4_plus_share_pct": 3.08,
+      "top_issue": "usability.ads",
+      "top_issue_count": 130,
+      "first_month": "2022-10"
+    },
+    {
+      "version": "8.7.82",
+      "classified": 1210,
+      "complaint_share_pct": 33.31,
+      "severity_4_plus_share_pct": 3.31,
+      "top_issue": "usability.ads",
+      "top_issue_count": 71,
+      "first_month": "2022-11"
+    },
+    {
+      "version": "8.7.84",
+      "classified": 909,
+      "complaint_share_pct": 31.02,
+      "severity_4_plus_share_pct": 2.75,
+      "top_issue": "usability.ads",
+      "top_issue_count": 66,
+      "first_month": "2022-11"
+    },
+    {
+      "version": "8.7.86",
+      "classified": 1616,
+      "complaint_share_pct": 38.92,
+      "severity_4_plus_share_pct": 3.03,
+      "top_issue": "usability.ads",
+      "top_issue_count": 91,
+      "first_month": "2022-11"
+    },
+    {
+      "version": "8.7.88",
+      "classified": 1291,
+      "complaint_share_pct": 36.64,
+      "severity_4_plus_share_pct": 3.1,
+      "top_issue": "usability.ads",
+      "top_issue_count": 77,
+      "first_month": "2022-11"
+    },
+    {
+      "version": "8.7.90",
+      "classified": 1676,
+      "complaint_share_pct": 46.0,
+      "severity_4_plus_share_pct": 6.03,
+      "top_issue": "playback.stops_or_skips",
+      "top_issue_count": 187,
+      "first_month": "2022-12"
+    },
+    {
+      "version": "8.7.92",
+      "classified": 4710,
+      "complaint_share_pct": 31.06,
+      "severity_4_plus_share_pct": 3.38,
+      "top_issue": "usability.ads",
+      "top_issue_count": 277,
+      "first_month": "2022-12"
+    },
+    {
+      "version": "8.8.0",
+      "classified": 1078,
+      "complaint_share_pct": 34.88,
+      "severity_4_plus_share_pct": 5.29,
+      "top_issue": "usability.ads",
+      "top_issue_count": 55,
+      "first_month": "2023-01"
+    },
+    {
+      "version": "8.8.2",
+      "classified": 1150,
+      "complaint_share_pct": 32.17,
+      "severity_4_plus_share_pct": 4.96,
+      "top_issue": "usability.ads",
+      "top_issue_count": 63,
+      "first_month": "2023-01"
+    },
+    {
+      "version": "8.8.4",
+      "classified": 1400,
+      "complaint_share_pct": 36.0,
+      "severity_4_plus_share_pct": 6.64,
+      "top_issue": "usability.ads",
+      "top_issue_count": 78,
+      "first_month": "2023-01"
+    },
+    {
+      "version": "8.8.6",
+      "classified": 959,
+      "complaint_share_pct": 32.74,
+      "severity_4_plus_share_pct": 4.07,
+      "top_issue": "usability.ads",
+      "top_issue_count": 70,
+      "first_month": "2023-02"
+    },
+    {
+      "version": "8.8.8",
+      "classified": 842,
+      "complaint_share_pct": 34.92,
+      "severity_4_plus_share_pct": 1.78,
+      "top_issue": "usability.ads",
+      "top_issue_count": 70,
+      "first_month": "2023-02"
+    },
+    {
+      "version": "8.8.10",
+      "classified": 775,
+      "complaint_share_pct": 33.16,
+      "severity_4_plus_share_pct": 2.71,
+      "top_issue": "usability.ads",
+      "top_issue_count": 52,
+      "first_month": "2023-02"
+    },
+    {
+      "version": "8.8.12",
+      "classified": 1134,
+      "complaint_share_pct": 32.98,
+      "severity_4_plus_share_pct": 2.91,
+      "top_issue": "usability.ads",
+      "top_issue_count": 74,
+      "first_month": "2023-02"
+    },
+    {
+      "version": "8.8.14",
+      "classified": 1160,
+      "complaint_share_pct": 34.14,
+      "severity_4_plus_share_pct": 2.41,
+      "top_issue": "usability.ads",
+      "top_issue_count": 72,
+      "first_month": "2023-03"
+    },
+    {
+      "version": "8.8.16",
+      "classified": 771,
+      "complaint_share_pct": 33.72,
+      "severity_4_plus_share_pct": 3.11,
+      "top_issue": "usability.ads",
+      "top_issue_count": 52,
+      "first_month": "2023-03"
+    },
+    {
+      "version": "8.8.18",
+      "classified": 1606,
+      "complaint_share_pct": 41.34,
+      "severity_4_plus_share_pct": 2.24,
+      "top_issue": "usability.redesign_update",
+      "top_issue_count": 201,
+      "first_month": "2023-03"
+    },
+    {
+      "version": "8.8.20",
+      "classified": 1123,
+      "complaint_share_pct": 39.72,
+      "severity_4_plus_share_pct": 2.23,
+      "top_issue": "usability.redesign_update",
+      "top_issue_count": 126,
+      "first_month": "2023-03"
+    },
+    {
+      "version": "8.8.22",
+      "classified": 2118,
+      "complaint_share_pct": 39.57,
+      "severity_4_plus_share_pct": 2.97,
+      "top_issue": "usability.redesign_update",
+      "top_issue_count": 189,
+      "first_month": "2023-03"
+    },
+    {
+      "version": "8.8.24",
+      "classified": 479,
+      "complaint_share_pct": 35.28,
+      "severity_4_plus_share_pct": 2.3,
+      "top_issue": "usability.redesign_update",
+      "top_issue_count": 36,
+      "first_month": "2023-04"
+    },
+    {
+      "version": "8.8.26",
+      "classified": 1053,
+      "complaint_share_pct": 39.22,
+      "severity_4_plus_share_pct": 5.32,
+      "top_issue": "usability.redesign_update",
+      "top_issue_count": 59,
+      "first_month": "2023-04"
+    },
+    {
+      "version": "8.8.28",
+      "classified": 2838,
+      "complaint_share_pct": 34.85,
+      "severity_4_plus_share_pct": 3.0,
+      "top_issue": "usability.ads",
+      "top_issue_count": 160,
+      "first_month": "2023-04"
+    },
+    {
+      "version": "8.8.32",
+      "classified": 1214,
+      "complaint_share_pct": 34.43,
+      "severity_4_plus_share_pct": 3.62,
+      "top_issue": "usability.ads",
+      "top_issue_count": 61,
+      "first_month": "2023-05"
+    },
+    {
+      "version": "8.8.36",
+      "classified": 2495,
+      "complaint_share_pct": 40.32,
+      "severity_4_plus_share_pct": 3.61,
+      "top_issue": "usability.ads",
+      "top_issue_count": 153,
+      "first_month": "2023-05"
+    },
+    {
+      "version": "8.8.40",
+      "classified": 2282,
+      "complaint_share_pct": 43.3,
+      "severity_4_plus_share_pct": 3.72,
+      "top_issue": "usability.ads",
+      "top_issue_count": 143,
+      "first_month": "2023-05"
+    },
+    {
+      "version": "8.8.42",
+      "classified": 502,
+      "complaint_share_pct": 36.45,
+      "severity_4_plus_share_pct": 3.19,
+      "top_issue": "usability.ads",
+      "top_issue_count": 27,
+      "first_month": "2023-06"
+    },
+    {
+      "version": "8.8.44",
+      "classified": 1572,
+      "complaint_share_pct": 39.76,
+      "severity_4_plus_share_pct": 4.07,
+      "top_issue": "usability.ads",
+      "top_issue_count": 95,
+      "first_month": "2023-06"
+    },
+    {
+      "version": "8.8.46",
+      "classified": 1169,
+      "complaint_share_pct": 45.59,
+      "severity_4_plus_share_pct": 3.42,
+      "top_issue": "usability.ads",
+      "top_issue_count": 84,
+      "first_month": "2023-06"
+    },
+    {
+      "version": "8.8.48",
+      "classified": 1844,
+      "complaint_share_pct": 50.33,
+      "severity_4_plus_share_pct": 2.49,
+      "top_issue": "usability.ads",
+      "top_issue_count": 88,
+      "first_month": "2023-06"
+    },
+    {
+      "version": "8.8.50",
+      "classified": 1890,
+      "complaint_share_pct": 56.67,
+      "severity_4_plus_share_pct": 2.17,
+      "top_issue": "usability.ads",
+      "top_issue_count": 119,
+      "first_month": "2023-07"
+    },
+    {
+      "version": "8.8.52",
+      "classified": 1353,
+      "complaint_share_pct": 40.72,
+      "severity_4_plus_share_pct": 4.21,
+      "top_issue": "usability.ads",
+      "top_issue_count": 83,
+      "first_month": "2023-07"
+    },
+    {
+      "version": "8.8.54",
+      "classified": 1663,
+      "complaint_share_pct": 42.33,
+      "severity_4_plus_share_pct": 5.29,
+      "top_issue": "usability.ads",
+      "top_issue_count": 101,
+      "first_month": "2023-07"
+    },
+    {
+      "version": "8.8.56",
+      "classified": 1152,
+      "complaint_share_pct": 40.02,
+      "severity_4_plus_share_pct": 5.3,
+      "top_issue": "usability.ads",
+      "top_issue_count": 89,
+      "first_month": "2023-07"
+    },
+    {
+      "version": "8.8.58",
+      "classified": 2192,
+      "complaint_share_pct": 39.51,
+      "severity_4_plus_share_pct": 4.84,
+      "top_issue": "usability.ads",
+      "top_issue_count": 153,
+      "first_month": "2023-08"
+    },
+    {
+      "version": "8.8.62",
+      "classified": 1287,
+      "complaint_share_pct": 40.25,
+      "severity_4_plus_share_pct": 5.67,
+      "top_issue": "usability.ads",
+      "top_issue_count": 107,
+      "first_month": "2023-08"
+    },
+    {
+      "version": "8.8.64",
+      "classified": 876,
+      "complaint_share_pct": 37.1,
+      "severity_4_plus_share_pct": 4.57,
+      "top_issue": "usability.ads",
+      "top_issue_count": 68,
+      "first_month": "2023-08"
+    },
+    {
+      "version": "8.8.66",
+      "classified": 3038,
+      "complaint_share_pct": 55.86,
+      "severity_4_plus_share_pct": 4.58,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 494,
+      "first_month": "2023-08"
+    },
+    {
+      "version": "8.8.68",
+      "classified": 829,
+      "complaint_share_pct": 49.22,
+      "severity_4_plus_share_pct": 4.22,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 83,
+      "first_month": "2023-09"
+    },
+    {
+      "version": "8.8.70",
+      "classified": 1688,
+      "complaint_share_pct": 50.53,
+      "severity_4_plus_share_pct": 3.44,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 148,
+      "first_month": "2023-09"
+    },
+    {
+      "version": "8.8.72",
+      "classified": 791,
+      "complaint_share_pct": 50.82,
+      "severity_4_plus_share_pct": 4.55,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 66,
+      "first_month": "2023-09"
+    },
+    {
+      "version": "8.8.74",
+      "classified": 1852,
+      "complaint_share_pct": 50.97,
+      "severity_4_plus_share_pct": 4.32,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 161,
+      "first_month": "2023-09"
+    },
+    {
+      "version": "8.8.76",
+      "classified": 5479,
+      "complaint_share_pct": 78.34,
+      "severity_4_plus_share_pct": 2.19,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 1718,
+      "first_month": "2023-10"
+    },
+    {
+      "version": "8.8.78",
+      "classified": 2361,
+      "complaint_share_pct": 82.04,
+      "severity_4_plus_share_pct": 2.03,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 773,
+      "first_month": "2023-10"
+    },
+    {
+      "version": "8.8.80",
+      "classified": 7121,
+      "complaint_share_pct": 71.77,
+      "severity_4_plus_share_pct": 2.71,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 1498,
+      "first_month": "2023-10"
+    },
+    {
+      "version": "8.8.82",
+      "classified": 1678,
+      "complaint_share_pct": 68.18,
+      "severity_4_plus_share_pct": 3.81,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 232,
+      "first_month": "2023-11"
+    },
+    {
+      "version": "(missing)",
+      "classified": 36255,
+      "complaint_share_pct": 51.42,
+      "severity_4_plus_share_pct": 2.92,
+      "top_issue": "billing.premium_only_controls",
+      "top_issue_count": 1942,
+      "first_month": "2022-05"
+    }
+  ],
+  "events": {
+    "_note": "Curated EXTERNAL context from news reports, used only to annotate the timeline. Dates and descriptions come from the cited sources; a matching spike in reviews is a correlation, not proof of cause.",
+    "events": [
+      {
+        "id": "EV1",
+        "date": "2023-03-08",
+        "month": "2023-03",
+        "title": "Home feed redesign announced (Stream On)",
+        "description": "Spotify unveiled a vertical, TikTok-style home feed; users criticized reduced everyday usability.",
+        "related_series": [
+          "issue:usability.redesign_update",
+          "area:usability"
+        ],
+        "sources": [
+          "https://www.nme.com/news/music/spotify-new-vertical-feed-interface-tiktok-3410470",
+          "https://www.techradar.com/news/your-new-spotify-homepage-is-a-radical-mix-of-tiktok-and-netflix"
+        ],
+        "matching_anomalies": [
+          "2023-03:issue:usability.redesign_update",
+          "2023-04:issue:usability.redesign_update"
+        ]
+      },
+      {
+        "id": "EV2",
+        "date": "2023-06-28",
+        "month": "2023-07",
+        "title": "Quran burnings in Sweden → calls to boycott Swedish brands",
+        "description": "Quran-burning protests in Stockholm (June–July 2023) prompted calls to boycott Swedish goods; Spotify is Swedish.",
+        "related_series": [
+          "issue:other.boycott_political",
+          "keyword:sweden_quran",
+          "volume"
+        ],
+        "sources": [
+          "https://blogs.ed.ac.uk/digitalislameurope/research-findings/archiving/archiving-contemporary-events/quran-burning-incidents-in-sweden/",
+          "https://next.sr.se/artikel/calls-for-a-boycott-of-swedish-goods-following-quran-burning-protest"
+        ],
+        "matching_anomalies": [
+          "2023-07:boycott",
+          "2023-07:volume",
+          "2023-08:boycott"
+        ]
+      },
+      {
+        "id": "EV3",
+        "date": "2023-09-01",
+        "month": "2023-09",
+        "title": "Lyrics paywall test for free users",
+        "description": "Spotify began testing a paywall on lyrics ('Enjoy lyrics on Spotify Premium').",
+        "related_series": [
+          "issue:billing.premium_only_controls",
+          "issue:catalog.lyrics",
+          "keyword:lyrics"
+        ],
+        "sources": [
+          "https://www.musicbusinessworldwide.com/spotify-quietly-locks-lyrics-behind-paywall-in-bid-to-convert-free-users-to-paying-subs-report",
+          "https://www.phonearena.com/news/spotify-is-testing-a-lyrics-paywall-pay-to-sing-along_id150469"
+        ],
+        "matching_anomalies": [
+          "2023-09:issue:billing.premium_only_controls",
+          "2023-09:issue:catalog.lyrics",
+          "2023-10:issue:billing.premium_only_controls"
+        ]
+      },
+      {
+        "id": "EV4",
+        "date": "2023-10-09",
+        "month": "2023-10",
+        "title": "Free-tier restrictions in India (no manual order, rewind, repeat)",
+        "description": "Free users in India lost manual song ordering, rewind/scrub and repeat; reports of negative Play Store reviews.",
+        "related_series": [
+          "issue:billing.premium_only_controls",
+          "area:billing_support",
+          "volume"
+        ],
+        "sources": [
+          "https://techcrunch.com/2023/10/09/spotify-puts-restrictions-on-its-free-tier-in-india-to-attract-more-paid-users",
+          "https://www.afaqs.com/news/ott-streaming/spotify-faces-backlash-over-updates-for-free-users-in-india"
+        ],
+        "matching_anomalies": [
+          "2023-10:area:billing_support",
+          "2023-10:issue:billing.premium_only_controls",
+          "2023-10:volume"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+rank,issue_id,title,complaint_count,severity_sum,mean_severity,priority_score
+1,billing.premium_only_controls,Core playback controls locked behind premium,35,103,2.942857,103
+2,other.general_criticism,Generic negative sentiment without specific problem,52,103,1.980769,103
+3,usability.ads,Excessive and unskippable advertisements,31,64,2.064516,64
+4,usability.redesign_update,Unwelcome recent redesign and update changes,19,45,2.368421,45
+5,playback.stops_or_skips,Playback randomly stops or fails to start tracks,11,37,3.363636,37
+6,playback.connection_errors,False no-internet errors on working connections,8,28,3.500000,28
+7,access.login_failure,Unable to log in to the app,7,27,3.857143,27
+8,playback.crashes_or_wont_open,App crashes or freezes on launch,6,24,4.000000,24
+9,usability.shuffle_autoplay,Shuffle forced and autoplay overriding playback choices,9,24,2.666667,24
+10,billing.subscription_activation,Premium purchase or activation fails,4,15,3.750000,15
+11,catalog.recommendations,Recommendations repetitive and unwanted despite settings,6,14,2.333333,14
+12,playback.other,Miscellaneous playback and content problems,5,14,2.800000,14
+13,catalog.lyrics,Song lyrics fail to load or appear,5,13,2.600000,13
+14,playback.device_connectivity,Trouble connecting to other devices,4,13,3.250000,13
+15,catalog.missing_or_removed_content,Songs missing or removed from catalog,5,12,2.400000,12
+16,other.boycott_political,Users boycott app over political stance,7,10,1.428571,10
+17,billing.plans_family_student,Forced premium trial and lost features,4,9,2.250000,9
+18,access.logged_out,Unexpectedly logged out and cannot sign back in,2,8,4.000000,8
+19,playback.audio_quality,Poor audio quality and noise during playback,3,8,2.666667,8
+20,usability.navigation_layout,Hard to navigate and find content,3,8,2.666667,8
+21,downloads.offline_mode,Offline mode fails and deletes downloads,2,7,3.500000,7
+22,catalog.other,Specific library and Wrap features not loading,2,6,3.000000,6
+23,downloads.download_failure,Downloads stall or never start,2,6,3.000000,6
+24,usability.controls,Limited skip and repeat controls,2,6,3.000000,6
+25,access.account_hacked_or_locked,Account hacked and playlists lost,1,5,5.000000,5
+26,downloads.downloads_disappear,Downloaded content vanished unexpectedly,1,4,4.000000,4
+27,playback.lag_or_slow,Podcasts lag during playback,1,4,4.000000,4
+28,usability.other,General dissatisfaction and unwanted autostart,2,4,2.000000,4
+29,billing.other,Repeated pressure to join premium,1,2,2.000000,2
+30,billing.price,Music subscription charges feel too high,1,2,2.000000,2
+31,downloads.storage,App consumes excessive data and storage,1,2,2.000000,2

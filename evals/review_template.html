@@ -1,0 +1,59 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Enricher Spot-Check</title><style>
+:root{--bg:#fafaf9;--fg:#1c1917;--mut:#78716c;--card:#fff;--bd:#e7e5e4;--ok:#15803d;--bad:#b91c1c;--acc:#1d4ed8;--hl:#fef9c3}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1917;--fg:#f5f5f4;--mut:#a8a29e;--card:#292524;--bd:#44403c;--ok:#4ade80;--bad:#f87171;--acc:#93c5fd;--hl:#3f3a1a}}
+body{background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,sans-serif;margin:0}
+.wrap{max-width:900px;margin:0 auto;padding:16px}
+.bar{position:sticky;top:0;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--bd);display:flex;gap:10px;align-items:center;flex-wrap:wrap;z-index:2}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:14px;margin:12px 0}
+.text{white-space:pre-wrap;font-size:17px;background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:10px}
+mark{background:var(--hl);color:inherit;border-radius:3px}
+.mut{color:var(--mut);font-size:13px}.tag{display:inline-block;font-size:12px;border:1px solid var(--bd);border-radius:20px;padding:1px 8px;margin-right:4px}
+.row{display:grid;grid-template-columns:120px 1fr;gap:8px;align-items:center;margin-top:8px}
+@media(max-width:600px){.row{grid-template-columns:1fr}}
+.pred{font-weight:600}.btns button{border:1px solid var(--bd);background:var(--card);color:var(--fg);border-radius:6px;padding:4px 10px;margin:2px;cursor:pointer}
+.btns button.ok.on{background:var(--ok);color:var(--bg);border-color:var(--ok)}.btns button.bad.on{background:var(--bad);color:var(--bg);border-color:var(--bad)}
+select,input[type=text]{background:var(--bg);color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:4px}
+input[type=text]{width:100%;box-sizing:border-box}.nav button{padding:6px 12px}
+#save{font-size:13px}.done{color:var(--ok)}
+</style></head><body><div class="wrap">
+<div class="bar nav"><button id="prev">&larr;</button><b id="pos"></b><button id="next">&rarr;</button>
+<span class="mut" id="progress"></span><span style="flex:1"></span><span id="save" class="mut"></span></div>
+<div id="card"></div>
+<div class="card mut" id="help">Judge the <b>model's</b> labels against the shared definitions. Mark each field correct or wrong; if wrong, pick the right value. "Quote supports label" asks whether the highlighted quote actually justifies the labels. Decisions save to disk automatically. Keys: ←/→ navigate, 1 = all correct.</div>
+</div><script>
+const D=__DATA__;const RUN=D.meta.run_id;const KEY="spotcheck-"+RUN;
+let S={};try{S=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+fetch("decisions.json").then(r=>r.ok?r.json():null).then(j=>{if(j&&j.decisions){S=Object.assign(j.decisions,S);render()}}).catch(()=>{});
+let i=0;const $=id=>document.getElementById(id);let timer=null;
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}clearTimeout(timer);$("save").textContent="saving…";
+ timer=setTimeout(()=>fetch("/api/save/"+RUN,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({run_id:RUN,label_config:D.meta.label_config,saved_at:new Date().toISOString(),decisions:S})})
+ .then(r=>{$("save").textContent=r.ok?"saved to disk ✓":"save failed (kept in browser)"}).catch(()=>{$("save").textContent="server offline (kept in browser)"}),300)}
+function cur(){const id=D.items[i].review_id;return S[id]=S[id]||{}}
+function complete(id){const s=S[id]||{};return ["topic","intent","severity","quote"].every(f=>s[f]&&(s[f].ok!==undefined))}
+function esc(t){return t.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
+function field(name,label,predShown,options){const s=cur()[name]||{};
+ let h=`<div class="row"><div>${label}</div><div class="btns"><span class="pred">${predShown}</span> &nbsp;
+ <button class="ok ${s.ok===true?"on":""}" data-f="${name}" data-v="1">✓ correct</button><button class="bad ${s.ok===false?"on":""}" data-f="${name}" data-v="0">✗ wrong</button>`;
+ if(s.ok===false&&options){h+=` → <select data-c="${name}"><option value="">correct value…</option>${options.map(o=>`<option ${String(s.correct)===String(o)?"selected":""}>${o}</option>`).join("")}</select>`}
+ return h+`</div></div>`}
+function render(){const it=D.items[i],p=it.pred,s=cur();$("pos").textContent=`${i+1} / ${D.items.length}`;
+ $("progress").textContent=`${D.items.filter(x=>complete(x.review_id)).length} reviewed`;
+ let txt=esc(it.text);const q=esc(p.evidence_quote||"");if(q&&txt.includes(q))txt=txt.replace(q,`<mark>${q}</mark>`);
+ $("card").innerHTML=`<div class="card"><div class="mut">${it.review_id} · ★${it.stars} (metadata only) · selected because: ${it.why.map(w=>`<span class="tag">${w}</span>`).join("")}</div>
+ <div class="text" style="margin-top:8px">${txt}</div>
+ ${field("topic","Topic",`${p.topic} <span class="mut">/ ${p.subtopic}</span>`,D.topics)}
+ ${field("intent","Intent",p.intent,D.intents)}
+ ${field("severity","Severity",p.severity,[1,2,3,4,5])}
+ ${field("quote","Quote supports label","highlighted text",null)}
+ <div class="row"><div class="mut">Also predicted</div><div class="mut">sentiment ${p.sentiment} · entities ${JSON.stringify(it.entities)} · needs_review ${it.needs_review}${p.review_reason?" ("+esc(p.review_reason)+")":""}</div></div>
+ <div class="row"><div>Note</div><div><input type="text" id="note" value="${esc(s.note||"")}" placeholder="optional: why it's wrong / pattern"></div></div></div>`;
+ document.querySelectorAll("button[data-f]").forEach(b=>b.onclick=()=>{const f=b.dataset.f;cur()[f]=Object.assign(cur()[f]||{}, {ok:b.dataset.v==="1"});if(b.dataset.v==="1")delete cur()[f].correct;persist();render()});
+ document.querySelectorAll("select[data-c]").forEach(sel=>sel.onchange=()=>{cur()[sel.dataset.c].correct=sel.value;persist()});
+ $("note").oninput=e=>{cur().note=e.target.value;persist()}}
+$("prev").onclick=()=>{i=Math.max(0,i-1);render()};$("next").onclick=()=>{i=Math.min(D.items.length-1,i+1);render()};
+document.addEventListener("keydown",e=>{if(e.target.tagName=="INPUT"||e.target.tagName=="SELECT")return;
+ if(e.key=="ArrowRight")$("next").click();if(e.key=="ArrowLeft")$("prev").click();
+ if(e.key=="1"){["topic","intent","severity","quote"].forEach(f=>cur()[f]={ok:true});persist();render();setTimeout(()=>$("next").click(),150)}});
+render();
+</script></body></html>

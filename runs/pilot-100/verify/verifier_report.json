@@ -1,0 +1,35 @@
+{
+  "label_config_verifier": "claude-sonnet-5-5+thinking-between_tools+effort-low+verify_v1+schema_v1+taxonomy_v1",
+  "label_config_enricher": "claude-haiku-5-5+thinking-disabled+effort-low+enrich_v1+schema_v1+taxonomy_v1",
+  "sample_rule": "lowest sha256('verify-v1:'+review_id) among completed original records; fraction=0.1, min=10",
+  "sample_size": 10,
+  "verified": 10,
+  "verify_failures": [],
+  "summary": {
+    "n": 10,
+    "agreement": {
+      "topic": 0.8,
+      "intent": 1.0,
+      "severity_exact": 0.8,
+      "sentiment_within_tol": 1.0,
+      "complaint_flag": 1.0,
+      "all_core_agree": 0.7
+    },
+    "severity_mae": 0.2,
+    "disagreements": 3,
+    "topic_pairs": {
+      "other->other": 6,
+      "access->access": 1,
+      "catalog->other": 1,
+      "other->billing": 1,
+      "catalog->catalog": 1
+    },
+    "intent_pairs": {
+      "praise->praise": 5,
+      "complaint->complaint": 4,
+      "unclear->unclear": 1
+    },
+    "sentiment_tolerance": 0.5
+  },
+  "generated_at": "2026-10-13T17:05:27"
+}

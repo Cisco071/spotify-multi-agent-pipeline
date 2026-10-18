@@ -1,0 +1,165 @@
+{
+  "label_config_verifier": "claude-sonnet-5-5+thinking-between_tools+effort-low+verify_v1+schema_v1+taxonomy_v1",
+  "label_config_enricher": "claude-haiku-5-5+thinking-disabled+effort-low+enrich_v1+schema_v1+taxonomy_v1",
+  "sample_rule": "lowest sha256('verify-v1:'+review_id) among completed original records; fraction=0.01, min=50",
+  "sample_size": 781,
+  "verified": 759,
+  "verify_failures": [
+    {
+      "review_id": "dffa37cb-e67b-416d-b3c6-0cf835902688",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "30350ca7-8cef-4648-8107-2e234bcff9fa",
+      "error": "quote_not_substring"
+    },
+    {
+      "review_id": "40d61da6-ad48-443f-9157-7e4c78087d57",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "8ac57170-8dfd-4c23-ac76-b344da863444",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "246981ac-84d5-47ed-8bca-7ce513ae2590",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "1480e8d9-c41f-4ae3-b031-c5ccea9c799c",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "494fdaef-929b-4275-a890-2a98abeeacb5",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "e290982d-2990-42d0-acf9-6f36ea9fa7c9",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "c8e77c52-328b-4231-a3bc-84dfc3d65e15",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "2ff21127-f404-40c0-b47b-a60930d8904e",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "73acafb8-1cf4-43de-928f-d169f97a00b5",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "72885213-4e5f-4af1-94ef-4e3066b7889d",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "7e152590-cfd0-46e0-b95e-565025bc5e7f",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "eb673095-fcfb-42eb-95c5-871d1fb6eb6a",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "6b355e46-6817-4573-8707-8b8e1f583ca3",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "4500f26e-8d10-48cc-af6a-c683fff470bd",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "59094eee-0941-4c2d-9cc0-f6d1227b7ced",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "18c3b5d5-ec27-4f95-9d70-5bb9e58e8a63",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "9b663f14-08ce-4077-b0da-8a5a3d4fb479",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "24674cc4-47a3-4ed9-a2ac-c9a004f6b932",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "18048b88-a37e-465f-b900-fe79680697bf",
+      "error": "not_verified"
+    },
+    {
+      "review_id": "d471bb9e-833d-455c-be2b-b7fb582dd04a",
+      "error": "not_verified"
+    }
+  ],
+  "summary": {
+    "n": 759,
+    "agreement": {
+      "topic": 0.8709,
+      "intent": 0.9381,
+      "severity_exact": 0.9038,
+      "sentiment_within_tol": 0.9908,
+      "complaint_flag": 0.9644,
+      "all_core_agree": 0.7576
+    },
+    "severity_mae": 0.1001,
+    "disagreements": 184,
+    "topic_pairs": {
+      "other->other": 317,
+      "usability->usability": 121,
+      "billing->billing": 85,
+      "catalog->catalog": 62,
+      "playback->playback": 53,
+      "other->usability": 15,
+      "downloads->downloads": 13,
+      "billing->other": 9,
+      "catalog->other": 9,
+      "playback->usability": 8,
+      "other->catalog": 8,
+      "access->access": 8,
+      "usability->other": 6,
+      "playback->billing": 5,
+      "catalog->usability": 5,
+      "usability->catalog": 4,
+      "downloads->catalog": 3,
+      "playback->catalog": 3,
+      "billing->usability": 3,
+      "usability->playback": 3,
+      "usability->billing": 3,
+      "other->billing": 2,
+      "support->support": 2,
+      "other->playback": 2,
+      "catalog->billing": 2,
+      "playback->other": 2,
+      "other->downloads": 1,
+      "access->other": 1,
+      "downloads->playback": 1,
+      "downloads->billing": 1,
+      "downloads->other": 1,
+      "access->playback": 1
+    },
+    "intent_pairs": {
+      "complaint->complaint": 330,
+      "praise->praise": 287,
+      "unclear->unclear": 35,
+      "cancellation->cancellation": 33,
+      "request->request": 27,
+      "complaint->unclear": 7,
+      "praise->unclear": 7,
+      "request->complaint": 7,
+      "complaint->cancellation": 7,
+      "complaint->request": 5,
+      "complaint->praise": 4,
+      "cancellation->complaint": 3,
+      "unclear->praise": 2,
+      "unclear->complaint": 2,
+      "unclear->cancellation": 1,
+      "praise->complaint": 1,
+      "request->unclear": 1
+    },
+    "sentiment_tolerance": 0.5
+  },
+  "generated_at": "2026-10-17T14:33:41"
+}

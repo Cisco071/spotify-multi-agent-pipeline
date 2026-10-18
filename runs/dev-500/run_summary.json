@@ -1,0 +1,261 @@
+{
+  "run_id": "dev-500",
+  "invocation": "inv-20261013T173916-bfa385",
+  "phase": "initial",
+  "stages": {
+    "ingest": {
+      "seconds": 0.03,
+      "result": {
+        "input": "dataset/checkpoint_500.csv",
+        "input_sha256": "a94e31663ee7b7eaa77e23b7a8425b530cc0c866ed5e714953172a0afef6a12f",
+        "rows": 500,
+        "inserted": 500,
+        "nonempty": 500,
+        "empty_quarantined": 0,
+        "distinct_nonempty_texts": 479
+      }
+    },
+    "enrich": {
+      "seconds": 78.6,
+      "result": {
+        "batches": 8,
+        "calls_ok": 9,
+        "calls_failed": 0,
+        "completed": 379,
+        "cache_hits": 21,
+        "retried_ids": 2,
+        "fallback_ids": 0,
+        "quarantined": 0,
+        "stopped_reason": null,
+        "imported_from_global_cache": 100,
+        "agents": {
+          "enricher_1": {
+            "batches": 4,
+            "records_ok": 179,
+            "seconds": 69.602,
+            "cost_usd": 0.01338503
+          },
+          "enricher_0": {
+            "batches": 5,
+            "records_ok": 200,
+            "seconds": 77.93400000000001,
+            "cost_usd": 0.01500839
+          }
+        },
+        "wall_s": 78.59,
+        "status_before": {
+          "pending": 500
+        },
+        "status_after": {
+          "completed": 500
+        }
+      }
+    },
+    "verify": {
+      "seconds": 33.53,
+      "result": {
+        "summary": {
+          "n": 48,
+          "agreement": {
+            "topic": 0.875,
+            "intent": 0.9375,
+            "severity_exact": 0.9375,
+            "sentiment_within_tol": 0.9792,
+            "complaint_flag": 0.9792,
+            "all_core_agree": 0.7708
+          },
+          "severity_mae": 0.0625,
+          "disagreements": 11,
+          "topic_pairs": {
+            "other->other": 25,
+            "catalog->catalog": 5,
+            "usability->usability": 4,
+            "playback->playback": 4,
+            "catalog->other": 3,
+            "access->access": 2,
+            "billing->billing": 2,
+            "other->usability": 1,
+            "other->billing": 1,
+            "playback->other": 1
+          },
+          "intent_pairs": {
+            "praise->praise": 23,
+            "complaint->complaint": 17,
+            "unclear->unclear": 4,
+            "cancellation->cancellation": 1,
+            "praise->complaint": 1,
+            "praise->unclear": 1,
+            "cancellation->complaint": 1
+          },
+          "sentiment_tolerance": 0.5
+        },
+        "planted_error_pass": true
+      }
+    },
+    "group": {
+      "seconds": 18.07,
+      "result": {
+        "issues": 31,
+        "memberships": 242
+      }
+    },
+    "rank": {
+      "seconds": 0.01,
+      "result": {
+        "issues_ranked": 31,
+        "top5": [
+          "billing.premium_only_controls",
+          "other.general_criticism",
+          "usability.ads",
+          "usability.redesign_update",
+          "playback.stops_or_skips"
+        ]
+      }
+    },
+    "memo": {
+      "seconds": 27.01,
+      "result": {
+        "recommended_area": "billing_support",
+        "claims": 10
+      }
+    },
+    "export": {
+      "seconds": 0.01,
+      "result": {
+        "files": [
+          "aggregates.csv",
+          "aggregates.json",
+          "calls.jsonl",
+          "claims.csv",
+          "enriched.jsonl",
+          "group_names.json",
+          "ingest.json",
+          "issues.json",
+          "manifest.json",
+          "membership.csv",
+          "memo.json",
+          "memo.md",
+          "memo_inputs.json",
+          "progress.json",
+          "quarantine.jsonl",
+          "ranking.csv",
+          "run_log.jsonl",
+          "verify"
+        ]
+      }
+    }
+  },
+  "spend_cap_usd": 3.0,
+  "workers": 2,
+  "started_at": "2026-10-13T17:39:16",
+  "wall_seconds": 157.26,
+  "status_counts": {
+    "completed": 500
+  },
+  "usage_this_invocation": [
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 9,
+      "i": 27740,
+      "o": 48675,
+      "cw": 8012,
+      "cr": 28042,
+      "usd": 0.02839342,
+      "lat": 147536
+    },
+    {
+      "role": "group",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 4,
+      "i": 10533,
+      "o": 3587,
+      "cw": 776,
+      "cr": 2328,
+      "usd": 0.0029670800000000004,
+      "lat": 18058
+    },
+    {
+      "role": "memo",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 1,
+      "i": 7222,
+      "o": 3830,
+      "cw": 1513,
+      "cr": 0,
+      "usd": 0.0565265,
+      "lat": 27002
+    },
+    {
+      "role": "verify",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 2,
+      "i": 3217,
+      "o": 5804,
+      "cw": 3146,
+      "cr": 3146,
+      "usd": 0.07296820000000001,
+      "lat": 33524
+    }
+  ],
+  "usage_all_invocations": [
+    {
+      "role": "enrich",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 11,
+      "i": 35103,
+      "o": 61221,
+      "cw": 12018,
+      "cr": 32048,
+      "usd": 0.03594353,
+      "lat": 192932
+    },
+    {
+      "role": "group",
+      "model": "claude-haiku-5-5",
+      "outcome": "succeeded",
+      "calls": 4,
+      "i": 10533,
+      "o": 3587,
+      "cw": 776,
+      "cr": 2328,
+      "usd": 0.0029670800000000004,
+      "lat": 18058
+    },
+    {
+      "role": "memo",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 1,
+      "i": 7222,
+      "o": 3830,
+      "cw": 1513,
+      "cr": 0,
+      "usd": 0.0565265,
+      "lat": 27002
+    },
+    {
+      "role": "verify",
+      "model": "claude-sonnet-5-5",
+      "outcome": "succeeded",
+      "calls": 2,
+      "i": 3217,
+      "o": 5804,
+      "cw": 3146,
+      "cr": 3146,
+      "usd": 0.07296820000000001,
+      "lat": 33524
+    }
+  ],
+  "ledger": {
+    "cap_usd": 3.0,
+    "spent_usd": 0.160855,
+    "reserved_usd": 0.0
+  },
+  "stopped": false
+}

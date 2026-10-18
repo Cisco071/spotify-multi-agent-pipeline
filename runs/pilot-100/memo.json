@@ -1,0 +1,157 @@
+{
+  "memo": {
+    "recommended_area": "billing_support",
+    "headline": "Prioritize billing/support: fix the premium-gating of basic playback controls, the top-ranked issue in this sample",
+    "memo_markdown": "## Recommendation\n\nPut next quarter's effort into **billing/support**, specifically the issue ranked #1: basic playback controls (skip, queue, song selection) locked behind premium. It has 8 complaints [C1], a severity sum of 24 [C2], a mean severity of 3.000000 [C3] and a priority score of 24 [C4]. No other issue has a higher score.\n\n## Evidence\n\nReviewers describe an update that moved core controls behind the subscription: \"the new update has made everthing premium and so usless\" (review 21915fcd-9a35-48ba-b277-6296c4154603) and \"Why it requires premium just to play next music / to choose music ??\" (review ad730d1a-829a-4dc4-9561-7e1cd07e2c30). One reviewer states intent to leave: \"I'll switch to some other apps .if it remains like this forever.!\" (review 88439ec2-7c49-4c57-bedb-c5e098692aff). This is expressed intent, not observed churn.\n\nAt area level, billing_support has 8 complaints, a severity sum of 24, a mean severity of 3.000000 and a 15.4% share of all complaints. In 2023-10, the busiest month (19 completed records, 84.2% complaint share), billing_support accounted for 5 of 16 complaints. The data cannot say why that month spiked.\n\n## Why not the alternatives\n\n- **Usability** has the largest area totals: 13 complaints, a severity sum of 29 and a 25.0% share. But the total is spread across weaker issues. Ads have 7 complaints [C5] and a priority score of 14 [C6]. The redesign/update issue has 4 complaints [C7] and a priority score of 10 [C8]. Mean severity for the area is 2.230769, below billing_support's 3.000000, and none of its complaints are severity 4 or above. It is a credible runner-up. Some usability complaints (e.g. skip limits, review ebc64fe2-9553-4528-87d5-cb4bb9783be6) overlap with the gating theme, so a fix for it may also ease part of usability.\n- **Playback** (including downloads) has 8 complaints, a severity sum of 26 and a mean of 3.250000. Crashes at launch are severe, with 2 complaints [C11] and a mean severity of 4.000000 [C12], for example \"App is stuck on loading/logo screen\" (review 66a29b3c-c14d-440e-b722-b23e0c99ae82). The volume is small, though, and the issues are scattered. Treat it as a stability watch item.\n- **Access** has 2 complaints [C9] with a mean severity of 4.000000 [C10] (review de0a9cdf-8974-48bc-802f-331228df4619). It is the most severe per complaint but the lowest in volume, at a 3.8% share. Triage login failures as bugs rather than fund a quarter-long effort.\n\n## Suggested scope\n\nClarify and review which controls free users keep, and make the gating explicit in the product. Add support-side tagging for \"premium required\" complaints so future data can confirm or refute this signal.\n\n## Limitations\n\nThese are self-selected public reviews from a historical window (2022-05 to 2023-11, with the first and last months partial), 100 records in total. All 100 were completed, with 0 quarantined and 0 pending, but 8 were flagged as needing review. 52 records are complaint or cancellation records. The sample has no revenue, plan tier or confirmed churn, so revenue at risk and retention effects cannot be estimated. The second-ranked item, \"other.general_criticism\" (11 complaints, priority 22), is vague and does not map to any of the four candidate areas. The \"other\" topic holds 55 records and the catalog topic 12, and both fall outside the four candidate areas. Support has 0 classified records, so the billing_support signal is entirely billing. Monthly counts are small, and the 2023-10 spike should not be read as a trend.",
+    "recommendations": [
+      {
+        "title": "Review premium gating of basic controls",
+        "detail": "Reassess which skip, queue and song-selection controls free users keep, and communicate any limits clearly in-app.",
+        "issue_ids": [
+          "billing.premium_only_controls"
+        ],
+        "claim_ids": [
+          "C1",
+          "C2",
+          "C3",
+          "C4"
+        ]
+      },
+      {
+        "title": "Keep usability as runner-up",
+        "detail": "Ads and redesign complaints are numerous but lower in severity; address them if the gating work is scoped narrowly.",
+        "issue_ids": [
+          "usability.ads",
+          "usability.redesign_update"
+        ],
+        "claim_ids": [
+          "C5",
+          "C6",
+          "C7",
+          "C8"
+        ]
+      },
+      {
+        "title": "Triage severe low-volume bugs",
+        "detail": "Handle launch crashes and login failures through normal bug triage rather than a quarter-long focus.",
+        "issue_ids": [
+          "access.login_failure",
+          "playback.crashes_or_wont_open"
+        ],
+        "claim_ids": [
+          "C9",
+          "C10",
+          "C11",
+          "C12"
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "area": "usability",
+        "assessment": "Largest area totals (13 complaints, severity sum 29, 25.0% share) but fragmented and lower mean severity (2.230769); runner-up."
+      },
+      {
+        "area": "playback",
+        "assessment": "8 complaints, severity sum 26, mean 3.250000 including downloads; severe launch crashes but low volume and scattered issues."
+      },
+      {
+        "area": "access",
+        "assessment": "2 complaints, mean severity 4.000000, 3.8% share; severe but too small for a quarter-long priority."
+      }
+    ],
+    "limitations": [
+      "Self-selected public reviews from a historical window; not representative of all users.",
+      "No revenue, plan tier, confirmed churn or population totals; cancellation language is expressed intent only.",
+      "100 records analysed, 0 quarantined, 0 pending; 8 flagged as needing review; 2022-05 and 2023-11 are partial months.",
+      "Support has 0 classified records; the 2023-10 spike is based on small monthly counts and cannot be attributed to a cause.",
+      "Vague general criticism (11 complaints) and the catalog and other topics are outside the four candidate areas."
+    ],
+    "claims": [
+      {
+        "claim_id": "C1",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "complaint_count",
+        "value": "8"
+      },
+      {
+        "claim_id": "C2",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "severity_sum",
+        "value": "24"
+      },
+      {
+        "claim_id": "C3",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "mean_severity",
+        "value": "3.000000"
+      },
+      {
+        "claim_id": "C4",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "priority_score",
+        "value": "24"
+      },
+      {
+        "claim_id": "C5",
+        "issue_id": "usability.ads",
+        "metric": "complaint_count",
+        "value": "7"
+      },
+      {
+        "claim_id": "C6",
+        "issue_id": "usability.ads",
+        "metric": "priority_score",
+        "value": "14"
+      },
+      {
+        "claim_id": "C7",
+        "issue_id": "usability.redesign_update",
+        "metric": "complaint_count",
+        "value": "4"
+      },
+      {
+        "claim_id": "C8",
+        "issue_id": "usability.redesign_update",
+        "metric": "priority_score",
+        "value": "10"
+      },
+      {
+        "claim_id": "C9",
+        "issue_id": "access.login_failure",
+        "metric": "complaint_count",
+        "value": "2"
+      },
+      {
+        "claim_id": "C10",
+        "issue_id": "access.login_failure",
+        "metric": "mean_severity",
+        "value": "4.000000"
+      },
+      {
+        "claim_id": "C11",
+        "issue_id": "playback.crashes_or_wont_open",
+        "metric": "complaint_count",
+        "value": "2"
+      },
+      {
+        "claim_id": "C12",
+        "issue_id": "playback.crashes_or_wont_open",
+        "metric": "mean_severity",
+        "value": "4.000000"
+      }
+    ],
+    "cited_review_ids": [
+      "21915fcd-9a35-48ba-b277-6296c4154603",
+      "ad730d1a-829a-4dc4-9561-7e1cd07e2c30",
+      "88439ec2-7c49-4c57-bedb-c5e098692aff",
+      "ebc64fe2-9553-4528-87d5-cb4bb9783be6",
+      "66a29b3c-c14d-440e-b722-b23e0c99ae82",
+      "de0a9cdf-8974-48bc-802f-331228df4619"
+    ]
+  },
+  "validation_errors": [],
+  "label_config": "claude-sonnet-5-5+thinking-adaptive+effort-medium+memo_v1+schema_v1+taxonomy_v1",
+  "input_key": "ea65586f4d8aa198fc52ce17126e78513aa722e875a21a6f5e6c776a2b33bf8b",
+  "request_id": "local-f98e04bcf8f54b7d"
+}

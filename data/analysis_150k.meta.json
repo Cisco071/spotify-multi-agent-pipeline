@@ -1,0 +1,15 @@
+{
+  "subset_file": "analysis_150k.csv",
+  "rows": 150013,
+  "nonempty": 150000,
+  "empty": 13,
+  "sha256": "8ae9c59c74eaba57064798e0612eac610de3e0571342990b1e3d4cbdf3b78bfe",
+  "seed": "berkeley-fall-2026-assignment-5-v1",
+  "method": "Stage 1 - Prepare (code only, no model).",
+  "rule": "Exact rows of `full`, in source order: all empty texts + every ID in include_files + lowest-hash nonempty\nrows until `nonempty_target` nonempty rows are selected. Duplicated texts are kept (cache reuse is tested).",
+  "forced_includes": [
+    "analysis_100k.csv"
+  ],
+  "source_sha256": "1fc85de68a304dd8978b537cfa58793d5f41cbaf417fa32cb53899f83a2fcef6",
+  "distinct_nonempty_texts": 115541
+}

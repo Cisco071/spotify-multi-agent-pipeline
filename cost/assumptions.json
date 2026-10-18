@@ -1,0 +1,23 @@
+{
+  "_comment": "Editable calculator inputs. Changing these never changes the measured pilot results.",
+  "spend_limit_usd": 15.0,
+  "output_token_cap_per_enrich_request": 8000,
+  "max_workers": 4,
+  "max_fallback_fraction": 0.02,
+  "verify_fraction": 0.01,
+  "parallel_efficiency": 0.85,
+  "issues_expected": 60,
+  "group_issues_per_call": 10,
+  "local_compute": {"hourly_cost_usd": null, "note": "Laptop (Apple Silicon). Electricity/hardware cost not measured: reported as unknown, not zero."},
+  "scenarios": {
+    "base": {"retry_rate": null, "fallback_fraction": null, "token_multiplier": 1.0, "memo_multiplier": 1.0,
+             "_comment": "null = use the measured rate"},
+    "conservative": {"retry_rate": 0.10, "fallback_fraction": 0.02, "token_multiplier": 1.25, "memo_multiplier": 2.0}
+  },
+  "targets": [
+    {"name": "declared analysis subset (100k)", "rows": 100013, "nonempty": 100000, "empty": 13, "distinct_texts": null, "distinct_from": "data/analysis_100k.csv"},
+    {"name": "full corpus, exact-text reuse", "rows": 660622, "nonempty": 660609, "empty": 13, "distinct_texts": 484189},
+    {"name": "full corpus, no reuse", "rows": 660622, "nonempty": 660609, "empty": 13, "distinct_texts": 660609}
+  ],
+  "refresh_runs": ["pilot-100", "dev-500", "dev-10k"]
+}

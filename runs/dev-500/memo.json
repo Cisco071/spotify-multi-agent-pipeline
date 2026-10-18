@@ -1,0 +1,130 @@
+{
+  "memo": {
+    "recommended_area": "billing_support",
+    "headline": "Put next quarter's effort on billing_support, starting with core controls locked behind Premium, which is the top-ranked issue and the sharpest area in the latest months.",
+    "memo_markdown": "## Recommendation\n\nPrioritise **billing_support**, led by the issue \"Core playback controls locked behind premium\". It ranks first, with 35 complaints [C1], a severity sum of 103 [C2], a mean severity of 2.942857 [C3] and a priority score of 103 [C4]. Reviewers describe shuffle, next-track and ordered playback appearing behind a paywall after an update. Examples: \"You need to be a premium user to turn of Shuffle playlist!\" (review 6b55ac9c-8dd2-4170-8782-bd35985ec0d9) and \"They are literally forcing us to purchase Spotify premium.\" (review 86adc9b6-be58-400c-9a08-aa082ff0535c). One reviewer compares Spotify with a rival service (review 4f6a50a1-9440-468c-b35f-961bca94fd88). That is expressed sentiment, not observed switching.\n\nThe billing_support area has 45 complaints, a severity sum of 131 and 7 cancellation-intent records, the most of any area. In 2023-10, 20 of that month's 60 complaints were billing_support, against 15 for usability, 4 for playback and 3 for access. That month's complaint share was 75.9% of 79 completed records. The final months also have much larger samples than earlier ones.\n\nThe other ranking entry at 103, \"other.general_criticism\", is excluded. It is generic insult with no named defect, so it gives the team nothing to fix. It ranks second only because ties are broken by issue_id.\n\n## Comparison with alternatives\n\n**Usability** is the strongest rival. It has the most complaints (66), the highest area severity sum (151) and 27.3% of all complaints. Its issues are ads (31 complaints [C5], priority score 64 [C6]) and the redesign (priority score 45 [C7]). However, its mean severity is only 2.287879 and none of its records are severity 4 or higher. Typical ad complaints are annoyance: \"Too much adds\" (review ee17dcd6-07c0-4441-8e64-e7ea57877c78). Ad volume is also tied to the free-tier business model, so changing it is a commercial decision beyond a product-effort call. The redesign complaints partly overlap with the Premium-gating theme, because reviewers link the update to lost controls (review 9e5f9745-f8be-48d3-b9de-4d118507d94a). If leadership reads the gating issue as usability, the case for usability grows. Under the code's classification it sits in billing.\n\n**Playback** (including downloads) has 44 complaints, a severity sum of 147, a mean severity of 3.340909 and 19 records of severity 4 or higher, the most severe volume. But it is spread over several smaller issues. Playback stops or skips has a priority score of 37 [C8]. Connection errors and crashes score lower in the ranking. It is the right choice if the goal is to reduce severe, hard failures such as \"the app is just crashing since the latest update.\" (review 4a806587-0dde-4fb4-b4f1-f5c7d197c927). It does not match the top issue in concentration.\n\n**Access** is small, with 10 complaints (4.1% of all complaints) and a severity sum of 40. It is the most severe per complaint, with a mean of 4.000000 and 9 records of severity 4 or higher. Login failure has a priority score of 27 [C9] and a mean severity of 3.857143 [C10]. These are blocking failures, e.g. \"Will not except my password\" (review de0a9cdf-8974-48bc-802f-331228df4619). The volume is too low to lead a quarter, but a targeted reliability fix is worth keeping alongside the main work.\n\n## Suggested scope\n\n1. Review which basic playback controls are gated and the messaging around \"try premium\" prompts.\n2. Add the Premium purchase or activation failure issue (4 complaints, severity sum 15) to the same workstream. Support has no classified records, so the support side cannot be assessed.\n\n## Limitations\n\n- The data are self-selected public reviews, 500 records. All 500 are completed, with 0 quarantined and 0 pending. 242 are complaint or cancellation records, 45 are flagged for review and 21 reused cached results.\n- No revenue, plan tier, confirmed churn or population totals are available. Cancellation language is intent only, so no revenue at risk or retention effect is estimated.\n- The monthly series is uneven. 2022-05 and 2023-11 are partial, and 2023-07 and 2023-10 have much larger samples.\n- Only 15 of 31 ranked issues are shown, and the evidence pack has a few quotes per issue.\n- Area roll-ups are code-declared: playback includes downloads, and billing_support is billing alone because support has 0 records. Catalog and other fall outside the four candidate areas.",
+    "recommendations": [
+      {
+        "title": "Rework gating of core playback controls",
+        "detail": "Review which basic controls (shuffle, next track, ordered playback) are behind Premium and the repeated upgrade prompts; this is the top-ranked issue.",
+        "issue_ids": [
+          "billing.premium_only_controls"
+        ],
+        "claim_ids": [
+          "C1",
+          "C2",
+          "C3",
+          "C4"
+        ]
+      },
+      {
+        "title": "Keep a targeted login reliability fix alongside",
+        "detail": "Login failure is low volume but the most severe per complaint; address it as a bounded side task.",
+        "issue_ids": [
+          "access.login_failure"
+        ],
+        "claim_ids": [
+          "C9",
+          "C10"
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "area": "usability",
+        "assessment": "Largest area by complaints (66) and severity sum (151), driven by ads and the redesign, but low mean severity (2.287879) and no severity 4+ records; ads are largely a commercial decision."
+      },
+      {
+        "area": "playback",
+        "assessment": "Highest severe volume (19 severity 4+ records, mean 3.340909) but fragmented across several smaller issues, so less concentrated than the top issue."
+      },
+      {
+        "area": "access",
+        "assessment": "Most severe per complaint (mean 4.000000) but only 10 complaints (4.1% of all complaints); suited to a targeted fix, not a quarter's priority."
+      }
+    ],
+    "limitations": [
+      "Self-selected public reviews; not representative of all users.",
+      "No revenue, plan tier, confirmed churn or population totals; cancellation language is expressed intent only.",
+      "500 records, all completed, 0 quarantined, 0 pending; 45 flagged for review and 21 cache-reused.",
+      "First and last months are partial; monthly samples are uneven.",
+      "Only top 15 of 31 ranked issues shown; support has 0 classified records, so billing_support reflects billing only.",
+      "Area roll-ups are code-declared; catalog and other are outside the four candidate areas."
+    ],
+    "claims": [
+      {
+        "claim_id": "C1",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "complaint_count",
+        "value": "35"
+      },
+      {
+        "claim_id": "C2",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "severity_sum",
+        "value": "103"
+      },
+      {
+        "claim_id": "C3",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "mean_severity",
+        "value": "2.942857"
+      },
+      {
+        "claim_id": "C4",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "priority_score",
+        "value": "103"
+      },
+      {
+        "claim_id": "C5",
+        "issue_id": "usability.ads",
+        "metric": "complaint_count",
+        "value": "31"
+      },
+      {
+        "claim_id": "C6",
+        "issue_id": "usability.ads",
+        "metric": "priority_score",
+        "value": "64"
+      },
+      {
+        "claim_id": "C7",
+        "issue_id": "usability.redesign_update",
+        "metric": "priority_score",
+        "value": "45"
+      },
+      {
+        "claim_id": "C8",
+        "issue_id": "playback.stops_or_skips",
+        "metric": "priority_score",
+        "value": "37"
+      },
+      {
+        "claim_id": "C9",
+        "issue_id": "access.login_failure",
+        "metric": "priority_score",
+        "value": "27"
+      },
+      {
+        "claim_id": "C10",
+        "issue_id": "access.login_failure",
+        "metric": "mean_severity",
+        "value": "3.857143"
+      }
+    ],
+    "cited_review_ids": [
+      "6b55ac9c-8dd2-4170-8782-bd35985ec0d9",
+      "86adc9b6-be58-400c-9a08-aa082ff0535c",
+      "4f6a50a1-9440-468c-b35f-961bca94fd88",
+      "ee17dcd6-07c0-4441-8e64-e7ea57877c78",
+      "9e5f9745-f8be-48d3-b9de-4d118507d94a",
+      "4a806587-0dde-4fb4-b4f1-f5c7d197c927",
+      "de0a9cdf-8974-48bc-802f-331228df4619"
+    ]
+  },
+  "validation_errors": [],
+  "label_config": "claude-sonnet-5-5+thinking-adaptive+effort-medium+memo_v1+schema_v1+taxonomy_v1",
+  "input_key": "2a33f1d598ead34e784a2c003e2e1e4680f94122839f283fbf906aa7a7058b18",
+  "request_id": "local-03d16f983ef94d11"
+}

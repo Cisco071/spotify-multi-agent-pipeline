@@ -1,0 +1,582 @@
+{
+  "access.account_hacked_or_locked": {
+    "key": "f42686453018a4bbd1e0b6ac2927cec7554d4ca8f9e20a2e6ef9e60cbb97efae",
+    "title": "Account blocked, hacked, or suddenly locked out",
+    "description": "Users report accounts being blocked, flagged for unknown logins, or losing access and data without explanation.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "access.logged_out": {
+    "key": "c64f6fdd61d1b5b28dd4ae03370ba7450e87cbc58c2db6a1377fd5b2baa0e8f6",
+    "title": "Unexpectedly logged out and losing data",
+    "description": "Users are logged out after updates or at random, then cannot log back in and sometimes lose playlists, songs, or subscription status.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "access.login_failure": {
+    "key": "0d9875f15fe11c3c03396eb0e4568a749c76f1ad27dbe18114d7c539a9dffde9",
+    "title": "Unable to sign in to the app",
+    "description": "Users cannot log in through email, Google, or Facebook, often seeing errors or blank screens.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "access.other": {
+    "key": "6dcfafead1c2ac10aaf86440039dd79fbd86ec76d809a099a5d06a30a2f19948",
+    "title": "Miscellaneous account and app access problems",
+    "description": "Users report inability to change account details, offline errors, installation failures, and general app malfunctions.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "9ce1f732-46d1-42f4-9a7b-5cc6e690f833",
+      "7e538d4a-cd9f-42e5-8940-b92d35080c33"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Account settings cannot be changed; App fails to install or load",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "access.password_reset": {
+    "key": "9480e753e31946018d7d478d4aa3a94aaa881c8aacd95eed6333106e0545d182",
+    "title": "Password reset emails and recovery fail",
+    "description": "Users cannot recover forgotten passwords, receive repeated or wrong reset emails, or are stuck after being logged out.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "access.signup": {
+    "key": "cc7dee5724cc50c5c6d6d1a48b1ed3504f56db562afb99d9a9b87b5d57c96296",
+    "title": "Cannot create a new account",
+    "description": "Users face errors, loops, and OTP failures when trying to sign up or register a new account.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "858b223c-0627-4281-b229-cfdeee5e9178"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "billing.cancel_or_refund": {
+    "key": "50a36a6d52ab2efb25fd9aea377c3d2a6195e4b2b7b2ce76f3b40a10de9a39db",
+    "title": "Difficult to cancel subscription or get refund",
+    "description": "Users find cancellation cumbersome with multiple confirmations and retention pressure, and some report losing downloads or favorites.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "25da54ce-4486-4ead-9dbf-bf62d5c3d997",
+      "c702ea21-c83d-4da0-b970-406c5a16246b",
+      "0565e185-c17a-45de-9580-5292e3981db1"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Cancellation process is hard; Downloads and songs deleted",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "billing.other": {
+    "key": "7fa74352347567cc68b934899033c4fe2194ab1b2444a3046ef9dc58b0c22855",
+    "title": "Miscellaneous billing and payment complaints",
+    "description": "Users complain about subscription pressure, billing date changes, free trials, gift cards, and limited payment methods.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "9c6a8296-b48b-40b1-a897-1a1d414bbdd0",
+      "672b42a3-74b7-4b26-8894-bc1cf7ceacb7",
+      "8e5f7fe8-ffba-4e14-b0c2-3baf6a6f5361"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Payment method and gift card problems; Billing date and free trial issues",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "billing.plans_family_student": {
+    "key": "ff28112eeae19a48673c215a4dd3144af417ba08df3f7c5a77c47a81369db7c5",
+    "title": "Premium plans seen as overpriced or forced",
+    "description": "Users feel premium is not worth the cost, that the free tier is degraded, and that features like group sessions require paid plans.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "7f669bac-5ac5-4a27-9d24-30be9febfa52"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "billing.premium_only_controls": {
+    "key": "69c86752515961e666bb9680bc6ad285ce3836a031752dd91a86242da53c17a0",
+    "title": "Basic playback controls locked behind premium",
+    "description": "Free users cannot seek, skip, choose songs, play offline, or avoid ads without paying for Premium.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-db5028c12f2043af"
+  },
+  "billing.price": {
+    "key": "3ed24e6520484ff13ca43df7629f09c5836e7dc6f1d2739aa9f45920983f7eee",
+    "title": "Premium price increases seen as greedy",
+    "description": "Users feel the subscription price rose too much or that the app prioritizes making money over value.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "9a89c856-ef3e-4239-b3fb-5e6acdcffd7e"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "billing.price_increase_value_perception",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "billing.subscription_activation": {
+    "key": "79559a945ee03aa192173b280096475de8463d04b48fc14424c5e59fde7b1c95",
+    "title": "Premium purchase fails or premium not activating",
+    "description": "Users cannot buy premium because cards are rejected or the option is missing, or they paid but premium did not activate.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "billing.unexpected_charges": {
+    "key": "1ddc171c3817fe1b077d3bc53d672f112df72424d3ee5f1990668630746af65c",
+    "title": "Charged after cancelling or without signing up",
+    "description": "Users report recurring or duplicate charges continuing after cancellation or uninstall, or charges for services they never received.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "de2f84bd-00fd-4ff3-9b1c-aa72439ce2f9"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "catalog.lyrics": {
+    "key": "f29231f4ed7f05c87237af9361d3714ebd87ef77e942a90defa250ca5f0969ce",
+    "title": "Lyrics fail to load or are missing",
+    "description": "Users say lyrics do not load, do not appear, or are unavailable for many songs.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "571b2bb5-17c9-494c-83e0-3b0b03de40de"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "catalog.missing_or_removed_content": {
+    "key": "8117f5daa993ee95f764474a6e29a17679835d72ba9233cf766cd03104e9dba6",
+    "title": "Songs removed or unavailable in catalog",
+    "description": "Users report songs, albums, or regional content that were removed or cannot be found or played.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "02617fbd-ed32-49f7-b809-86ea9a783c61"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "catalog.regional_content_removal",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "catalog.other": {
+    "key": "9d9d30be494bf33f1e4fc33edb33b595df38148026de12215ca25ab7fffb7dc6",
+    "title": "Miscellaneous catalog and stream-count complaints",
+    "description": "A mix of complaints about content nudity, stream counting fairness, song titles, playlist additions, and unsubscribing.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "bb8acff5-e3e9-4461-9928-9181f4822009",
+      "63d1ac18-ff1d-4dbc-a0c2-0a11c60730e7"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "catalog.stream_count_fairness",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "catalog.podcasts_audiobooks": {
+    "key": "58b41975f7a82515bd9c0478e9aead2e978f5317f17bda86bf3604d706302d48",
+    "title": "Podcasts missing, hidden, or unavailable",
+    "description": "Users cannot find or play podcasts, some episodes are hidden, or podcasts are unavailable in their region.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "catalog.recommendations": {
+    "key": "046b8e52e1f0b8bba07b1ca87d447965ba3fb46dbec4b31ef07f1950d43d6f8e",
+    "title": "Recommended songs and playlists feel irrelevant",
+    "description": "Users dislike algorithmic recommendations, repeated songs, unwanted podcasts on the home page, and stale daily playlists.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "d9f45748-9c38-45d6-bfae-b79ebafd5739"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "catalog.search": {
+    "key": "67723928caadb12368d5d4f9572e208765a897f29131a87b6e40753f70611007",
+    "title": "Search returns irrelevant or wrong results",
+    "description": "Users say searches return unrelated songs, fail to show requested tracks, or play a different song than the one chosen.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "bcc7ddaa-c221-41b7-8a1b-cb7f3a52914b"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "search.performance_lag",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "downloads.download_failure": {
+    "key": "6b5238af32277b2569ff61062848ffa399bc35a03040cf23b5d599afc40c8200",
+    "title": "Songs fail to download for offline listening",
+    "description": "Users cannot download music or podcasts, are asked for premium, or see downloads repeat endlessly.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "b004951a-2bff-438f-9288-3f318fe2417b"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-bae3d87e2e564e7a"
+  },
+  "downloads.downloads_disappear": {
+    "key": "06d305c4fd2a9c1e99f56f7e937770a46b6c02054328e294fa35c0a3a99413f7",
+    "title": "Downloaded music randomly disappears from device",
+    "description": "Users report previously downloaded songs, albums, and playlists are removed without warning, often requiring re-download.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "downloads.offline_mode": {
+    "key": "fe42fc56d9a50ea96cd6f9a615131c07f250e3aba856091e8ce48bd6645a0f4e",
+    "title": "Downloaded songs won't play offline",
+    "description": "Users say downloaded tracks fail to play offline and the app keeps requiring an internet connection or online mode.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "downloads.other": {
+    "key": "e89760c42ff4878f6692da4fea35c59fca84cea780e170853ce71acae7e6e719",
+    "title": "Downloaded playlists and library content missing or hanging",
+    "description": "Users report downloaded playlists appear empty or are hard to find, the library hangs, and download options are missing or changed.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "5caa9852-09b5-4a86-9a50-ba9417d75134",
+      "08049170-f588-4336-acc8-fb77aa059f6f",
+      "38a32c3e-29b4-437e-bfe5-db6c64ed90cd"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Downloaded playlists show empty or cannot be found",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "downloads.storage": {
+    "key": "088c482196d155f5052416ab509e5f48937844ec2721e0c74447de97d7bd1e3c",
+    "title": "Downloads consume excessive storage and misuse SD card",
+    "description": "Users say the app takes large amounts of device space and saves offline music to internal storage instead of the chosen SD card.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "ca80cc15-3fdc-46c3-8957-1e50609f579a"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Downloads use excessive data and storage",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "other.boycott_political": {
+    "key": "ccb8652bff9c403cc799c3beca8ec8100ade4dabfe81ccfd3eab39738b78f295",
+    "title": "Users boycott app over political and religious objections",
+    "description": "Users state they will uninstall or avoid the app due to its Swedish origin or perceived disrespect toward Islam and Quran content.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "e1e2a67a-8876-4cef-b340-c621e283997f",
+      "ca9dcb09-346a-42f4-b55c-dfb2d184cd9c"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "other.general_criticism": {
+    "key": "cfd3e7afc455b19d256ff69714ec14686946542470604a555c7cce787091694a",
+    "title": "General negative sentiment without specific complaint",
+    "description": "Users express broad dissatisfaction with the app using short insults and no specific product problem.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "other.general_praise": {
+    "key": "ab548bfdc1700b016d871504c9c44e526589b069b3c05cf6d96808e141ab9620",
+    "title": "Users praise app while noting artist pay or alternatives",
+    "description": "Users praise the app overall while wishing artists were paid more, mentioning alternatives, or suggesting minor changes.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "4c5082fa-4825-41b9-b591-e33138fec268",
+      "a98dd33c-f6ef-4779-a192-6373d15d2d19",
+      "2debade2-4441-44b5-8899-3015f51e10df"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Praise with minor requests or artist pay concerns",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "other.other": {
+    "key": "5d1055e578b8296749b09fe28dbf7f39913cce316c085f098b6466be5ef01fe7",
+    "title": "Recent update made app worse or frustrating",
+    "description": "Users say the latest update degraded the app and removed features they relied on, including missing Spotify Wrapped access.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "8fd09d13-31bd-452f-b102-50353c78229b"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Spotify Wrapped not visible",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "other.unrelated_or_unintelligible": {
+    "key": "c99ee2f6ee864c9903f26fe671c63f7d7b4ecd82424f58828d058cba5e57ba5d",
+    "title": "Unrelated, religious, or unintelligible feedback",
+    "description": "Reviews contain off-topic comments, religious remarks, ads commentary, or unclear text not tied to a product problem.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "8e619fb6-f7d9-482b-90a0-4a0f6bfb3f3c"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Spotify Wrapped not viewable",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "playback.audio_quality": {
+    "key": "160f8eb64ba250a26ad1a491c2dee771dbdbddf5ce820cbd67f6e0c212c423bd",
+    "title": "Audio playback has noise, low volume, or silence",
+    "description": "Users report popping, disgusting noise, missing sound, low volume, or silence at track ends during playback.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "3c9b74c5-b118-40bd-8f7c-d5bb3f2b43ad"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Ads are annoying",
+    "request_id": "local-f87988f22ae24257"
+  },
+  "playback.background_play": {
+    "key": "2169ce459522e7e300a9bab804a620969f995dc20e0f9d49d0684a914e7b7810",
+    "title": "Playback stops or misbehaves in background",
+    "description": "Users report music or podcasts stopping, crashing, or auto-playing when the app runs in the background or when notifications arrive.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "501d3a10-211b-4f2e-8f0d-13a708ba474f"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Unwanted auto-play in background",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "playback.battery_resource_use": {
+    "key": "982ec8e87b081adc1fb2f9ba784b9bc4c5e4f2eb10a032fed9029b664aa54e96",
+    "title": "App drains battery and consumes excess data",
+    "description": "Users say the app uses excessive battery, RAM, or data, and in one case keeps the screen on while paused.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "playback.connection_errors": {
+    "key": "8da9de796d0612615ef8c28f3fe0196fd87ffca5ea091ab163ee37866bf1e4ea",
+    "title": "App wrongly reports no internet connection",
+    "description": "Users see false offline or no-internet messages even while connected to a working network.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "playback.crashes_or_wont_open": {
+    "key": "28521045e1664e1480697dbf5f3ac89c932d7c49021e7056f77663ae46ae82fc",
+    "title": "App crashes frequently or fails to open",
+    "description": "Users report the app closing unexpectedly, needing restarts, or not opening at all after updates.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "2a3f058f-0e98-4d47-9fc8-1bbae792d081"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "playback.device_connectivity": {
+    "key": "9f174b0489fbcbcf89fa6852accd3af12c09fb3f451b3d75bde7228c1431b042",
+    "title": "Problems connecting to speakers and devices",
+    "description": "Users cannot cast or connect playback reliably to smart speakers, Bluetooth devices, watches, or other apps.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "0f5d9fb8-7b15-47d3-98b6-4aef7da57efa"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Multi-device simultaneous listening limits",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "playback.lag_or_slow": {
+    "key": "2fc021118b0bb7b6750cec1adafd4c3eab3823d42f86e1198f9e48efc5042fdf",
+    "title": "App is slow to load and respond",
+    "description": "Users experience lag, slow loading of songs and playlists, and unresponsive controls.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "playback.other": {
+    "key": "d2c893507298621ad2feff5d43b7088ef8d2ca73ed50777bc0086c4f655703dd",
+    "title": "Wrong songs play and features fail",
+    "description": "Users report incorrect tracks playing, shuffle replacing ordered playback, sharing errors, looping and skipping failures, and other miscellaneous bugs.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "a934ad9c-f5a7-4569-a865-17781b5542de"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Wrong track or playback order errors; sharing and looping feature failures",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "playback.stops_or_skips": {
+    "key": "6b64b87a833984ef465f57492e13caf866b0197f1fbf8ebd44d205dca179b427",
+    "title": "Music stops, skips, or plays unexpected tracks",
+    "description": "Users say playback halts mid-song, restarts unexpectedly, or switches to unrelated songs.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "08289cdd-8b1a-40d1-b282-6fc98a53973b"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Unexpected playback of wrong tracks",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "support.contact_difficulty": {
+    "key": "8daef7607073c8230e762cc811e822749a016198f1b381e8c895471ba6df73a4",
+    "title": "Hard to reach customer support",
+    "description": "Users cannot find direct support channels, helplines, or email options to resolve account and app problems.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "cf8bd62a-f102-4eeb-8319-b99dd6c6f18f"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "support.no_response": {
+    "key": "e3aa37ab8e32a825368be356ca8e25041ffd3d5d8c62dcd7fafa0d175de498fb",
+    "title": "Support requests receive no reply",
+    "description": "Users say their messages and reviews go unanswered by Spotify support for long periods or indefinitely.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-076f52f6a96e40cf"
+  },
+  "support.other": {
+    "key": "90ae6a5a55063d22f136a85b2f332ee40b2c7de7d7e57a71b35f83a26484d29b",
+    "title": "Unclear support complaints, harassment after cancel",
+    "description": "Users report constant unwanted contact and solicitation for reviews, plus a bad experience with the app that they want followed up on.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "313daa18-773d-4ded-bf70-3a4ddcdb2f60",
+      "98565def-1e59-4b63-895f-c00c2102c6bc",
+      "80129701-7c9d-4511-a7d4-43d08c23c7a2"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Unwanted messages and review solicitation after cancellation",
+    "request_id": "local-984841105ff74347"
+  },
+  "support.unhelpful_response": {
+    "key": "655132698294cf0e4e305cb7dd6a3564a87120ba91cb39808028236eaa6ab8a3",
+    "title": "Support is unhelpful, bot-driven, and unresponsive",
+    "description": "Customers say support gives repeated canned replies, pushes bots or refunds, disconnects chats, and fails to resolve their problems.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-984841105ff74347"
+  },
+  "usability.ads": {
+    "key": "9d639dd54b3f708ac6f30e5e1e34a705fa241e82c31cc3e56bdd201a517603af",
+    "title": "Too many ads interrupting listening",
+    "description": "Users feel the app shows excessive advertisements, with ads often outnumbering music and disrupting the listening experience.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-984841105ff74347"
+  },
+  "usability.controls": {
+    "key": "4b3c7f021a1556e126e4044a799252aab1eaaf9f047cbb5f9a366344ef9dbdce",
+    "title": "Playback controls limited, broken, or removed",
+    "description": "Users find skip, rewind, previous-song, loop, like, and autoplay controls missing, restricted, or non-functional.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "Skip limits and missing rewind/previous controls",
+    "request_id": "local-984841105ff74347"
+  },
+  "usability.navigation_layout": {
+    "key": "cdf360397e43031e0afa94646b189863162f2e0559b01abe2bb274853a6c4cbe",
+    "title": "Confusing navigation and cluttered layout",
+    "description": "Users find the interface hard to navigate, hard to find features in, and messy, with some saying the new layout is worse.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "b5c42ee4-f521-4ce8-9e7c-8fad8740620e"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-984841105ff74347"
+  },
+  "usability.other": {
+    "key": "99114e80f94316577a84bd1d6ba3633bc48e2b100878f77b07cce3fa33e42a77",
+    "title": "Miscellaneous usability and app stability issues",
+    "description": "A mix of complaints including freezing, unwelcome rating prompts, poor dark mode options, confusing search, and unfriendly design.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "b9e9be86-18cb-4570-942d-600fe9969a22",
+      "cb0e7d5f-26ab-43e7-baed-e8984e39cb50",
+      "b5e3f764-96bd-4354-839b-a373f9f70131"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "App freezing and crashes; intrusive prompts and popups; search and feature usabi",
+    "request_id": "local-984841105ff74347"
+  },
+  "usability.queue_playlist_management": {
+    "key": "b73d60b1b4e0592053f39cff42f9226e4d7a5205991f3ccd4fad69fa1fdade29",
+    "title": "Playlists get unwanted songs and fail to save",
+    "description": "Users report songs being added to their playlists without consent, random songs playing from playlists, and playlist edits failing or being undeletable.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "43ff6b6f-10d9-4089-a0fd-360061e53f09",
+      "4d57020e-c6fa-4701-a1e5-f067a6f85543"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Unwanted songs added to playlists; playlist editing and deletion bugs",
+    "request_id": "local-984841105ff74347"
+  },
+  "usability.redesign_update": {
+    "key": "56ddebb2eaed339e35cbdcce4ddd894f1ae42bdd96c86f74f0360a02b6be88f2",
+    "title": "Recent update ruined the app experience",
+    "description": "Users say the latest redesign made the app frustrating or unusable, removed features like history, and hid album covers.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-984841105ff74347"
+  },
+  "usability.shuffle_autoplay": {
+    "key": "41cbaee90d0955837f7d31aed5417ee343dec4b6e1d02b3f31eddb6fc3cbc287",
+    "title": "Forced shuffle with repetitive song playback",
+    "description": "Users cannot choose to play playlists in order or pick specific songs, and report shuffle repeating the same tracks.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "ebc64fe2-9553-4528-87d5-cb4bb9783be6"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-984841105ff74347"
+  },
+  "usability.widgets_notifications_lockscreen": {
+    "key": "841c8cab1874f2f98d53cd99399ed87524919a067994c5ab37b76786b86468cb",
+    "title": "Widget and notification controls broken or unwanted",
+    "description": "Users report the widget and notification player failing, showing duplicate or blank info, and being impossible to dismiss, along with unwanted notifications.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "619c7d13-164c-4781-ac6c-e97b6aead9e5"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-984841105ff74347"
+  }
+}

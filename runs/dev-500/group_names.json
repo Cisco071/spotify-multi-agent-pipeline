@@ -1,0 +1,332 @@
+{
+  "access.account_hacked_or_locked": {
+    "key": "e8d50102905754fde0acb9d623c59a039f28dd8c905790251d5407661539c019",
+    "title": "Account hacked and playlists lost",
+    "description": "A user reports their account was hacked and they cannot recover playlists they set up.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "access.logged_out": {
+    "key": "728a530e72bdb8f4e5e3d694f973d746b9c0821d46a2eb8cb612659e45108cff",
+    "title": "Unexpectedly logged out and cannot sign back in",
+    "description": "Users are logged out automatically and then get errors when trying to log back in with their phone number.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "access.login_failure": {
+    "key": "37d78f0ee957f804f4c54f7ba84718552735e030465752b18985d3e11d7a1bc6",
+    "title": "Unable to log in to the app",
+    "description": "Users cannot log in, reporting rejected passwords, false no-internet messages, token errors, and repeated number verification prompts.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "32fb340f-4f9f-4551-8dae-755221e58d6a"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Login failures with connection or token errors vs. ads complaints",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "billing.other": {
+    "key": "8a74e8e0bb7f35059178e37618520aae1b1daf51ee4a1378e4c0fa45d7a11179",
+    "title": "Repeated pressure to join premium",
+    "description": "A user says they were asked to join premium far too many times.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "billing.plans_family_student": {
+    "key": "b63aa27441d16a6c43fd9c45ac227f11ca461edd27e9e0da106f4e49591e34c8",
+    "title": "Forced premium trial and lost features",
+    "description": "Users feel forced into a premium trial and report features such as Canvas no longer available despite paying for premium.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "f782a3f3-b0c8-475c-a34c-cda0fefa272e"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Forced premium trial vs. premium features missing after update",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "billing.premium_only_controls": {
+    "key": "8e7bd6430497c5df7cb0169f3d3d6188acb19fd9f462d7a1284ee1ea45caf8ea",
+    "title": "Core playback controls locked behind premium",
+    "description": "After an update, features such as shuffle, next track, and ordered playback require a premium subscription.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "billing.price": {
+    "key": "a4175d3c1bfc4abbcd7c843eb065f30a7ab213f71f187a7b449bbda725e03948",
+    "title": "Music subscription charges feel too high",
+    "description": "A user finds the charges for listening to music too high.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "billing.subscription_activation": {
+    "key": "430710ef6a4e375fdebbde5a2815875adaa9578987108f80fa1cba818f035dd4",
+    "title": "Premium purchase or activation fails",
+    "description": "Users cannot buy or activate premium, or still see a paused subscription screen after paying.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "catalog.lyrics": {
+    "key": "8e2a74a07c0e3604be362d9291afb176687058dee6b448afec02eddca2377b9c",
+    "title": "Song lyrics fail to load or appear",
+    "description": "Lyrics do not load for some songs, even after refreshing or updating the app.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "catalog.missing_or_removed_content": {
+    "key": "fcfeb861c2c15692a9d0036a7e65a32a346aac34434ac3e516725c9781636e0d",
+    "title": "Songs missing or removed from catalog",
+    "description": "Users report that many songs or collaboration streams are missing or removed, and that limited previews are offered instead of full tracks.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "4d327494-7846-481a-bf00-f4b5abc099c4"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Removed songs and collab streams vs. only 30-second previews available",
+    "request_id": "local-9aa1782a2a884dca"
+  },
+  "catalog.other": {
+    "key": "8ffe39ad427d8e68652373f0c0e996779a95b13464fc5c03fd3a96764d602daf",
+    "title": "Specific library and Wrap features not loading",
+    "description": "Users report that Liked Songs and Spotify Wrap 2022 fail to open or display.",
+    "coherent": false,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "Liked Songs and Wrap not opening",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "catalog.recommendations": {
+    "key": "c120a93f5645f50e4f1964f9d7691cd132b75d069fee6db3f955a105e70a8b66",
+    "title": "Recommendations repetitive and unwanted despite settings",
+    "description": "Users say recommendations keep appearing and repeat the same songs even after turning them off, and the DJ feature plays stale selections.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "d27e9b26-a7af-469c-9a4e-8deea2db72ae",
+      "1807cc68-ba99-4edc-b6f1-2a1478e69109"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Recommendations ignore off settings and DJ repeats songs",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "downloads.download_failure": {
+    "key": "3d1330678890a21c59d3b08ec5fe47aca1fbc12e0056398f0c29226130fefd9b",
+    "title": "Downloads stall or never start",
+    "description": "Users report downloads getting stuck in the background or not starting at all.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "downloads.downloads_disappear": {
+    "key": "e3ca4600deed5a1c1bfebd99c03aa7d967ba938da019e4ef8ec07dc9de18a719",
+    "title": "Downloaded content vanished unexpectedly",
+    "description": "A premium user reports all downloaded content is gone and questions the value of the subscription.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "downloads.offline_mode": {
+    "key": "dd50144f3e67403350b066e18323a565a70034005da3843a1448b13a8b042bdf",
+    "title": "Offline mode fails and deletes downloads",
+    "description": "Users report offline mode not working and downloads deleted when moving storage.",
+    "coherent": false,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "Offline mode not working vs downloads deleted on storage move",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "downloads.storage": {
+    "key": "d08fb1dbd2bf8de1be17808916e2451a14bcb3db12de1600a0331257915f3a8d",
+    "title": "App consumes excessive data and storage",
+    "description": "A user says the app wastes data and phone storage.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "other.boycott_political": {
+    "key": "a227aabcd8e5bd913371832e68d29c2b4fcf86b3a4104e313946c3f37aa04ea0",
+    "title": "Users boycott app over political stance",
+    "description": "Users uninstall or boycott the app over Sweden and Quran burning and related political objections.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "other.general_criticism": {
+    "key": "bd37f401df53d7e1e12f48feaee5c6f7d422fd736fd9a14c3db5f9c1403b45b6",
+    "title": "Generic negative sentiment without specific problem",
+    "description": "Reviews express general dislike or insults toward the app without naming a concrete defect.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "playback.audio_quality": {
+    "key": "5c4c78b73ade9915f9f90124014d714bf55fc4faa6acc96a4271203f21ce67f1",
+    "title": "Poor audio quality and noise during playback",
+    "description": "Users report noise, low volume, and music adjustment not working properly.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "playback.connection_errors": {
+    "key": "76b3182409ee5de6fd15f030ad0b1ef0646ccafdb32b781614872a7fc8dc163d",
+    "title": "False no-internet errors on working connections",
+    "description": "Users see no-internet messages or failed playback even when Wi-Fi or mobile data works fine.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "4ab2089a-ffa8-49e7-a8a3-aeb583a96796",
+      "3df77a78-ad9a-4456-8be8-8178ffd43d67"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Wi-Fi and mobile data connection failures vs missing Bollywood songs",
+    "request_id": "local-0d7ec3d4cc1f4fe3"
+  },
+  "playback.crashes_or_wont_open": {
+    "key": "e6af6d9fac39a23a2b5042b29a34471ebc576064b76696db32d5a8751e387143",
+    "title": "App crashes or freezes on launch",
+    "description": "Users report the app crashing, getting stuck on the loading screen, or shutting down during playback, especially after a recent update.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "playback.device_connectivity": {
+    "key": "f47fb11a67ded4d6edb2a30586fa9de70dff202c936101c6b2cf5cfd1a0b56a6",
+    "title": "Trouble connecting to other devices",
+    "description": "Users cannot cast or connect playback to other devices or voice assistants, and playback fails or plays unexpected songs instead.",
+    "coherent": true,
+    "misfit_review_ids": [
+      "d3b74f36-aa48-42af-ae4a-d4a8b0499a60"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Voice assistant and casting playback failures",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "playback.lag_or_slow": {
+    "key": "f92b778a82a359689774d5bef7fd57785e367a5e773af130e8ad7d318c6621ed",
+    "title": "Podcasts lag during playback",
+    "description": "A premium subscriber reports podcasts suddenly lagging, which they find unacceptable.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "playback.other": {
+    "key": "c9347ebf56bfa16c0332b248bce5e56dde31cc8620661a437fc81997662c564f",
+    "title": "Miscellaneous playback and content problems",
+    "description": "Users report alarms not connecting, empty app content, inappropriate song selection, shuffle playing only a few songs, and inability to switch between video and audio podcasts.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "4526d439-a6e4-4e0a-b0bc-ae0f9ce5bd96",
+      "0b716a9d-85bf-4f4e-8e2e-be71e4a379a6",
+      "145ea602-b8fb-41c1-bfdd-79293a18681f"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "Shuffle and podcast mode switching problems",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "playback.stops_or_skips": {
+    "key": "5b2ea0702612ecfd3c9d9dd1365c0f9d3c1240f194a33a9ab4fbb448df3b9bc1",
+    "title": "Playback randomly stops or fails to start tracks",
+    "description": "Songs and podcasts pause or stop unexpectedly, sometimes with full connectivity, and some liked tracks fail to play when selected.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "Liked tracks failing to play versus random mid-playback pauses",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "usability.ads": {
+    "key": "26661224d88cae83550c8c6b6b9367c18b067b67fa356bf187d4c92514f760e9",
+    "title": "Excessive and unskippable advertisements",
+    "description": "Users say ads are too frequent, play back-to-back, include unskippable video, and interrupt music listening.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "usability.controls": {
+    "key": "c30efac36d76e3d7157d7fe9b4da5484b7e45b065f80650d3f8bfe86809983ab",
+    "title": "Limited skip and repeat controls",
+    "description": "Users cannot skip to random songs in a playlist on mobile and report that skip and repeat options were removed after an update.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "usability.navigation_layout": {
+    "key": "eb8a4aaa180a409ffc6fcf0499175ebf454155f3701ec8a61cf618415419714f",
+    "title": "Hard to navigate and find content",
+    "description": "Users find the app difficult to navigate, with liked songs opening wrong tracks or demos, and say updates make it less user friendly, especially for older users.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "usability.other": {
+    "key": "bbce453618f8155e68932d3c394eb55b1a68069438bab57b17503f5bfa991133",
+    "title": "General dissatisfaction and unwanted autostart",
+    "description": "Users call the app poor even with premium and report it starts automatically despite disabled permissions.",
+    "coherent": false,
+    "misfit_review_ids": [
+      "8cd35162-9223-42d1-8097-06e22fde94ea"
+    ],
+    "rejected_ids": [],
+    "suggested_split": "App starts automatically despite disabled permissions",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "usability.redesign_update": {
+    "key": "2d26b9a87d2e7390c8f9084c33593f0c9e85fc0897a30465b7dfce863666be5d",
+    "title": "Unwelcome recent redesign and update changes",
+    "description": "Users dislike the recent update's new lyrics font, replaced heart icon, removed lyrics and queue features, and reduced seek ability, calling it worse than before.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "Missing lyrics and queue features versus visual design changes",
+    "request_id": "local-e6a2508569934c68"
+  },
+  "usability.shuffle_autoplay": {
+    "key": "63d5738218ac2e065bca61de4151bc19dc3db4c0e4be0f95d6ca283ab3b1afd8",
+    "title": "Shuffle forced and autoplay overriding playback choices",
+    "description": "Users report that shuffle is forced or defaulted on, limiting skips and loop options and causing unrequested songs to play.",
+    "coherent": true,
+    "misfit_review_ids": [],
+    "rejected_ids": [],
+    "suggested_split": "",
+    "request_id": "local-ccd1c863c7f54e31"
+  }
+}

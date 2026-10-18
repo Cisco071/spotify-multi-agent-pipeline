@@ -1,0 +1,44 @@
+{
+  "label_config_verifier": "claude-sonnet-5-5+thinking-between_tools+effort-low+verify_v1+schema_v1+taxonomy_v1",
+  "label_config_enricher": "claude-haiku-5-5+thinking-disabled+effort-low+enrich_v1+schema_v1+taxonomy_v1",
+  "sample_rule": "lowest sha256('verify-v1:'+review_id) among completed original records; fraction=0.1, min=10",
+  "sample_size": 48,
+  "verified": 48,
+  "verify_failures": [],
+  "summary": {
+    "n": 48,
+    "agreement": {
+      "topic": 0.875,
+      "intent": 0.9375,
+      "severity_exact": 0.9375,
+      "sentiment_within_tol": 0.9792,
+      "complaint_flag": 0.9792,
+      "all_core_agree": 0.7708
+    },
+    "severity_mae": 0.0625,
+    "disagreements": 11,
+    "topic_pairs": {
+      "other->other": 25,
+      "catalog->catalog": 5,
+      "usability->usability": 4,
+      "playback->playback": 4,
+      "catalog->other": 3,
+      "access->access": 2,
+      "billing->billing": 2,
+      "other->usability": 1,
+      "other->billing": 1,
+      "playback->other": 1
+    },
+    "intent_pairs": {
+      "praise->praise": 23,
+      "complaint->complaint": 17,
+      "unclear->unclear": 4,
+      "cancellation->cancellation": 1,
+      "praise->complaint": 1,
+      "praise->unclear": 1,
+      "cancellation->complaint": 1
+    },
+    "sentiment_tolerance": 0.5
+  },
+  "generated_at": "2026-10-13T17:41:08"
+}

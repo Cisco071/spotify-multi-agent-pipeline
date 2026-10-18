@@ -1,0 +1,355 @@
+{
+  "scope": {
+    "records": 100013,
+    "completed": 99998,
+    "quarantined": 15,
+    "pending": 0,
+    "complaint_or_cancellation_records": 45573,
+    "needs_review_flagged": 10411,
+    "cache_reused_records": 21901
+  },
+  "by_topic": {
+    "access": {
+      "completed_records": 1593,
+      "complaint_count": 1523,
+      "severity_sum": 5806,
+      "mean_severity": "3.812213",
+      "cancellation_count": 92,
+      "severity_4_plus": 1234,
+      "intents": {
+        "complaint": 1431,
+        "request": 47,
+        "unclear": 4,
+        "praise": 19,
+        "cancellation": 92
+      }
+    },
+    "usability": {
+      "completed_records": 14604,
+      "complaint_count": 12177,
+      "severity_sum": 28624,
+      "mean_severity": "2.350661",
+      "cancellation_count": 1042,
+      "severity_4_plus": 58,
+      "intents": {
+        "praise": 1202,
+        "complaint": 11135,
+        "request": 1192,
+        "cancellation": 1042,
+        "unclear": 33
+      }
+    },
+    "playback": {
+      "completed_records": 7314,
+      "complaint_count": 6254,
+      "severity_sum": 19555,
+      "mean_severity": "3.126799",
+      "cancellation_count": 466,
+      "severity_4_plus": 1543,
+      "intents": {
+        "complaint": 5788,
+        "cancellation": 466,
+        "request": 144,
+        "praise": 908,
+        "unclear": 8
+      }
+    },
+    "downloads": {
+      "completed_records": 1511,
+      "complaint_count": 1012,
+      "severity_sum": 3207,
+      "mean_severity": "3.168972",
+      "cancellation_count": 54,
+      "severity_4_plus": 271,
+      "intents": {
+        "request": 258,
+        "complaint": 958,
+        "praise": 227,
+        "cancellation": 54,
+        "unclear": 14
+      }
+    },
+    "catalog": {
+      "completed_records": 8733,
+      "complaint_count": 2795,
+      "severity_sum": 7240,
+      "mean_severity": "2.590340",
+      "cancellation_count": 130,
+      "severity_4_plus": 75,
+      "intents": {
+        "praise": 5318,
+        "complaint": 2665,
+        "request": 576,
+        "cancellation": 130,
+        "unclear": 44
+      }
+    },
+    "billing": {
+      "completed_records": 9011,
+      "complaint_count": 7995,
+      "severity_sum": 22304,
+      "mean_severity": "2.789744",
+      "cancellation_count": 1575,
+      "severity_4_plus": 420,
+      "intents": {
+        "complaint": 6420,
+        "praise": 645,
+        "unclear": 67,
+        "request": 304,
+        "cancellation": 1575
+      }
+    },
+    "support": {
+      "completed_records": 151,
+      "complaint_count": 90,
+      "severity_sum": 235,
+      "mean_severity": "2.611111",
+      "cancellation_count": 12,
+      "severity_4_plus": 10,
+      "intents": {
+        "complaint": 78,
+        "praise": 54,
+        "cancellation": 12,
+        "request": 7
+      }
+    },
+    "other": {
+      "completed_records": 57081,
+      "complaint_count": 13727,
+      "severity_sum": 26703,
+      "mean_severity": "1.945290",
+      "cancellation_count": 1047,
+      "severity_4_plus": 15,
+      "intents": {
+        "complaint": 12680,
+        "praise": 36253,
+        "unclear": 6765,
+        "request": 336,
+        "cancellation": 1047
+      }
+    }
+  },
+  "by_area": {
+    "access": {
+      "topics": [
+        "access"
+      ],
+      "complaint_count": 1523,
+      "severity_sum": 5806,
+      "mean_severity": "3.812213",
+      "cancellation_count": 92,
+      "severity_4_plus": 1234,
+      "share_of_all_complaints": "3.3%"
+    },
+    "usability": {
+      "topics": [
+        "usability"
+      ],
+      "complaint_count": 12177,
+      "severity_sum": 28624,
+      "mean_severity": "2.350661",
+      "cancellation_count": 1042,
+      "severity_4_plus": 58,
+      "share_of_all_complaints": "26.7%"
+    },
+    "playback": {
+      "topics": [
+        "playback",
+        "downloads"
+      ],
+      "complaint_count": 7266,
+      "severity_sum": 22762,
+      "mean_severity": "3.132673",
+      "cancellation_count": 520,
+      "severity_4_plus": 1814,
+      "share_of_all_complaints": "15.9%"
+    },
+    "billing_support": {
+      "topics": [
+        "billing",
+        "support"
+      ],
+      "complaint_count": 8085,
+      "severity_sum": 22539,
+      "mean_severity": "2.787755",
+      "cancellation_count": 1587,
+      "severity_4_plus": 430,
+      "share_of_all_complaints": "17.7%"
+    }
+  },
+  "area_note": "Area roll-up declared by code: playback includes downloads (offline playback); billing_support combines billing and support; catalog and other are reported but are outside the four candidate areas.",
+  "monthly": {
+    "2022-05": {
+      "completed": 2379,
+      "complaints": 731,
+      "complaint_share": "30.7%",
+      "access_complaints": 29,
+      "usability_complaints": 244,
+      "playback_complaints": 250,
+      "billing_support_complaints": 72
+    },
+    "2022-06": {
+      "completed": 4605,
+      "complaints": 1373,
+      "complaint_share": "29.8%",
+      "access_complaints": 48,
+      "usability_complaints": 478,
+      "playback_complaints": 467,
+      "billing_support_complaints": 129
+    },
+    "2022-07": {
+      "completed": 4914,
+      "complaints": 1785,
+      "complaint_share": "36.3%",
+      "access_complaints": 70,
+      "usability_complaints": 543,
+      "playback_complaints": 690,
+      "billing_support_complaints": 165
+    },
+    "2022-08": {
+      "completed": 4715,
+      "complaints": 1386,
+      "complaint_share": "29.4%",
+      "access_complaints": 43,
+      "usability_complaints": 538,
+      "playback_complaints": 420,
+      "billing_support_complaints": 164
+    },
+    "2022-09": {
+      "completed": 4061,
+      "complaints": 1147,
+      "complaint_share": "28.2%",
+      "access_complaints": 46,
+      "usability_complaints": 443,
+      "playback_complaints": 321,
+      "billing_support_complaints": 113
+    },
+    "2022-10": {
+      "completed": 4117,
+      "complaints": 1166,
+      "complaint_share": "28.3%",
+      "access_complaints": 44,
+      "usability_complaints": 519,
+      "playback_complaints": 289,
+      "billing_support_complaints": 112
+    },
+    "2022-11": {
+      "completed": 4071,
+      "complaints": 1218,
+      "complaint_share": "29.9%",
+      "access_complaints": 51,
+      "usability_complaints": 506,
+      "playback_complaints": 304,
+      "billing_support_complaints": 129
+    },
+    "2022-12": {
+      "completed": 4811,
+      "complaints": 1766,
+      "complaint_share": "36.7%",
+      "access_complaints": 66,
+      "usability_complaints": 548,
+      "playback_complaints": 515,
+      "billing_support_complaints": 160
+    },
+    "2023-01": {
+      "completed": 4320,
+      "complaints": 1334,
+      "complaint_share": "30.9%",
+      "access_complaints": 84,
+      "usability_complaints": 422,
+      "playback_complaints": 428,
+      "billing_support_complaints": 130
+    },
+    "2023-02": {
+      "completed": 3130,
+      "complaints": 926,
+      "complaint_share": "29.6%",
+      "access_complaints": 42,
+      "usability_complaints": 370,
+      "playback_complaints": 243,
+      "billing_support_complaints": 111
+    },
+    "2023-03": {
+      "completed": 4143,
+      "complaints": 1433,
+      "complaint_share": "34.6%",
+      "access_complaints": 32,
+      "usability_complaints": 727,
+      "playback_complaints": 303,
+      "billing_support_complaints": 123
+    },
+    "2023-04": {
+      "completed": 3833,
+      "complaints": 1304,
+      "complaint_share": "34.0%",
+      "access_complaints": 40,
+      "usability_complaints": 610,
+      "playback_complaints": 303,
+      "billing_support_complaints": 111
+    },
+    "2023-05": {
+      "completed": 4259,
+      "complaints": 1440,
+      "complaint_share": "33.8%",
+      "access_complaints": 96,
+      "usability_complaints": 498,
+      "playback_complaints": 303,
+      "billing_support_complaints": 183
+    },
+    "2023-06": {
+      "completed": 4067,
+      "complaints": 1507,
+      "complaint_share": "37.1%",
+      "access_complaints": 110,
+      "usability_complaints": 540,
+      "playback_complaints": 304,
+      "billing_support_complaints": 236
+    },
+    "2023-07": {
+      "completed": 12849,
+      "complaints": 8046,
+      "complaint_share": "62.6%",
+      "access_complaints": 161,
+      "usability_complaints": 745,
+      "playback_complaints": 439,
+      "billing_support_complaints": 302
+    },
+    "2023-08": {
+      "completed": 4769,
+      "complaints": 1909,
+      "complaint_share": "40.0%",
+      "access_complaints": 167,
+      "usability_complaints": 555,
+      "playback_complaints": 377,
+      "billing_support_complaints": 235
+    },
+    "2023-09": {
+      "completed": 6380,
+      "complaints": 3429,
+      "complaint_share": "53.7%",
+      "access_complaints": 165,
+      "usability_complaints": 1016,
+      "playback_complaints": 409,
+      "billing_support_complaints": 865
+    },
+    "2023-10": {
+      "completed": 13396,
+      "complaints": 10045,
+      "complaint_share": "75.0%",
+      "access_complaints": 155,
+      "usability_complaints": 2045,
+      "playback_complaints": 607,
+      "billing_support_complaints": 3692
+    },
+    "2023-11": {
+      "completed": 5179,
+      "complaints": 3628,
+      "complaint_share": "70.1%",
+      "access_complaints": 74,
+      "usability_complaints": 830,
+      "playback_complaints": 294,
+      "billing_support_complaints": 1053
+    }
+  },
+  "monthly_note": "First (2022-05) and last (2023-11) calendar months are partial."
+}

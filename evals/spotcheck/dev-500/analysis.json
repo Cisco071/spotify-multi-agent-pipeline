@@ -1,0 +1,71 @@
+{
+  "run_id": "dev-500",
+  "label_config": "claude-haiku-5-5+thinking-disabled+effort-low+enrich_v1+schema_v1+taxonomy_v1",
+  "sample_rule": "Stratified sample (declared, deterministic): every verifier disagreement, every severity 4-5, every cancellation,\nevery needs_review, then random fill by sha256('spotcheck:'+review_id); capped at --max (earlier strata first).",
+  "reviewed": 60,
+  "sampled": 60,
+  "accepted_by_field": {
+    "topic": "59/60",
+    "intent": "60/60",
+    "severity": "60/60",
+    "quote": "60/60"
+  },
+  "records_fully_accepted": 59,
+  "per_stratum": {
+    "verifier_disagreement": {
+      "n": 11,
+      "all_ok": 11
+    },
+    "needs_review": {
+      "n": 5,
+      "all_ok": 5
+    },
+    "severity_4_5": {
+      "n": 32,
+      "all_ok": 31
+    },
+    "cancellation": {
+      "n": 10,
+      "all_ok": 10
+    },
+    "random": {
+      "n": 15,
+      "all_ok": 15
+    }
+  },
+  "errors": [
+    {
+      "review_id": "55cc3abf-c295-4591-8c3a-78085cfdefaa",
+      "text": "The latest update has caused my app to crash I cant open the app please fix.",
+      "why_sampled": [
+        "severity_4_5"
+      ],
+      "pred": {
+        "topic": "playback",
+        "subtopic": "crashes_or_wont_open",
+        "intent": "complaint",
+        "severity": 4,
+        "sentiment": -0.8,
+        "evidence_quote": "The latest update has caused my app to crash I cant open the app please fix.",
+        "review_reason": ""
+      },
+      "human": {
+        "topic": {
+          "ok": false,
+          "correct": "access"
+        },
+        "intent": {
+          "ok": true
+        },
+        "severity": {
+          "ok": true
+        },
+        "quote": {
+          "ok": true
+        }
+      },
+      "note": ""
+    }
+  ],
+  "caveat": "Reviewer saw the model's labels (spot-check, not blind); acceptance is an upper bound on accuracy. The blind measure is the golden-50 evaluation."
+}

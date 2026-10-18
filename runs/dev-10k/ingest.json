@@ -1,0 +1,9 @@
+{
+  "input": "dataset/analysis_10000.csv",
+  "input_sha256": "eaa62ca6d44d717302904a9c922e99b0b4584d174309cb45295ecbc2ba2a91b5",
+  "rows": 10000,
+  "inserted": 10000,
+  "nonempty": 10000,
+  "empty_quarantined": 0,
+  "distinct_nonempty_texts": 8448
+}

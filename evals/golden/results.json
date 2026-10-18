@@ -1,0 +1,128 @@
+{
+  "run_id": "golden-eval",
+  "n": 50,
+  "missing_predictions": 0,
+  "ambiguous_cases": 3,
+  "note": "Missing predictions count as incorrect. Accepted alternatives only for cases marked ambiguous by the labeler.",
+  "agreement": {
+    "topic": 0.6,
+    "intent": 0.84,
+    "severity_exact": 0.82,
+    "joint_topic_intent_severity": 0.46
+  },
+  "severity_mae": 0.24,
+  "sentiment_mae": 0.232,
+  "sentiment_within_tolerance": 0.9,
+  "sentiment_tolerance": 0.5,
+  "evidence_quote_exact_substring_rate": 1.0,
+  "records_with_unsupported_entities": 4,
+  "needs_review_as_prediction": {
+    "tp": 4,
+    "fp": 2,
+    "fn": 0,
+    "gold_positive": 4
+  },
+  "per_topic": {
+    "access": {},
+    "usability": {
+      "gold": 18,
+      "correct": 6,
+      "pred": 11
+    },
+    "playback": {
+      "gold": 5,
+      "pred": 5,
+      "correct": 2
+    },
+    "downloads": {
+      "pred": 1
+    },
+    "catalog": {
+      "gold": 1,
+      "pred": 5,
+      "correct": 1
+    },
+    "billing": {
+      "pred": 2
+    },
+    "support": {
+      "gold": 1,
+      "correct": 0
+    },
+    "other": {
+      "pred": 26,
+      "gold": 25,
+      "correct": 21
+    }
+  },
+  "topic_f1": {
+    "access": {
+      "support": 0,
+      "predicted": 0,
+      "f1": null
+    },
+    "usability": {
+      "support": 18,
+      "predicted": 11,
+      "f1": 0.4138
+    },
+    "playback": {
+      "support": 5,
+      "predicted": 5,
+      "f1": 0.4
+    },
+    "downloads": {
+      "support": 0,
+      "predicted": 1,
+      "f1": 0.0
+    },
+    "catalog": {
+      "support": 1,
+      "predicted": 5,
+      "f1": 0.3333
+    },
+    "billing": {
+      "support": 0,
+      "predicted": 2,
+      "f1": 0.0
+    },
+    "support": {
+      "support": 1,
+      "predicted": 0,
+      "f1": 0.0
+    },
+    "other": {
+      "support": 25,
+      "predicted": 26,
+      "f1": 0.8235
+    }
+  },
+  "intent_f1": {
+    "cancellation": {
+      "support": 2,
+      "predicted": 1,
+      "f1": 0.6667
+    },
+    "complaint": {
+      "support": 21,
+      "predicted": 22,
+      "f1": 0.9302
+    },
+    "request": {
+      "support": 0,
+      "predicted": 2,
+      "f1": 0.0
+    },
+    "praise": {
+      "support": 21,
+      "predicted": 21,
+      "f1": 0.8571
+    },
+    "unclear": {
+      "support": 6,
+      "predicted": 4,
+      "f1": 0.6
+    }
+  },
+  "topic_macro_f1_observed_labels": 0.2815
+}

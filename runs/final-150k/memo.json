@@ -1,0 +1,120 @@
+{
+  "memo": {
+    "recommended_area": "billing_support",
+    "headline": "Prioritize billing_support: revisit and measure the free-tier control paywall, the largest and fastest-rising chronic complaint driver.",
+    "memo_markdown": "## Recommendation\n\nPut next quarter (starting after Nov 2023) into **billing_support**, centered on one issue: basic playback controls locked behind premium (billing.premium_only_controls). This is a product/pricing-decision wave on top of a chronic base, so the effort is to revisit, mitigate and measure the change, not to wait it out.\n\n## Evidence\n\n- **Volume and severity:** billing.premium_only_controls ranks #2 overall with 9415 complaints [C1], severity sum 26630 [C2], mean severity 2.828465 [C3]. Rank #1, generic negative sentiment (19032 complaints, severity sum 37607 [C4]), has no specifics, so there is nothing actionable to build against.\n- **Persistence:** it is present in all 17 full months and flagged chronic, not purely episodic. First-6-month mean share was 1.61% versus 7.92% for the last 6, and the trend is rising.\n- **Direction of travel:** billing_support complaints rose from 1336 in 2023-09 to 5535 in 2023-10, then 1510 in 2023-11 (partial month). In the comparable windows its share of classified reviews went from 3.02% (H2-2022) to 12.10% (mid-2023). Anomalies in 2023-09 and 2023-10 name this issue as top driver. They coincide with a lyrics paywall test and free-tier restrictions in India, which is context, not proven cause.\n- **Cancellation language:** it leads the cancellation ranking, with 2049 cancellation-intent reviews. This is expressed intent, not observed churn.\n- **Representative reviews:** (review 8feb3a4c-6984-4b24-8c89-934aced41635) and (review 7e801961-bd6e-4a4c-af91-2068b0e2f173) describe repeat and ordered play now requiring payment; (review 64329ea9-d8dd-4b14-9196-ad96b5a41603) says almost every basic feature requires premium.\n\n## Proposed effort\n\n1. Revisit which controls (repeat, ordered play, rewind) sit behind the paywall, and test less restrictive free-tier variants.\n2. Measure the effect with in-product metrics beyond reviews, since reviews cannot show revenue or churn.\n3. Fix adjacent usability.controls issues, which are rising and peaked in 2023-10 (1988 complaints [C5]).\n\n## Alternatives compared\n\n- **Usability:** the largest area by complaints (18178; 26.6% of all complaints), but mean severity is low at 2.353229. Ads are chronic and steady [C6]. Redesign complaints spiked in 2023-03 (coinciding with the home feed redesign announcement) but are partly episodic and falling back from that peak; the trend is rising overall, and 2023-10 showed a new rise. Second choice.\n- **Playback:** highest severity among large areas (mean 3.136271) and the most severity-4+ records (2716). However, crashes are falling and stops/skips steady [C7]. Maintain, do not lead.\n- **Access:** smallest volume (3.4% of complaints) but the most severe (mean 3.808811). Login failure is rising (1558 complaints, mean severity 3.897946 [C8]) and tops the severity-4+ ranking. A strong targeted fix, but low reach.\n\n## Chronic versus event-driven\n\nChronic: paywalled controls, ads, redesign complaints, stops/skips, shuffle, crashes (falling), controls, login failure. Episodic: lyrics. Event-driven: the 2023-07 volume spike and boycott content coincide with news about Sweden; this is unrelated to product quality and should be discounted.\n\n## Limitations\n\nSee the limitations list.",
+    "recommendations": [
+      {
+        "title": "Revisit and measure the free-tier control paywall",
+        "detail": "Review which basic controls are gated, test mitigations, and measure outcomes with first-party data.",
+        "issue_ids": [
+          "billing.premium_only_controls"
+        ],
+        "claim_ids": [
+          "C1",
+          "C2",
+          "C3"
+        ]
+      },
+      {
+        "title": "Secondary: targeted login-failure fix",
+        "detail": "Small volume but highest severity and rising; a bounded engineering item.",
+        "issue_ids": [
+          "access.login_failure"
+        ],
+        "claim_ids": [
+          "C8"
+        ]
+      },
+      {
+        "title": "Address controls removal alongside paywall work",
+        "detail": "Rising, peaked in 2023-10.",
+        "issue_ids": [
+          "usability.controls"
+        ],
+        "claim_ids": [
+          "C5"
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "area": "usability",
+        "assessment": "Largest volume but low severity; ads steady, redesign wave partly episodic. Second choice."
+      },
+      {
+        "area": "playback",
+        "assessment": "High severity, but crashes falling and stops/skips steady; maintain."
+      },
+      {
+        "area": "access",
+        "assessment": "Most severe but smallest reach; login failure rising; targeted fix."
+      }
+    ],
+    "limitations": [
+      "Self-selected public reviews from a historical window ending Nov 2023 (partial first and last months); no revenue, plan tier, churn or population totals.",
+      "Cancellation language is intent, not observed churn; no revenue-at-risk estimate is made.",
+      "Scope: 150013 records, 149996 completed, 17 quarantined; 15618 flagged needs-review. Many records are unclassified or in other, outside the four areas.",
+      "Spikes in 2023-07 and 2023-10 reflect self-selected volume; events are context, not proven causes."
+    ],
+    "claims": [
+      {
+        "claim_id": "C1",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "complaint_count",
+        "value": "9415"
+      },
+      {
+        "claim_id": "C2",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "severity_sum",
+        "value": "26630"
+      },
+      {
+        "claim_id": "C3",
+        "issue_id": "billing.premium_only_controls",
+        "metric": "mean_severity",
+        "value": "2.828465"
+      },
+      {
+        "claim_id": "C4",
+        "issue_id": "other.general_criticism",
+        "metric": "severity_sum",
+        "value": "37607"
+      },
+      {
+        "claim_id": "C5",
+        "issue_id": "usability.controls",
+        "metric": "complaint_count",
+        "value": "1988"
+      },
+      {
+        "claim_id": "C6",
+        "issue_id": "usability.ads",
+        "metric": "complaint_count",
+        "value": "8512"
+      },
+      {
+        "claim_id": "C7",
+        "issue_id": "playback.stops_or_skips",
+        "metric": "complaint_count",
+        "value": "3097"
+      },
+      {
+        "claim_id": "C8",
+        "issue_id": "access.login_failure",
+        "metric": "mean_severity",
+        "value": "3.897946"
+      }
+    ],
+    "cited_review_ids": [
+      "8feb3a4c-6984-4b24-8c89-934aced41635",
+      "7e801961-bd6e-4a4c-af91-2068b0e2f173",
+      "64329ea9-d8dd-4b14-9196-ad96b5a41603"
+    ]
+  },
+  "validation_errors": [],
+  "label_config": "claude-sonnet-5-5+thinking-adaptive+effort-medium+memo_v2+schema_v1+taxonomy_v1",
+  "input_key": "ca4b29a71cf61c88ee04c2f69a1791734746fbd2126fdb7730b37f2a76837122",
+  "request_id": "local-e0818cceea794e35"
+}

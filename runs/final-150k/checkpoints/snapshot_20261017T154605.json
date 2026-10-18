@@ -1,0 +1,12 @@
+{
+  "ts": "2026-10-17T15:46:05",
+  "invocation": "inv-20261017T151614-60f224",
+  "status": {
+    "completed": 127546,
+    "pending": 22451,
+    "quarantined": 16
+  },
+  "completed_ids_sha256": "c6e4328f198457357a9c931b27a821992d69bab04577b534780cd6d73b0407d2",
+  "spent_usd": 7.512499,
+  "db_backup": "state/backups/final-150k.sqlite"
+}

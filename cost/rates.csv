@@ -1,0 +1,9 @@
+provider,model,billing_item,unit,price_usd,per_units,currency,tier,source_url,checked_date,notes
+anthropic,claude-haiku-5-5,input,token,0.10,1000000,USD,standard (prompts <=100K tokens),https://platform.claude.com/docs/en/about-claude/pricing,2026-10-13,uncached input tokens (usage.input_tokens)
+anthropic,claude-haiku-5-5,cache_write_5m,token,0.125,1000000,USD,standard (prompts <=100K tokens),https://platform.claude.com/docs/en/about-claude/pricing,2026-10-13,1.25x input (usage.cache_creation_input_tokens)
+anthropic,claude-haiku-5-5,cache_read,token,0.01,1000000,USD,standard (prompts <=100K tokens),https://platform.claude.com/docs/en/about-claude/pricing,2026-10-13,0.1x input (usage.cache_read_input_tokens)
+anthropic,claude-haiku-5-5,output,token,0.50,1000000,USD,standard (prompts <=100K tokens),https://platform.claude.com/docs/en/about-claude/pricing,2026-10-13,output incl. any thinking (none: thinking disabled)
+anthropic,claude-sonnet-5-5,input,token,2.00,1000000,USD,standard,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-13,uncached input tokens
+anthropic,claude-sonnet-5-5,cache_write_5m,token,2.50,1000000,USD,standard,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-13,1.25x input
+anthropic,claude-sonnet-5-5,cache_read,token,0.20,1000000,USD,standard,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-13,0.1x input
+anthropic,claude-sonnet-5-5,output,token,10.00,1000000,USD,standard,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-13,output tokens already include any thinking tokens; not added again
